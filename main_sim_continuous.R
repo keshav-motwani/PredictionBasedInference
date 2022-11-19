@@ -298,12 +298,6 @@ postpi_bs_modified = function(sim_dat_tv){
       inf_model = lm(sim_y ~ x1, data=bs_data)
 
       bs_beta = inf_model %>% tidy() %>% filter(term=="x1") %>% pull(estimate)
-      if(abs(bs_beta) > 10) {
-print(paste0("BETA", bs_beta))
-write.csv(tr_bs_data, "SUPER_CRAZY_TR.csv")
-write.csv(te_bs_data, "SUPER_CRAZY_TE.csv")
-write.csv(bs_data, "SUPER_CRAZY_VAL.csv")
-}
       model_se = inf_model %>% tidy() %>% filter(term=="x1") %>% pull(std.error)
       if(is.na(bs_beta) | is.na(model_se)) print(c(bs_beta, model_se, b))
       df = data.frame(bs_beta = bs_beta, model_se = model_se)
@@ -355,14 +349,13 @@ beta4 = 4
 set.seed(2019)
 
 n_vals = c(300, 600, 1200, 2400)
-beta1s = c(1, 0, 3, 5)
+beta1s = c(0, 1, 3, 5)
 
 methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*", "bs-modified", "observed")
 
-variance_results = list()
-bias_results = list()
-mse_results = list()
-coverage_results = list()
+variance_results = as.list(beta1s)
+names(variance_results) = paste0("beta1_", beta1s)
+bias_results = mse_results = coverage_results = p_value_results = variance_results
 
 coverage = function(true, est, se) {
   mean((true >= est - 1.96 * se) & (true <= est + 1.96 * se))
@@ -375,6 +368,8 @@ for (j in 1:length(beta1s)){
   rownames(var_result) = methods
 
   bias_result = mse_result = coverage_result = var_result
+
+  p_value_result = list()
 
   beta1 = beta1s[j]
 
@@ -429,6 +424,19 @@ for (j in 1:length(beta1s)){
     coverage_result["val*", i] = round(100 * coverage(beta1, df$truth_beta, df$truth_sd), 1)
     coverage_result["observed", i] = round(100 * coverage(beta1, df$observed_beta, df$observed_sd), 1)
 
+    z_stat = list()
+    z_stat[["naive"]] = df$nc_beta / df$nc_sd
+    z_stat[["der-postpi"]] = df$der_beta / df$der_se
+    z_stat[["bs-postpi-par"]] = df$bs_beta / df$model_se
+    z_stat[["bs-postpi-nonpar"]] = df$bs_beta / df$sd_se
+    z_stat[["bs-modified"]] = df$modified_bs_beta / df$modified_sd_se
+    z_stat[["val*"]] = df$truth_beta / df$truth_sd
+    z_stat[["observed"]] = df$observed_beta / df$observed_sd
+    
+    p_value_result = c(p_value_result, list(do.call(rbind, lapply(1:length(z_stat), function(i) {
+      data.frame(z = z_stat[[i]], method = names(z_stat)[i], p = 2 * (1 - pnorm(abs(z_stat[[i]]))), beta1 = beta1, n_val = n_val)
+    }))))
+
     print(var_result)
     print(bias_result)
     print(mse_result)
@@ -440,15 +448,32 @@ for (j in 1:length(beta1s)){
   bias_results[[j]] = bias_result
   mse_results[[j]] = mse_result
   coverage_results[[j]] = coverage_result
+  p_value_results[[j]] = do.call(rbind, p_value_result)
 
   file = paste0("main_postpi_sim_results_beta1_", beta1s[j], ".rds")
-  saveRDS(list(var_result, bias_result, mse_result, coverage_result), file)
+  saveRDS(list(var_result, bias_result, mse_result, coverage_result, p_value_result), file)
+
+  if (beta1 == 0) {
+    file = paste0("main_postpi_sim_results_beta1_", beta1s[j], "_qqplot.pdf")
+    p_value_results[[j]]$method = factor(p_value_results[[j]]$method, levels = methods)
+    ggplot(p_value_results[[j]], aes(sample = p, color = method)) +
+      geom_qq(distribution = qunif, size = 0.5) +
+      xlab("Theoretical") +
+      ylab("Sample") +
+      facet_grid(~n_val) +
+      theme_bw() +
+      theme(legend.position = "bottom") +
+      ggsci::scale_color_npg() +
+      coord_fixed() + xlim(0, 1) + ylim(0, 1) + geom_abline(slope=1, intercept=0, col="black", linetype = "dashed") +
+      guides(color = guide_legend(ncol = 5, byrow = TRUE))
+    ggsave(file, height = 3.3, width = 8.5)
+  }
 
 }
 
 
 file = paste0("main_postpi_sim_results", ".rds")
-saveRDS(list(variance_results, bias_results, mse_results), file)
+saveRDS(list(variance_results, bias_results, mse_results, p_value_results), file)
 
 library(kableExtra)
 
