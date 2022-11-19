@@ -493,6 +493,7 @@ library(kableExtra)
 for (j in 1:length(beta1s)) {
 
   beta1 = beta1s[j]
+  rownames(variance_results[[j]]) = rownames(bias_results[[j]]) = rownames(mse_results[[j]]) = rownames(coverage_results[[j]]) = paste0("\\texttt{", rownames(variance_results[[j]]), "}")
 
   print(kable(variance_results[[j]], booktabs = TRUE, caption = paste0("Reported/true standard errors of $\\hat{\\beta}_1$, with $\\beta_1 = ", beta1, "$"), align = "c", escape = F, format = "latex") %>%
           kable_styling(latex_options = "hold_position"))
