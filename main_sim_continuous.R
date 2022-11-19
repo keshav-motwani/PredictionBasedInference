@@ -303,10 +303,10 @@ postpi_bs_modified = function(sim_dat_tv){
       df = data.frame(bs_beta = bs_beta, model_se = model_se)
 
     }, error = function(e) {
-print(e)
-print("RETURNING NA")
-data.frame(bs_beta = NA, model_se = NA)
-})}) %>% do.call(rbind,.)
+      print(e)
+      print("RETURNING NA")
+      data.frame(bs_beta = NA, model_se = NA)
+    })}) %>% do.call(rbind,.)
 
     bs_beta = median(bs_step$bs_beta, na.rm = TRUE)
 
