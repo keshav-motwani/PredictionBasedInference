@@ -292,7 +292,7 @@ postpi_bs_modified = function(sim_dat_tv){
 
       ## get simulated y using predicted y
       pred_y = predict(rel_model, bs_data)
-      if (any(abs(pred_y) > 1000)) stop(paste0("too large prediction - ", paste(tail(sort(abs(pred_y)), 10), collapse = ",")))      
+      if (any(abs(pred_y) > 1000)) stop(paste0("too large prediction - ", paste(tail(sort(abs(pred_y)), 10), collapse = ",")))
       sim_y = rnorm(nrow(bs_data), mean=pred_y, sd=sigma(rel_model))
       bs_data$sim_y = sim_y
       inf_model = lm(sim_y ~ x1, data=bs_data)
@@ -304,7 +304,7 @@ postpi_bs_modified = function(sim_dat_tv){
 
     }, error = function(e) {
 print(e)
-print("RETURNING NA")         
+print("RETURNING NA")
 data.frame(bs_beta = NA, model_se = NA)
 })}) %>% do.call(rbind,.)
 
@@ -432,7 +432,7 @@ for (j in 1:length(beta1s)){
     z_stat[["bs-modified"]] = df$modified_bs_beta / df$modified_sd_se
     z_stat[["val*"]] = df$truth_beta / df$truth_sd
     z_stat[["observed"]] = df$observed_beta / df$observed_sd
-    
+
     p_value_result = c(p_value_result, list(do.call(rbind, lapply(1:length(z_stat), function(i) {
       data.frame(z = z_stat[[i]], method = names(z_stat)[i], p = 2 * (1 - pnorm(abs(z_stat[[i]]))), beta1 = beta1, n_val = n_val)
     }))))
@@ -454,19 +454,32 @@ for (j in 1:length(beta1s)){
   saveRDS(list(var_result, bias_result, mse_result, coverage_result, p_value_result), file)
 
   if (beta1 == 0) {
+
     file = paste0("main_postpi_sim_results_beta1_", beta1s[j], "_qqplot.pdf")
-    p_value_results[[j]]$method = factor(p_value_results[[j]]$method, levels = methods)
-    ggplot(p_value_results[[j]], aes(sample = p, color = method)) +
-      geom_qq(distribution = qunif, size = 0.5) +
-      xlab("Theoretical") +
+
+    pvals = p_value_results[[j]]
+    pvals$method = factor(pvals$method, levels = methods)
+
+    pvals$theoretical = 0
+    for (n_val in unique(pvals$n_val)) {
+      for (method in unique(pvals$method)) {
+        pvals[pvals$n_val == n_val & pvals$method == method, "theoretical"] = qunif(ppoints(length(pvals[pvals$n_val == n_val & pvals$method == method, "theoretical"])))[rank(pvals[pvals$n_val == n_val & pvals$method == method, "p"])]
+      }
+    }
+
+    pvals = pvals[sample(1:nrow(pvals), nrow(pvals)), ]
+    ggplot(pvals, aes(x = theoretical, y = p, color = method)) +
+      geom_point(size = 0.5) +
+      xlab("Unif(0, 1) Quantiles") +
       ylab("Sample") +
       facet_grid(~n_val) +
       theme_bw() +
       theme(legend.position = "bottom") +
       ggsci::scale_color_npg() +
       coord_fixed() + xlim(0, 1) + ylim(0, 1) + geom_abline(slope=1, intercept=0, col="black", linetype = "dashed") +
-      guides(color = guide_legend(ncol = 5, byrow = TRUE))
+      guides(color = guide_legend(ncol = 5, byrow = TRUE, override.aes = list(size=2)))
     ggsave(file, height = 3.3, width = 8.5)
+
   }
 
 }
