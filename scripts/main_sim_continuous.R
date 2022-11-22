@@ -245,100 +245,6 @@ postpi_bs = function(sim_dat_tv){
 
 }
 
-postpi_bs_modified = function(sim_dat_tv){
-
-
-  train_data = filter(sim_dat_tv, set == "training")
-  test_data = filter(sim_dat_tv, set == "testing")
-  val_data = filter(sim_dat_tv, set == "validation")
-
-  ## bootstrap bs times from the validation set
-  bs = 100
-  set.seed(2019)
-
-  df = c()
-
-  for (i in 1:n_sim){
-    print(i)
-
-
-    tr_data = filter(train_data, sim == i)
-    te_data = filter(test_data, sim == i)
-    data = filter(val_data, sim == i)
-
-
-    bs_step = future_map(1:bs, .f = function(b){tryCatch({
-
-      bs_idx = sample(1:nrow(data),nrow(data),replace = TRUE)
-
-      bs_data = data[bs_idx,]
-
-      tr_bs_idx = sample(1:nrow(tr_data),nrow(tr_data),replace = TRUE)
-
-      tr_bs_data = tr_data[tr_bs_idx,]
-
-      te_bs_idx = sample(1:nrow(te_data),nrow(te_data),replace = TRUE)
-
-      te_bs_data = te_data[te_bs_idx,]
-
-      trained_model = gam(y ~ s(x1)+s(x2)+s(x3) + s(x4),
-                          data = tr_bs_data)
-
-      te_bs_data$pred = predict(trained_model, newdata = te_bs_data)
-      bs_data$pred = predict(trained_model, newdata = bs_data)
-      if (any(abs(c(te_bs_data$pred, bs_data$pred)) > 1000)) stop(paste0("too large prediction - ", paste(tail(sort(abs(c(te_bs_data$pred, bs_data$pred))), 10), collapse = ",")))
-      ## relationship model between continuous y and y_p
-      ## we use gamma model for continuous outcomes gam(y ~ yp)
-      rel_model = gam(y ~ s(pred), data = te_bs_data)
-
-      ## get simulated y using predicted y
-      pred_y = predict(rel_model, bs_data)
-      if (any(abs(pred_y) > 1000)) stop(paste0("too large prediction - ", paste(tail(sort(abs(pred_y)), 10), collapse = ",")))
-      sim_y = rnorm(nrow(bs_data), mean=pred_y, sd=sigma(rel_model))
-      bs_data$sim_y = sim_y
-      inf_model = lm(sim_y ~ x1, data=bs_data)
-
-      bs_beta = inf_model %>% tidy() %>% filter(term=="x1") %>% pull(estimate)
-      model_se = inf_model %>% tidy() %>% filter(term=="x1") %>% pull(std.error)
-      if(is.na(bs_beta) | is.na(model_se)) print(c(bs_beta, model_se, b))
-      df = data.frame(bs_beta = bs_beta, model_se = model_se)
-
-    }, error = function(e) {
-      print(e)
-      print("RETURNING NA")
-      data.frame(bs_beta = NA, model_se = NA)
-    })}) %>% do.call(rbind,.)
-
-    bs_beta = median(bs_step$bs_beta, na.rm = TRUE)
-
-    ## parametric method
-    model_se = median(bs_step$model_se, na.rm = TRUE)
-    model_t = bs_beta / model_se
-    model_p = 2*pt(-abs(model_t), df = nrow(data) - 1 - 1)
-
-
-    ## non-parametric method
-    sd_se = sd(bs_step$bs_beta, na.rm = TRUE)
-    sd_t = bs_beta / sd_se
-    sd_p = 2*pt(-abs(sd_t), df = nrow(data) - 1 - 1)
-
-    df = rbind(df, data.frame(sim = i,
-                              modified_bs_beta = bs_beta,
-                              modified_model_se = model_se,
-                              modified_model_t = model_t,
-                              modified_model_p = model_p,
-                              modified_sd_se = sd_se,
-                              modified_sd_t = sd_t,
-                              modified_sd_p = sd_p))
-
-
-  }
-
-
-  df
-
-}
-
 postpi_classical_bs = function(sim_dat_tv){
 
   train_data = filter(sim_dat_tv, set == "training")
@@ -429,7 +335,7 @@ set.seed(2019)
 n_vals = c(300, 600, 1200, 2400)
 beta1s = c(0, 1, 3, 5)
 
-methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*", "bs-modified", "bs-classical", "observed")
+methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*", "bs-classical", "observed")
 
 variance_results = as.list(beta1s)
 names(variance_results) = paste0("beta1_", beta1s)
@@ -464,18 +370,16 @@ for (j in 1:length(beta1s)){
     print(correlation)
 
     classical_bs_df = postpi_classical_bs(sim_dat_tv)
-    modified_bs_df = postpi_bs_modified(sim_dat_tv)
     truth_nc_df = truth_and_nc(sim_dat_tv)
     der_df = postpi_der(sim_dat_tv)
     bs_df = postpi_bs(sim_dat_tv)
 
-    df = cbind(truth_nc_df,der_df,bs_df,modified_bs_df,classical_bs_df,correlation=correlation, beta1 = beta1)
+    df = cbind(truth_nc_df,der_df,bs_df,classical_bs_df,correlation=correlation, beta1 = beta1)
 
     var_result["naive", i] = paste0(round(mean(df$nc_sd), 3), "/",  round(sd(df$nc_beta), 3))
     var_result["der-postpi", i] = paste0(round(mean(df$der_se), 3), "/",  round(sd(df$der_beta), 3))
     var_result["bs-postpi-par", i] = paste0(round(mean(df$model_se), 3), "/",  round(sd(df$bs_beta), 3))
     var_result["bs-postpi-nonpar", i] = paste0(round(mean(df$sd_se), 3), "/",  round(sd(df$bs_beta), 3))
-    var_result["bs-modified", i] = paste0(round(mean(df$modified_sd_se), 3), "/",  round(sd(df$modified_bs_beta), 3))
     var_result["bs-classical", i] = paste0(round(mean(df$classical_sd_se), 3), "/",  round(sd(df$classical_bs_beta), 3))
     var_result["val*", i] = paste0(round(mean(df$truth_sd), 3), "/",  round(sd(df$truth_beta), 3))
     var_result["observed", i] = paste0(round(mean(df$observed_sd), 3), "/",  round(sd(df$observed_beta), 3))
@@ -484,7 +388,6 @@ for (j in 1:length(beta1s)){
     bias_result["der-postpi", i] = round(mean(df$der_beta) - beta1, 3)
     bias_result["bs-postpi-par", i] = round(mean(df$bs_beta) - beta1, 3)
     bias_result["bs-postpi-nonpar", i] = round(mean(df$bs_beta) - beta1, 3)
-    bias_result["bs-modified", i] = round(mean(df$modified_bs_beta) - beta1, 3)
     bias_result["bs-classical", i] = round(mean(df$classical_bs_beta) - beta1, 3)
     bias_result["val*", i] = round(mean(df$truth_beta) - beta1, 3)
     bias_result["observed", i] = round(mean(df$observed_beta) - beta1, 3)
@@ -493,7 +396,6 @@ for (j in 1:length(beta1s)){
     mse_result["der-postpi", i] = round(mean((df$der_beta - beta1)^2), 3)
     mse_result["bs-postpi-par", i] = round(mean((df$bs_beta - beta1)^2), 3)
     mse_result["bs-postpi-nonpar", i] = round(mean((df$bs_beta - beta1)^2), 3)
-    mse_result["bs-modified", i] = round(mean((df$modified_bs_beta - beta1)^2), 3)
     mse_result["bs-classical", i] = round(mean((df$classical_bs_beta - beta1)^2), 3)
     mse_result["val*", i] = round(mean((df$truth_beta - beta1)^2), 3)
     mse_result["observed", i] = round(mean((df$observed_beta - beta1)^2), 3)
@@ -502,7 +404,6 @@ for (j in 1:length(beta1s)){
     coverage_result["der-postpi", i] = round(100 * coverage(beta1, df$der_beta, df$der_se), 1)
     coverage_result["bs-postpi-par", i] = round(100 * coverage(beta1, df$bs_beta, df$model_se),	1)
     coverage_result["bs-postpi-nonpar", i] = round(100 * coverage(beta1, df$bs_beta, df$sd_se), 1)
-    coverage_result["bs-modified", i] = round(100 * coverage(beta1, df$modified_bs_beta, df$modified_sd_se), 1)
     coverage_result["bs-classical", i] = round(100 * coverage(beta1, df$classical_bs_beta, df$classical_sd_se), 1)
     coverage_result["val*", i] = round(100 * coverage(beta1, df$truth_beta, df$truth_sd), 1)
     coverage_result["observed", i] = round(100 * coverage(beta1, df$observed_beta, df$observed_sd), 1)
@@ -512,7 +413,6 @@ for (j in 1:length(beta1s)){
     z_stat[["der-postpi"]] = df$der_beta / df$der_se
     z_stat[["bs-postpi-par"]] = df$bs_beta / df$model_se
     z_stat[["bs-postpi-nonpar"]] = df$bs_beta / df$sd_se
-    z_stat[["bs-modified"]] = df$modified_bs_beta / df$modified_sd_se
     z_stat[["bs-classical"]] = df$classical_bs_beta / df$classical_sd_se
     z_stat[["val*"]] = df$truth_beta / df$truth_sd
     z_stat[["observed"]] = df$observed_beta / df$observed_sd
@@ -535,7 +435,7 @@ for (j in 1:length(beta1s)){
   p_value_results[[j]] = do.call(rbind, p_value_result)
 
   file = paste0("results/main_postpi_sim_results_beta1_", beta1s[j], ".rds")
-  saveRDS(list(var_result, bias_result, mse_result, coverage_result, p_value_result), file)
+  saveRDS(list(var_result, bias_result, mse_result, coverage_result, do.call(rbind, p_value_result)), file)
 
   rownames(variance_results[[j]]) = rownames(bias_results[[j]]) = rownames(mse_results[[j]]) = rownames(coverage_results[[j]]) = paste0("\\texttt{", rownames(variance_results[[j]]), "}")
 
@@ -564,6 +464,8 @@ for (j in 1:length(beta1s)){
         pvals[pvals$n_val == n_val & pvals$method == method, "theoretical"] = qunif(ppoints(length(pvals[pvals$n_val == n_val & pvals$method == method, "theoretical"])))[rank(pvals[pvals$n_val == n_val & pvals$method == method, "p"])]
       }
     }
+
+    pvals$n_val = factor(paste0("n[val] == ", as.character(pvals$n_val)), levels = paste0("n[val] == ", as.character(n_vals)))
 
     pvals = pvals[sample(1:nrow(pvals), nrow(pvals)), ]
     ggplot(pvals, aes(x = theoretical, y = p, color = method)) +
