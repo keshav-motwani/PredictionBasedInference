@@ -1,0 +1,277 @@
+---
+title: "Extra stuff"
+output: html_document
+date: "2022-11-23"
+---
+
+
+## Now let's try this as sample size grows
+
+I put the results calculation from above into a function so we can try different sample sizes, etc. 
+
+```{r}
+source(here::here("scripts/sim_func.R"))
+```
+
+### Sample training,testing, validation at 300
+
+
+```{r}
+n_rep=100
+results = sim_func(n_rep=n_rep,n_train=300,n_test=300,n_valid=300)
+```
+
+#### Coverage
+
+```{r}
+p1 = results %>% 
+  arrange(beta_naive) %>%
+  ggplot(aes(y = 1:n_rep))  + geom_point(aes(x=beta_naive,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_naive, xmax=up_naive,col=cov_naive)) + 
+  theme_minimal() + 
+  geom_vline(xintercept=2) +
+  xlim(-1,5)
+
+p2 =  results %>% 
+  arrange(beta_wang) %>%
+  ggplot(aes(y = 1:n_rep)) + geom_point(aes(x=beta_wang,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_wang, xmax=up_wang,col=cov_wang)) + 
+  theme_minimal() + 
+  geom_vline(xintercept=2) +
+  xlim(-1,5)
+
+p3 = results %>% 
+  arrange(beta_oracle) %>%
+  ggplot(aes(y = 1:n_rep)) + geom_point(aes(x=beta_oracle,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_oracle, xmax=up_oracle,col=cov_oracle)) + 
+  geom_vline(xintercept=2) +
+  theme_minimal() + 
+  xlim(-1,5)
+
+
+
+p1 + p2 + p3
+```
+
+#### Standard errors
+
+```{r}
+results %>%
+  select(se_naive,se_wang,se_oracle) %>%
+  pivot_longer(1:3) %>%
+  ggplot(aes(x=name,y=value)) +
+  geom_boxplot() + 
+  theme_minimal()
+
+```
+
+#### Estimates
+
+```{r}
+results %>%
+  select(beta_naive,beta_wang,beta_oracle) %>%
+  pivot_longer(1:3) %>%
+  ggplot(aes(x=name,y=value)) +
+  geom_boxplot() + 
+  theme_minimal()
+
+```
+
+
+
+### Sample training,testing, validation at 100
+
+
+```{r}
+n_rep=100
+results = sim_func(n_rep=n_rep,n_train=100,n_test=100,n_valid=100)
+```
+
+#### Coverage
+
+```{r}
+p1 = results %>% 
+  arrange(beta_naive) %>%
+  ggplot(aes(y = 1:n_rep))  + geom_point(aes(x=beta_naive,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_naive, xmax=up_naive,col=cov_naive)) + 
+  theme_minimal() + 
+  geom_vline(xintercept=2) +
+  xlim(-1,5)
+
+p2 =  results %>% 
+  arrange(beta_wang) %>%
+  ggplot(aes(y = 1:n_rep)) + geom_point(aes(x=beta_wang,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_wang, xmax=up_wang,col=cov_wang)) + 
+  theme_minimal() + 
+  geom_vline(xintercept=2) +
+  xlim(-1,5)
+
+p3 = results %>% 
+  arrange(beta_oracle) %>%
+  ggplot(aes(y = 1:n_rep)) + geom_point(aes(x=beta_oracle,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_oracle, xmax=up_oracle,col=cov_oracle)) + 
+  geom_vline(xintercept=2) +
+  theme_minimal() + 
+  xlim(-1,5)
+
+
+
+p1 + p2 + p3
+```
+
+#### Standard errors
+
+```{r}
+results %>%
+  select(se_naive,se_wang,se_oracle) %>%
+  pivot_longer(1:3) %>%
+  ggplot(aes(x=name,y=value)) +
+  geom_boxplot() + 
+  theme_minimal()
+
+```
+
+#### Estimates
+
+```{r}
+results %>%
+  select(beta_naive,beta_wang,beta_oracle) %>%
+  pivot_longer(1:3) %>%
+  ggplot(aes(x=name,y=value)) +
+  geom_boxplot() + 
+  theme_minimal()
+
+```
+
+
+
+### Sample training,testing 100, validation 10,000
+
+
+```{r}
+n_rep=100
+results = sim_func(n_rep=n_rep,n_train=100,n_test=100,n_valid=10000)
+```
+
+#### Coverage
+
+```{r}
+p1 = results %>% 
+  arrange(beta_naive) %>%
+  ggplot(aes(y = 1:n_rep))  + geom_point(aes(x=beta_naive,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_naive, xmax=up_naive,col=cov_naive)) + 
+  theme_minimal() + 
+  geom_vline(xintercept=2) +
+  xlim(-1,5)
+
+p2 =  results %>% 
+  arrange(beta_wang) %>%
+  ggplot(aes(y = 1:n_rep)) + geom_point(aes(x=beta_wang,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_wang, xmax=up_wang,col=cov_wang)) + 
+  theme_minimal() + 
+  geom_vline(xintercept=2) +
+  xlim(-1,5)
+
+p3 = results %>% 
+  arrange(beta_oracle) %>%
+  ggplot(aes(y = 1:n_rep)) + geom_point(aes(x=beta_oracle,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_oracle, xmax=up_oracle,col=cov_oracle)) + 
+  geom_vline(xintercept=2) +
+  theme_minimal() + 
+  xlim(-1,5)
+
+
+
+p1 + p2 + p3
+```
+
+#### Standard errors
+
+```{r}
+results %>%
+  select(se_naive,se_wang,se_oracle) %>%
+  pivot_longer(1:3) %>%
+  ggplot(aes(x=name,y=value)) +
+  geom_boxplot() + 
+  theme_minimal()
+
+```
+
+#### Estimates
+
+```{r}
+results %>%
+  select(beta_naive,beta_wang,beta_oracle) %>%
+  pivot_longer(1:3) %>%
+  ggplot(aes(x=name,y=value)) +
+  geom_boxplot() + 
+  theme_minimal()
+
+```
+
+
+
+### Sample training,testing 1000, validation 100
+
+
+```{r}
+n_rep=100
+results = sim_func(n_rep=n_rep,n_train=1000,n_test=1000,n_valid=100)
+```
+
+#### Coverage
+
+```{r}
+p1 = results %>% 
+  arrange(beta_naive) %>%
+  ggplot(aes(y = 1:n_rep))  + geom_point(aes(x=beta_naive,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_naive, xmax=up_naive,col=cov_naive)) + 
+  theme_minimal() + 
+  geom_vline(xintercept=2) +
+  xlim(-1,5)
+
+p2 =  results %>% 
+  arrange(beta_wang) %>%
+  ggplot(aes(y = 1:n_rep)) + geom_point(aes(x=beta_wang,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_wang, xmax=up_wang,col=cov_wang)) + 
+  theme_minimal() + 
+  geom_vline(xintercept=2) +
+  xlim(-1,5)
+
+p3 = results %>% 
+  arrange(beta_oracle) %>%
+  ggplot(aes(y = 1:n_rep)) + geom_point(aes(x=beta_oracle,y=1:n_rep)) +
+  geom_linerange(aes(xmin=low_oracle, xmax=up_oracle,col=cov_oracle)) + 
+  geom_vline(xintercept=2) +
+  theme_minimal() + 
+  xlim(-1,5)
+
+
+
+p1 + p2 + p3
+```
+
+#### Standard errors
+
+```{r}
+results %>%
+  select(se_naive,se_wang,se_oracle) %>%
+  pivot_longer(1:3) %>%
+  ggplot(aes(x=name,y=value)) +
+  geom_boxplot() + 
+  theme_minimal()
+
+```
+
+#### Estimates
+
+```{r}
+results %>%
+  select(beta_naive,beta_wang,beta_oracle) %>%
+  pivot_longer(1:3) %>%
+  ggplot(aes(x=name,y=value)) +
+  geom_boxplot() + 
+  theme_minimal()
+
+```
+
