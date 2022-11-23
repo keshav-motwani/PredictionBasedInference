@@ -11,18 +11,15 @@ To simulate a really simple case to try to understand the problem with increasin
 ## Load some libraries we will need
 
 ```{r}
-library(caret)
 library(ggplot2)
 library(dplyr)
 library(magrittr)
-library(randomForest)
 library(splines)
 library(modelr)
 library(broom)
 library(tidyr)
 library(gam)
 library(patchwork)
-library(here)
 ```
 
 
@@ -73,7 +70,7 @@ train_dat  = dat %>%
   filter(set_ind == "train") %>%
   select(y,x1,x2,x3)
 
-pred_mod = gam(y ~ s(x1) + s(x2) + s(x3))
+pred_mod = gam(y ~ s(x1) + s(x2) + s(x3), data = train_dat)
 
 ```
 
@@ -220,7 +217,7 @@ for(k in 1:n_rep){
   filter(set_ind == "train") %>%
   select(y,x1,x2,x3)
 
-  pred_mod = gam(y ~ s(x1) + s(x2) + s(x3))
+  pred_mod = gam(y ~ s(x1) + s(x2) + s(x3), data = train_dat)
   
   ## Add the predictions
   dat$pred = predict(pred_mod,dat)
