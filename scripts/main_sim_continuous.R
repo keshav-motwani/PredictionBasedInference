@@ -324,7 +324,7 @@ postpi_classical_bs = function(sim_dat_tv){
 
 plan(multicore, workers = 32)
 
-n_sim = 10
+n_sim = 1000
 
 beta2 = 0.5
 beta3 = 3
@@ -332,10 +332,11 @@ beta4 = 4
 
 set.seed(2019)
 
-n_vals = c(300, 600, 1200, 2400)
-beta1s = c(0, 1, 3, 5)
+n_traintests = c(300, 600, 1200)
+n_vals = c(150, 300, 600, 1200, 2400)
+beta1s = 1 # c(0, 1, 3, 5)
 
-methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*", "bs-classical", "observed")
+methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*") # , "bs-classical", "observed")
 
 variance_results = as.list(beta1s)
 names(variance_results) = paste0("beta1_", beta1s)
@@ -344,6 +345,8 @@ bias_results = mse_results = coverage_results = p_value_results = variance_resul
 coverage = function(true, est, se) {
   mean((true >= est - 1.96 * se) & (true <= est + 1.96 * se))
 }
+
+for (k in 1:length(n_traintests)) {
 
 for (j in 1:length(beta1s)){
 
@@ -355,6 +358,7 @@ for (j in 1:length(beta1s)){
 
   p_value_result = list()
 
+  n_traintest = n_traintests[k]
   beta1 = beta1s[j]
 
   for (i in 1:length(n_vals)) {
@@ -363,7 +367,7 @@ for (j in 1:length(beta1s)){
 
     print(beta1)
 
-    sim_dat_tv = postpi_sim(c(300, 300, n_val), n_sim, beta1, beta2, beta3,beta4)
+    sim_dat_tv = postpi_sim(c(n_traintest, n_traintest, n_val), n_sim, beta1, beta2, beta3,beta4)
 
     test_data = filter(sim_dat_tv, set == "testing")
     correlation = cor(test_data$pred, test_data$y)
@@ -434,55 +438,9 @@ for (j in 1:length(beta1s)){
   coverage_results[[j]] = coverage_result
   p_value_results[[j]] = do.call(rbind, p_value_result)
 
-  file = paste0("results/main_postpi_sim_results_beta1_", beta1s[j], ".rds")
+  file = paste0("results/main_postpi_sim_results_beta1_", beta1s[j], "ntraintest_", n_traintests[k], ".rds")
   saveRDS(list(var_result, bias_result, mse_result, coverage_result, do.call(rbind, p_value_result)), file)
-
-  rownames(variance_results[[j]]) = rownames(bias_results[[j]]) = rownames(mse_results[[j]]) = rownames(coverage_results[[j]]) = paste0("\\texttt{", rownames(variance_results[[j]]), "}")
-
-  print(kable(variance_results[[j]], booktabs = TRUE, caption = paste0("Reported/true standard errors of $\\hat{\\beta}_1$, with $\\beta_1 = ", beta1, "$"), align = "c", escape = F, format = "latex") %>%
-          kable_styling(latex_options = "hold_position"))
-
-  print(kable(bias_results[[j]], booktabs = TRUE, caption = paste0("Bias of $\\hat{\\beta}_1$, with $\\beta_1 = ", beta1, "$"), align = "c", escape = F, format = "latex") %>%
-          kable_styling(latex_options = "hold_position"))
-
-  print(kable(mse_results[[j]], booktabs = TRUE, caption = paste0("Mean squared error of $\\hat{\\beta}_1$, with $\\beta_1 = ", beta1, "$"), align = "c", escape = F, format = "latex") %>%
-          kable_styling(latex_options = "hold_position"))
-
-  print(kable(coverage_results[[j]], booktabs = TRUE, caption = paste0("95 percent CI coverage of $\\hat{\\beta}_1$, with $\\beta_1 = ", beta1, "$"), align = "c", escape = F, format = "latex") %>%
-          kable_styling(latex_options = "hold_position"))
-
-  if (beta1 == 0) {
-
-    file = paste0("results/main_postpi_sim_results_beta1_", beta1s[j], "_qqplot.pdf")
-
-    pvals = p_value_results[[j]]
-    pvals$method = factor(pvals$method, levels = methods)
-
-    pvals$theoretical = 0
-    for (n_val in unique(pvals$n_val)) {
-      for (method in unique(pvals$method)) {
-        pvals[pvals$n_val == n_val & pvals$method == method, "theoretical"] = qunif(ppoints(length(pvals[pvals$n_val == n_val & pvals$method == method, "theoretical"])))[rank(pvals[pvals$n_val == n_val & pvals$method == method, "p"])]
-      }
-    }
-
-    pvals$n_val = factor(paste0("n[val] == ", as.character(pvals$n_val)), levels = paste0("n[val] == ", as.character(n_vals)))
-
-    pvals = pvals[sample(1:nrow(pvals), nrow(pvals)), ]
-    ggplot(pvals, aes(x = theoretical, y = p, color = method)) +
-      geom_point(size = 0.5) +
-      xlab("Uniform(0, 1) Quantiles") +
-      ylab("Sample") +
-      facet_grid(~n_val) +
-      theme_bw() +
-      theme(legend.position = "bottom") +
-      ggsci::scale_color_npg() +
-      coord_fixed() + xlim(0, 1) + ylim(0, 1) + geom_abline(slope=1, intercept=0, col="black", linetype = "dashed") +
-      guides(color = guide_legend(ncol = 5, byrow = TRUE, override.aes = list(size=2)))
-    ggsave(file, height = 3.3, width = 8.5)
-
-  }
 
 }
 
-file = paste0("results/main_postpi_sim_results", ".rds")
-saveRDS(list(variance_results, bias_results, mse_results, p_value_results), file)
+}
