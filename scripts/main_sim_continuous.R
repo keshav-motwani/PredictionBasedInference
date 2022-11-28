@@ -373,7 +373,7 @@ for (j in 1:length(beta1s)){
     correlation = cor(test_data$pred, test_data$y)
     print(correlation)
 
-    classical_bs_df = postpi_classical_bs(sim_dat_tv)
+    # classical_bs_df = postpi_classical_bs(sim_dat_tv)
     truth_nc_df = truth_and_nc(sim_dat_tv)
     der_df = postpi_der(sim_dat_tv)
     bs_df = postpi_bs(sim_dat_tv)
@@ -384,42 +384,42 @@ for (j in 1:length(beta1s)){
     var_result["der-postpi", i] = paste0(round(mean(df$der_se), 3), "/",  round(sd(df$der_beta), 3))
     var_result["bs-postpi-par", i] = paste0(round(mean(df$model_se), 3), "/",  round(sd(df$bs_beta), 3))
     var_result["bs-postpi-nonpar", i] = paste0(round(mean(df$sd_se), 3), "/",  round(sd(df$bs_beta), 3))
-    var_result["bs-classical", i] = paste0(round(mean(df$classical_sd_se), 3), "/",  round(sd(df$classical_bs_beta), 3))
+    # var_result["bs-classical", i] = paste0(round(mean(df$classical_sd_se), 3), "/",  round(sd(df$classical_bs_beta), 3))
     var_result["val*", i] = paste0(round(mean(df$truth_sd), 3), "/",  round(sd(df$truth_beta), 3))
-    var_result["observed", i] = paste0(round(mean(df$observed_sd), 3), "/",  round(sd(df$observed_beta), 3))
+    # var_result["observed", i] = paste0(round(mean(df$observed_sd), 3), "/",  round(sd(df$observed_beta), 3))
 
     bias_result["naive", i] = round(mean(df$nc_beta) - beta1, 3)
     bias_result["der-postpi", i] = round(mean(df$der_beta) - beta1, 3)
     bias_result["bs-postpi-par", i] = round(mean(df$bs_beta) - beta1, 3)
     bias_result["bs-postpi-nonpar", i] = round(mean(df$bs_beta) - beta1, 3)
-    bias_result["bs-classical", i] = round(mean(df$classical_bs_beta) - beta1, 3)
+    # bias_result["bs-classical", i] = round(mean(df$classical_bs_beta) - beta1, 3)
     bias_result["val*", i] = round(mean(df$truth_beta) - beta1, 3)
-    bias_result["observed", i] = round(mean(df$observed_beta) - beta1, 3)
+    # bias_result["observed", i] = round(mean(df$observed_beta) - beta1, 3)
 
     mse_result["naive", i] = round(mean((df$nc_beta - beta1)^2), 3)
     mse_result["der-postpi", i] = round(mean((df$der_beta - beta1)^2), 3)
     mse_result["bs-postpi-par", i] = round(mean((df$bs_beta - beta1)^2), 3)
     mse_result["bs-postpi-nonpar", i] = round(mean((df$bs_beta - beta1)^2), 3)
-    mse_result["bs-classical", i] = round(mean((df$classical_bs_beta - beta1)^2), 3)
+    # mse_result["bs-classical", i] = round(mean((df$classical_bs_beta - beta1)^2), 3)
     mse_result["val*", i] = round(mean((df$truth_beta - beta1)^2), 3)
-    mse_result["observed", i] = round(mean((df$observed_beta - beta1)^2), 3)
+    # mse_result["observed", i] = round(mean((df$observed_beta - beta1)^2), 3)
 
     coverage_result["naive", i] = round(100 * coverage(beta1, df$nc_beta, df$nc_sd), 1)
     coverage_result["der-postpi", i] = round(100 * coverage(beta1, df$der_beta, df$der_se), 1)
     coverage_result["bs-postpi-par", i] = round(100 * coverage(beta1, df$bs_beta, df$model_se),	1)
     coverage_result["bs-postpi-nonpar", i] = round(100 * coverage(beta1, df$bs_beta, df$sd_se), 1)
-    coverage_result["bs-classical", i] = round(100 * coverage(beta1, df$classical_bs_beta, df$classical_sd_se), 1)
+    # coverage_result["bs-classical", i] = round(100 * coverage(beta1, df$classical_bs_beta, df$classical_sd_se), 1)
     coverage_result["val*", i] = round(100 * coverage(beta1, df$truth_beta, df$truth_sd), 1)
-    coverage_result["observed", i] = round(100 * coverage(beta1, df$observed_beta, df$observed_sd), 1)
+    # coverage_result["observed", i] = round(100 * coverage(beta1, df$observed_beta, df$observed_sd), 1)
 
     z_stat = list()
     z_stat[["naive"]] = df$nc_beta / df$nc_sd
     z_stat[["der-postpi"]] = df$der_beta / df$der_se
     z_stat[["bs-postpi-par"]] = df$bs_beta / df$model_se
     z_stat[["bs-postpi-nonpar"]] = df$bs_beta / df$sd_se
-    z_stat[["bs-classical"]] = df$classical_bs_beta / df$classical_sd_se
+    # z_stat[["bs-classical"]] = df$classical_bs_beta / df$classical_sd_se
     z_stat[["val*"]] = df$truth_beta / df$truth_sd
-    z_stat[["observed"]] = df$observed_beta / df$observed_sd
+    # z_stat[["observed"]] = df$observed_beta / df$observed_sd
 
     p_value_result = c(p_value_result, list(do.call(rbind, lapply(1:length(z_stat), function(i) {
       data.frame(z = z_stat[[i]], method = names(z_stat)[i], p = 2 * (1 - pnorm(abs(z_stat[[i]]))), beta1 = beta1, n_val = n_val)
