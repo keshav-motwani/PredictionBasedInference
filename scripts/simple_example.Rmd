@@ -185,9 +185,9 @@ lm(y_sim ~ x1,data=sim_dat) %>% tidy()
 n_rep = 500
 
 ## Set sample sizes with imbalance
-n_train = 200
-n_test = 200
-n_valid = 2000
+n_train = 1000
+n_test = 1000
+n_valid = 3000
 n_tot = n_train + n_test + n_valid
 
 
