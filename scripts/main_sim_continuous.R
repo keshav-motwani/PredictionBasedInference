@@ -324,7 +324,7 @@ postpi_classical_bs = function(sim_dat_tv){
 
 plan(multicore, workers = 32)
 
-n_sim = 1000
+n_sim = 10
 
 beta2 = 0.5
 beta3 = 3
