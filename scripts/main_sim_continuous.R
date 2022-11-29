@@ -378,7 +378,7 @@ for (j in 1:length(beta1s)){
     der_df = postpi_der(sim_dat_tv)
     bs_df = postpi_bs(sim_dat_tv)
 
-    df = cbind(truth_nc_df,der_df,bs_df,classical_bs_df,correlation=correlation, beta1 = beta1)
+    df = cbind(truth_nc_df,der_df,bs_df,correlation=correlation, beta1 = beta1) # ,classical_bs_df
 
     var_result["naive", i] = paste0(round(mean(df$nc_sd), 3), "/",  round(sd(df$nc_beta), 3))
     var_result["der-postpi", i] = paste0(round(mean(df$der_se), 3), "/",  round(sd(df$der_beta), 3))
