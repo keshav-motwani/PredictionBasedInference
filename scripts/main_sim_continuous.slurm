@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem-per-cpu=1000mb
 #SBATCH --time=96:00:00
-#SBATCH --qos=amolstad-b
+#SBATCH --qos=amolstad
 #SBATCH --account=amolstad
 
 export OMP_NUM_THREADS=1

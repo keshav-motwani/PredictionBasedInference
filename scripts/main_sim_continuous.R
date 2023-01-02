@@ -334,9 +334,9 @@ set.seed(2019)
 
 n_traintests = c(300, 600, 1200)
 n_vals = c(150, 300, 600, 1200, 2400)
-beta1s = 1 # c(0, 1, 3, 5)
+beta1s = c(0, 1, 3, 5)
 
-methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*") # , "bs-classical", "observed")
+methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*", "observed") # , "bs-classical", "observed")
 
 variance_results = as.list(beta1s)
 names(variance_results) = paste0("beta1_", beta1s)
@@ -386,7 +386,7 @@ for (j in 1:length(beta1s)){
     var_result["bs-postpi-nonpar", i] = paste0(round(mean(df$sd_se), 3), "/",  round(sd(df$bs_beta), 3))
     # var_result["bs-classical", i] = paste0(round(mean(df$classical_sd_se), 3), "/",  round(sd(df$classical_bs_beta), 3))
     var_result["val*", i] = paste0(round(mean(df$truth_sd), 3), "/",  round(sd(df$truth_beta), 3))
-    # var_result["observed", i] = paste0(round(mean(df$observed_sd), 3), "/",  round(sd(df$observed_beta), 3))
+    var_result["observed", i] = paste0(round(mean(df$observed_sd), 3), "/",  round(sd(df$observed_beta), 3))
 
     bias_result["naive", i] = round(mean(df$nc_beta) - beta1, 3)
     bias_result["der-postpi", i] = round(mean(df$der_beta) - beta1, 3)
@@ -394,7 +394,7 @@ for (j in 1:length(beta1s)){
     bias_result["bs-postpi-nonpar", i] = round(mean(df$bs_beta) - beta1, 3)
     # bias_result["bs-classical", i] = round(mean(df$classical_bs_beta) - beta1, 3)
     bias_result["val*", i] = round(mean(df$truth_beta) - beta1, 3)
-    # bias_result["observed", i] = round(mean(df$observed_beta) - beta1, 3)
+    bias_result["observed", i] = round(mean(df$observed_beta) - beta1, 3)
 
     mse_result["naive", i] = round(mean((df$nc_beta - beta1)^2), 3)
     mse_result["der-postpi", i] = round(mean((df$der_beta - beta1)^2), 3)
@@ -410,7 +410,7 @@ for (j in 1:length(beta1s)){
     coverage_result["bs-postpi-nonpar", i] = round(100 * coverage(beta1, df$bs_beta, df$sd_se), 1)
     # coverage_result["bs-classical", i] = round(100 * coverage(beta1, df$classical_bs_beta, df$classical_sd_se), 1)
     coverage_result["val*", i] = round(100 * coverage(beta1, df$truth_beta, df$truth_sd), 1)
-    # coverage_result["observed", i] = round(100 * coverage(beta1, df$observed_beta, df$observed_sd), 1)
+    coverage_result["observed", i] = round(100 * coverage(beta1, df$observed_beta, df$observed_sd), 1)
 
     z_stat = list()
     z_stat[["naive"]] = df$nc_beta / df$nc_sd
@@ -419,7 +419,7 @@ for (j in 1:length(beta1s)){
     z_stat[["bs-postpi-nonpar"]] = df$bs_beta / df$sd_se
     # z_stat[["bs-classical"]] = df$classical_bs_beta / df$classical_sd_se
     z_stat[["val*"]] = df$truth_beta / df$truth_sd
-    # z_stat[["observed"]] = df$observed_beta / df$observed_sd
+    z_stat[["observed"]] = df$observed_beta / df$observed_sd
 
     p_value_result = c(p_value_result, list(do.call(rbind, lapply(1:length(z_stat), function(i) {
       data.frame(z = z_stat[[i]], method = names(z_stat)[i], p = 2 * (1 - pnorm(abs(z_stat[[i]]))), beta1 = beta1, n_val = n_val)
@@ -438,7 +438,7 @@ for (j in 1:length(beta1s)){
   coverage_results[[j]] = coverage_result
   p_value_results[[j]] = do.call(rbind, p_value_result)
 
-  file = paste0("results/main_postpi_sim_results_beta1_", beta1s[j], "ntraintest_", n_traintests[k], ".rds")
+  file = paste0("results/main_postpi_sim_results_beta1_", beta1s[j], "_ntraintest_", n_traintests[k], ".rds")
   saveRDS(list(var_result, bias_result, mse_result, coverage_result, do.call(rbind, p_value_result)), file)
 
 }
