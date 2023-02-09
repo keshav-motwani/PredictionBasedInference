@@ -36,1887 +36,3359 @@ The following object is masked from 'package:dplyr':
     group_rows
 
 [1] 0
-[1] 0.4136357
+[1] 0.4118831
+(Intercept)          x1 
+ 11.0331083  -0.0810801 
+[1] 0.185694
+(Intercept)          x1 
+ 11.6108524  -0.1491477 
+[1] 0.1986853
+(Intercept)          x1 
+  11.244354    0.090174 
+[1] 0.192118
+(Intercept)          x1 
+11.63147272  0.03638999 
+[1] 0.1848994
+(Intercept)          x1 
+ 11.2172128   0.5070873 
+[1] 0.2044742
+(Intercept)          x1 
+11.86055705  0.01492987 
+[1] 0.1913215
+(Intercept)          x1 
+ 11.3238747   0.3328371 
+[1] 0.2112416
+(Intercept)          x1 
+ 11.5854899  -0.1145257 
+[1] 0.2044491
+(Intercept)          x1 
+ 11.7563111  -0.1853173 
+[1] 0.1768496
+ (Intercept)           x1 
+1.148550e+01 4.574377e-04 
+[1] 0.1791315
+(Intercept)          x1 
+ 11.4301240  -0.1034225 
+[1] 0.1821237
+(Intercept)          x1 
+11.73010470  0.02248172 
+[1] 0.1680797
+(Intercept)          x1 
+ 11.8163695  -0.3911951 
+[1] 0.2028113
+(Intercept)          x1 
+11.27182244 -0.04623571 
+[1] 0.1757483
+(Intercept)          x1 
+ 11.7741284  -0.2107259 
+[1] 0.1785707
+(Intercept)          x1 
+11.45548772  0.08831073 
+[1] 0.1890088
+(Intercept)          x1 
+11.49281381  0.04813186 
+[1] 0.1775735
+(Intercept)          x1 
+  11.961830   -0.428252 
+[1] 0.1740347
+(Intercept)          x1 
+ 11.7305252  -0.2441464 
+[1] 0.2049725
+(Intercept)          x1 
+ 12.0049582  -0.1776505 
+[1] 0.1894192
+(Intercept)          x1 
+11.36925500  0.05860631 
+[1] 0.1716666
+(Intercept)          x1 
+11.57577834  0.09562171 
+[1] 0.1850812
+(Intercept)          x1 
+11.75827656  0.04618564 
+[1] 0.2110065
+(Intercept)          x1 
+  11.807320    0.089812 
+[1] 0.1950458
+(Intercept)          x1 
+ 11.0424131   0.0706857 
+[1] 0.1983698
+(Intercept)          x1 
+11.43760856  0.02797534 
+[1] 0.1956549
+(Intercept)          x1 
+ 10.7107410   0.1554766 
+[1] 0.1658522
+(Intercept)          x1 
+ 12.2326893  -0.2701267 
+[1] 0.2213188
+(Intercept)          x1 
+10.83117647  0.01591526 
+[1] 0.2158764
+(Intercept)          x1 
+ 12.1938473   0.1096665 
+[1] 0.1783524
+(Intercept)          x1 
+11.37286486 -0.04719759 
+[1] 0.186739
+(Intercept)          x1 
+ 11.6443187   0.2564474 
+[1] 0.2103684
+(Intercept)          x1 
+ 11.3344212  -0.1764803 
+[1] 0.1871386
+(Intercept)          x1 
+11.96336968  0.01879064 
+[1] 0.1882987
+(Intercept)          x1 
+ 10.8856718   0.1623172 
+[1] 0.2171596
+(Intercept)          x1 
+11.05177511  0.08537407 
+[1] 0.158946
+(Intercept)          x1 
+ 10.8496240   0.3269469 
+[1] 0.1866132
+(Intercept)          x1 
+12.11662857 -0.07140085 
+[1] 0.1636724
+(Intercept)          x1 
+ 11.7910774  -0.2297097 
+[1] 0.1700049
+(Intercept)          x1 
+11.89438400  0.08883656 
+[1] 0.1854473
+(Intercept)          x1 
+ 11.3875763   0.1040552 
+[1] 0.1786426
+(Intercept)          x1 
+11.24597311  0.06903658 
+[1] 0.226995
+(Intercept)          x1 
+ 12.0134306  -0.1065336 
+[1] 0.1926109
+(Intercept)          x1 
+ 11.5546683  -0.2157455 
+[1] 0.1675559
+(Intercept)          x1 
+ 11.5502620   0.1390216 
+[1] 0.1865768
+(Intercept)          x1 
+ 12.0493526  -0.2622266 
+[1] 0.186877
+(Intercept)          x1 
+ 11.3020859   0.2566752 
+[1] 0.2003855
+(Intercept)          x1 
+11.42814178 -0.04144375 
+[1] 0.1797642
+(Intercept)          x1 
+ 11.9448462  -0.1100447 
+[1] 0.1759484
+(Intercept)          x1 
+ 11.8332777  -0.1889098 
+[1] 0.2133879
+(Intercept)          x1 
+ 12.1328564   0.1586668 
+[1] 0.1787613
+(Intercept)          x1 
+11.45315839 -0.08608053 
+[1] 0.1577439
+(Intercept)          x1 
+11.36498063 -0.04386307 
+[1] 0.172311
+(Intercept)          x1 
+11.65047537  0.02577873 
+[1] 0.2073764
+(Intercept)          x1 
+ 11.9065549  -0.3868295 
+[1] 0.2056263
+ (Intercept)           x1 
+11.669834183  0.005982693 
+[1] 0.150548
+(Intercept)          x1 
+ 11.7922305   0.1433709 
+[1] 0.1621567
+(Intercept)          x1 
+ 11.9019339  -0.1709763 
+[1] 0.1695849
+(Intercept)          x1 
+ 11.1105685   0.1417218 
+[1] 0.1879209
+(Intercept)          x1 
+ 11.9098543  -0.1775483 
+[1] 0.1862409
+(Intercept)          x1 
+11.56386559 -0.06945403 
+[1] 0.1999086
+(Intercept)          x1 
+11.80891547  0.05870429 
+[1] 0.190505
+(Intercept)          x1 
+ 11.7210013  -0.1392253 
+[1] 0.1575955
+(Intercept)          x1 
+ 11.0398827   0.1207191 
+[1] 0.2088394
+(Intercept)          x1 
+ 11.0283086   0.2612011 
+[1] 0.1953871
+(Intercept)          x1 
+ 11.0772635   0.1787589 
+[1] 0.1625139
+(Intercept)          x1 
+11.58643867  0.07392715 
+[1] 0.1744438
+(Intercept)          x1 
+ 11.6092635  -0.1632374 
+[1] 0.2055673
+ (Intercept)           x1 
+11.087619879 -0.006261486 
+[1] 0.1971769
+(Intercept)          x1 
+ 10.5797422   0.1959908 
+[1] 0.1826611
+(Intercept)          x1 
+ 11.0452278   0.3220149 
+[1] 0.1848553
+(Intercept)          x1 
+11.36134454 -0.06263157 
+[1] 0.1843503
+(Intercept)          x1 
+11.26838128 -0.07893475 
+[1] 0.1799229
+(Intercept)          x1 
+ 11.6262109   0.1180111 
+[1] 0.1982635
+(Intercept)          x1 
+11.60598384  0.01558916 
+[1] 0.2038392
+(Intercept)          x1 
+ 11.7151956  -0.1195784 
+[1] 0.2005263
+(Intercept)          x1 
+ 11.4854844  -0.1515948 
+[1] 0.1777206
+(Intercept)          x1 
+11.21630290  0.06979235 
+[1] 0.1764639
+(Intercept)          x1 
+ 12.0059298  -0.1664977 
+[1] 0.1777789
+(Intercept)          x1 
+11.43738129 -0.01664419 
+[1] 0.1992622
+(Intercept)          x1 
+ 12.2120003  -0.2353299 
+[1] 0.1914088
+(Intercept)          x1 
+11.93651523  0.03290826 
+[1] 0.1846304
+(Intercept)          x1 
+10.96097144 -0.04007404 
+[1] 0.1817463
+(Intercept)          x1 
+  11.527340    0.203043 
+[1] 0.1624465
+(Intercept)          x1 
+ 11.5256629  -0.1409729 
+[1] 0.1606483
+(Intercept)          x1 
+ 11.3552634   0.1091022 
+[1] 0.1967578
+(Intercept)          x1 
+ 10.8266834   0.1953079 
+[1] 0.1811089
+(Intercept)          x1 
+ 11.8033236  -0.2252257 
+[1] 0.2000703
+(Intercept)          x1 
+ 10.5956765   0.2195534 
+[1] 0.1970762
+(Intercept)          x1 
+11.74728547 -0.06023372 
+[1] 0.2200712
+(Intercept)          x1 
+ 10.6458295   0.2769389 
+[1] 0.1838952
+(Intercept)          x1 
+ 11.3813052  -0.1566545 
+[1] 0.1840539
+(Intercept)          x1 
+ 10.9939924   0.1239933 
+[1] 0.1906071
+ (Intercept)           x1 
+12.082342337 -0.003414462 
+[1] 0.1849881
+(Intercept)          x1 
+ 11.2954608   0.1678011 
+[1] 0.2068504
+(Intercept)          x1 
+ 11.9072811  -0.4485858 
+[1] 0.2070692
+(Intercept)          x1 
+ 11.5436749   0.1105762 
+[1] 0.1999721
+(Intercept)          x1 
+ 11.7442696  -0.1623714 
+[1] 0.2156296
+(Intercept)          x1 
+11.84360489 -0.03843145 
+[1] 0.1900787
+(Intercept)          x1 
+ 11.4221800   0.3707586 
+[1] 0.1945381
                  150           300 600 1200 2400
-naive            "0.114/0.198" NA  NA  NA   NA  
-der-postpi       "0.237/0.17"  NA  NA  NA   NA  
-bs-postpi-par    "0.237/0.172" NA  NA  NA   NA  
-bs-postpi-nonpar "0.238/0.172" NA  NA  NA   NA  
-val*             "0.236/0.238" NA  NA  NA   NA  
-observed         "0.118/0.116" NA  NA  NA   NA  
+naive            "0.114/0.207" NA  NA  NA   NA  
+der-postpi       "0.238/0.177" NA  NA  NA   NA  
+bs-postpi-par    "0.238/0.171" NA  NA  NA   NA  
+bs-postpi-nonpar "0.24/0.171"  NA  NA  NA   NA  
+val*             "0.238/0.248" NA  NA  NA   NA  
+observed         "0.165/0.161" NA  NA  NA   NA  
+predpowinf       "0.188/0.179" NA  NA  NA   NA  
                     150 300 600 1200 2400
-naive             0.013  NA  NA   NA   NA
-der-postpi        0.014  NA  NA   NA   NA
-bs-postpi-par     0.011  NA  NA   NA   NA
-bs-postpi-nonpar  0.011  NA  NA   NA   NA
-val*              0.007  NA  NA   NA   NA
+naive            -0.015  NA  NA   NA   NA
+der-postpi       -0.012  NA  NA   NA   NA
+bs-postpi-par    -0.016  NA  NA   NA   NA
+bs-postpi-nonpar -0.016  NA  NA   NA   NA
+val*              0.031  NA  NA   NA   NA
 observed         -0.002  NA  NA   NA   NA
+predpowinf       -0.002  NA  NA   NA   NA
                    150 300 600 1200 2400
-naive            0.039  NA  NA   NA   NA
-der-postpi       0.029  NA  NA   NA   NA
-bs-postpi-par    0.030  NA  NA   NA   NA
-bs-postpi-nonpar 0.030  NA  NA   NA   NA
-val*             0.057  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                  150 300 600 1200 2400
-naive            75.0  NA  NA   NA   NA
-der-postpi       99.4  NA  NA   NA   NA
-bs-postpi-par    99.3  NA  NA   NA   NA
-bs-postpi-nonpar 99.2  NA  NA   NA   NA
-val*             94.8  NA  NA   NA   NA
-observed         95.4  NA  NA   NA   NA
-[1] 0
-[1] 0.4103349
-                 150           300           600 1200 2400
-naive            "0.114/0.198" "0.08/0.177"  NA  NA   NA  
-der-postpi       "0.237/0.17"  "0.166/0.154" NA  NA   NA  
-bs-postpi-par    "0.237/0.172" "0.166/0.153" NA  NA   NA  
-bs-postpi-nonpar "0.238/0.172" "0.167/0.153" NA  NA   NA  
-val*             "0.236/0.238" "0.166/0.172" NA  NA   NA  
-observed         "0.118/0.116" "0.118/0.119" NA  NA   NA  
-                    150    300 600 1200 2400
-naive             0.013 -0.001  NA   NA   NA
-der-postpi        0.014 -0.002  NA   NA   NA
-bs-postpi-par     0.011 -0.001  NA   NA   NA
-bs-postpi-nonpar  0.011 -0.001  NA   NA   NA
-val*              0.007  0.001  NA   NA   NA
-observed         -0.002  0.002  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.039 0.031  NA   NA   NA
-der-postpi       0.029 0.024  NA   NA   NA
-bs-postpi-par    0.030 0.024  NA   NA   NA
-bs-postpi-nonpar 0.030 0.024  NA   NA   NA
-val*             0.057 0.029  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                  150  300 600 1200 2400
-naive            75.0 61.7  NA   NA   NA
-der-postpi       99.4 96.3  NA   NA   NA
-bs-postpi-par    99.3 96.7  NA   NA   NA
-bs-postpi-nonpar 99.2 96.9  NA   NA   NA
-val*             94.8 94.8  NA   NA   NA
-observed         95.4 95.1  NA   NA   NA
-[1] 0
-[1] 0.4101648
-                 150           300           600           1200 2400
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" NA   NA  
-der-postpi       "0.237/0.17"  "0.166/0.154" "0.118/0.143" NA   NA  
-bs-postpi-par    "0.237/0.172" "0.166/0.153" "0.117/0.143" NA   NA  
-bs-postpi-nonpar "0.238/0.172" "0.167/0.153" "0.118/0.143" NA   NA  
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" NA   NA  
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" NA   NA  
-                    150    300   600 1200 2400
-naive             0.013 -0.001 0.007   NA   NA
-der-postpi        0.014 -0.002 0.005   NA   NA
-bs-postpi-par     0.011 -0.001 0.005   NA   NA
-bs-postpi-nonpar  0.011 -0.001 0.005   NA   NA
-val*              0.007  0.001 0.003   NA   NA
-observed         -0.002  0.002 0.002   NA   NA
-                   150   300   600 1200 2400
-naive            0.039 0.031 0.026   NA   NA
-der-postpi       0.029 0.024 0.020   NA   NA
-bs-postpi-par    0.030 0.024 0.021   NA   NA
-bs-postpi-nonpar 0.030 0.024 0.021   NA   NA
-val*             0.057 0.029 0.014   NA   NA
-observed            NA    NA    NA   NA   NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2   NA   NA
-der-postpi       99.4 96.3 89.6   NA   NA
-bs-postpi-par    99.3 96.7 89.4   NA   NA
-bs-postpi-nonpar 99.2 96.9 89.4   NA   NA
-val*             94.8 94.8 94.1   NA   NA
-observed         95.4 95.1 95.0   NA   NA
-[1] 0
-[1] 0.4112744
-                 150           300           600           1200          2400
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" "0.04/0.161"  NA  
-der-postpi       "0.237/0.17"  "0.166/0.154" "0.118/0.143" "0.083/0.14"  NA  
-bs-postpi-par    "0.237/0.172" "0.166/0.153" "0.117/0.143" "0.083/0.14"  NA  
-bs-postpi-nonpar "0.238/0.172" "0.167/0.153" "0.118/0.143" "0.083/0.14"  NA  
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" "0.084/0.081" NA  
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" "0.118/0.122" NA  
-                    150    300   600   1200 2400
-naive             0.013 -0.001 0.007  0.000   NA
-der-postpi        0.014 -0.002 0.005 -0.001   NA
-bs-postpi-par     0.011 -0.001 0.005 -0.001   NA
-bs-postpi-nonpar  0.011 -0.001 0.005 -0.001   NA
-val*              0.007  0.001 0.003  0.000   NA
-observed         -0.002  0.002 0.002  0.000   NA
-                   150   300   600  1200 2400
-naive            0.039 0.031 0.026 0.026   NA
-der-postpi       0.029 0.024 0.020 0.019   NA
-bs-postpi-par    0.030 0.024 0.021 0.019   NA
-bs-postpi-nonpar 0.030 0.024 0.021 0.019   NA
-val*             0.057 0.029 0.014 0.007   NA
-observed            NA    NA    NA    NA   NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2 38.0   NA
-der-postpi       99.4 96.3 89.6 74.6   NA
-bs-postpi-par    99.3 96.7 89.4 74.7   NA
-bs-postpi-nonpar 99.2 96.9 89.4 74.8   NA
-val*             94.8 94.8 94.1 95.8   NA
-observed         95.4 95.1 95.0 94.3   NA
-[1] 0
-[1] 0.4129999
-                 150           300           600           1200         
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" "0.04/0.161" 
-der-postpi       "0.237/0.17"  "0.166/0.154" "0.118/0.143" "0.083/0.14" 
-bs-postpi-par    "0.237/0.172" "0.166/0.153" "0.117/0.143" "0.083/0.14" 
-bs-postpi-nonpar "0.238/0.172" "0.167/0.153" "0.118/0.143" "0.083/0.14" 
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" "0.084/0.081"
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" "0.118/0.122"
-                 2400         
-naive            "0.028/0.157"
-der-postpi       "0.059/0.134"
-bs-postpi-par    "0.058/0.133"
-bs-postpi-nonpar "0.059/0.133"
-val*             "0.059/0.058"
-observed         "0.118/0.12" 
-                    150    300   600   1200   2400
-naive             0.013 -0.001 0.007  0.000 -0.008
-der-postpi        0.014 -0.002 0.005 -0.001 -0.007
-bs-postpi-par     0.011 -0.001 0.005 -0.001 -0.006
-bs-postpi-nonpar  0.011 -0.001 0.005 -0.001 -0.006
-val*              0.007  0.001 0.003  0.000  0.002
-observed         -0.002  0.002 0.002  0.000 -0.004
-                   150   300   600  1200  2400
-naive            0.039 0.031 0.026 0.026 0.025
-der-postpi       0.029 0.024 0.020 0.019 0.018
-bs-postpi-par    0.030 0.024 0.021 0.019 0.018
-bs-postpi-nonpar 0.030 0.024 0.021 0.019 0.018
-val*             0.057 0.029 0.014 0.007 0.003
-observed            NA    NA    NA    NA    NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2 38.0 27.9
-der-postpi       99.4 96.3 89.6 74.6 59.4
-bs-postpi-par    99.3 96.7 89.4 74.7 59.9
-bs-postpi-nonpar 99.2 96.9 89.4 74.8 59.3
-val*             94.8 94.8 94.1 95.8 95.1
-observed         95.4 95.1 95.0 94.3 95.1
-[1] 1
-[1] 0.5061411
-                 150           300 600 1200 2400
-naive            "0.114/0.198" NA  NA  NA   NA  
-der-postpi       "0.239/0.199" NA  NA  NA   NA  
-bs-postpi-par    "0.239/0.203" NA  NA  NA   NA  
-bs-postpi-nonpar "0.24/0.203"  NA  NA  NA   NA  
-val*             "0.236/0.238" NA  NA  NA   NA  
-observed         "0.118/0.116" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive             0.013  NA  NA   NA   NA
-der-postpi       -0.076  NA  NA   NA   NA
-bs-postpi-par    -0.076  NA  NA   NA   NA
-bs-postpi-nonpar -0.076  NA  NA   NA   NA
-val*              0.007  NA  NA   NA   NA
-observed         -0.002  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.039  NA  NA   NA   NA
-der-postpi       0.045  NA  NA   NA   NA
-bs-postpi-par    0.047  NA  NA   NA   NA
-bs-postpi-nonpar 0.047  NA  NA   NA   NA
-val*             0.057  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                  150 300 600 1200 2400
-naive            75.0  NA  NA   NA   NA
-der-postpi       96.5  NA  NA   NA   NA
-bs-postpi-par    96.5  NA  NA   NA   NA
-bs-postpi-nonpar 96.3  NA  NA   NA   NA
-val*             94.8  NA  NA   NA   NA
-observed         95.4  NA  NA   NA   NA
-[1] 1
-[1] 0.5043846
-                 150           300           600 1200 2400
-naive            "0.114/0.198" "0.08/0.177"  NA  NA   NA  
-der-postpi       "0.239/0.199" "0.168/0.174" NA  NA   NA  
-bs-postpi-par    "0.239/0.203" "0.168/0.173" NA  NA   NA  
-bs-postpi-nonpar "0.24/0.203"  "0.168/0.173" NA  NA   NA  
-val*             "0.236/0.238" "0.166/0.172" NA  NA   NA  
-observed         "0.118/0.116" "0.118/0.119" NA  NA   NA  
-                    150    300 600 1200 2400
-naive             0.013 -0.001  NA   NA   NA
-der-postpi       -0.076 -0.087  NA   NA   NA
-bs-postpi-par    -0.076 -0.087  NA   NA   NA
-bs-postpi-nonpar -0.076 -0.087  NA   NA   NA
-val*              0.007  0.001  NA   NA   NA
-observed         -0.002  0.002  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.039 0.031  NA   NA   NA
-der-postpi       0.045 0.038  NA   NA   NA
-bs-postpi-par    0.047 0.037  NA   NA   NA
-bs-postpi-nonpar 0.047 0.037  NA   NA   NA
-val*             0.057 0.029  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                  150  300 600 1200 2400
-naive            75.0 61.7  NA   NA   NA
-der-postpi       96.5 89.8  NA   NA   NA
-bs-postpi-par    96.5 90.3  NA   NA   NA
-bs-postpi-nonpar 96.3 89.9  NA   NA   NA
-val*             94.8 94.8  NA   NA   NA
-observed         95.4 95.1  NA   NA   NA
-[1] 1
-[1] 0.5044337
-                 150           300           600           1200 2400
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" NA   NA  
-der-postpi       "0.239/0.199" "0.168/0.174" "0.119/0.165" NA   NA  
-bs-postpi-par    "0.239/0.203" "0.168/0.173" "0.118/0.164" NA   NA  
-bs-postpi-nonpar "0.24/0.203"  "0.168/0.173" "0.119/0.164" NA   NA  
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" NA   NA  
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" NA   NA  
-                    150    300    600 1200 2400
-naive             0.013 -0.001  0.007   NA   NA
-der-postpi       -0.076 -0.087 -0.076   NA   NA
-bs-postpi-par    -0.076 -0.087 -0.077   NA   NA
-bs-postpi-nonpar -0.076 -0.087 -0.077   NA   NA
-val*              0.007  0.001  0.003   NA   NA
-observed         -0.002  0.002  0.002   NA   NA
-                   150   300   600 1200 2400
-naive            0.039 0.031 0.026   NA   NA
-der-postpi       0.045 0.038 0.033   NA   NA
-bs-postpi-par    0.047 0.037 0.033   NA   NA
-bs-postpi-nonpar 0.047 0.037 0.033   NA   NA
-val*             0.057 0.029 0.014   NA   NA
-observed            NA    NA    NA   NA   NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2   NA   NA
-der-postpi       96.5 89.8 79.5   NA   NA
-bs-postpi-par    96.5 90.3 79.2   NA   NA
-bs-postpi-nonpar 96.3 89.9 79.8   NA   NA
-val*             94.8 94.8 94.1   NA   NA
-observed         95.4 95.1 95.0   NA   NA
-[1] 1
-[1] 0.505276
-                 150           300           600           1200          2400
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" "0.04/0.161"  NA  
-der-postpi       "0.239/0.199" "0.168/0.174" "0.119/0.165" "0.084/0.166" NA  
-bs-postpi-par    "0.239/0.203" "0.168/0.173" "0.118/0.164" "0.083/0.166" NA  
-bs-postpi-nonpar "0.24/0.203"  "0.168/0.173" "0.119/0.164" "0.084/0.166" NA  
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" "0.084/0.081" NA  
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" "0.118/0.122" NA  
-                    150    300    600   1200 2400
-naive             0.013 -0.001  0.007  0.000   NA
-der-postpi       -0.076 -0.087 -0.076 -0.086   NA
-bs-postpi-par    -0.076 -0.087 -0.077 -0.086   NA
-bs-postpi-nonpar -0.076 -0.087 -0.077 -0.086   NA
-val*              0.007  0.001  0.003  0.000   NA
-observed         -0.002  0.002  0.002  0.000   NA
-                   150   300   600  1200 2400
-naive            0.039 0.031 0.026 0.026   NA
-der-postpi       0.045 0.038 0.033 0.035   NA
-bs-postpi-par    0.047 0.037 0.033 0.035   NA
-bs-postpi-nonpar 0.047 0.037 0.033 0.035   NA
-val*             0.057 0.029 0.014 0.007   NA
-observed            NA    NA    NA    NA   NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2 38.0   NA
-der-postpi       96.5 89.8 79.5 61.4   NA
-bs-postpi-par    96.5 90.3 79.2 62.6   NA
-bs-postpi-nonpar 96.3 89.9 79.8 61.6   NA
-val*             94.8 94.8 94.1 95.8   NA
-observed         95.4 95.1 95.0 94.3   NA
-[1] 1
-[1] 0.5063943
-                 150           300           600           1200         
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" "0.04/0.161" 
-der-postpi       "0.239/0.199" "0.168/0.174" "0.119/0.165" "0.084/0.166"
-bs-postpi-par    "0.239/0.203" "0.168/0.173" "0.118/0.164" "0.083/0.166"
-bs-postpi-nonpar "0.24/0.203"  "0.168/0.173" "0.119/0.164" "0.084/0.166"
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" "0.084/0.081"
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" "0.118/0.122"
-                 2400         
-naive            "0.028/0.157"
-der-postpi       "0.059/0.158"
-bs-postpi-par    "0.059/0.158"
-bs-postpi-nonpar "0.059/0.158"
-val*             "0.059/0.058"
-observed         "0.118/0.12" 
-                    150    300    600   1200   2400
-naive             0.013 -0.001  0.007  0.000 -0.008
-der-postpi       -0.076 -0.087 -0.076 -0.086 -0.089
-bs-postpi-par    -0.076 -0.087 -0.077 -0.086 -0.089
-bs-postpi-nonpar -0.076 -0.087 -0.077 -0.086 -0.089
-val*              0.007  0.001  0.003  0.000  0.002
-observed         -0.002  0.002  0.002  0.000 -0.004
-                   150   300   600  1200  2400
-naive            0.039 0.031 0.026 0.026 0.025
-der-postpi       0.045 0.038 0.033 0.035 0.033
-bs-postpi-par    0.047 0.037 0.033 0.035 0.033
-bs-postpi-nonpar 0.047 0.037 0.033 0.035 0.033
-val*             0.057 0.029 0.014 0.007 0.003
-observed            NA    NA    NA    NA    NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2 38.0 27.9
-der-postpi       96.5 89.8 79.5 61.4 45.4
-bs-postpi-par    96.5 90.3 79.2 62.6 45.1
-bs-postpi-nonpar 96.3 89.9 79.8 61.6 45.6
-val*             94.8 94.8 94.1 95.8 95.1
-observed         95.4 95.1 95.0 94.3 95.1
-[1] 3
-[1] 0.7720187
-                 150           300 600 1200 2400
-naive            "0.114/0.198" NA  NA  NA   NA  
-der-postpi       "0.243/0.201" NA  NA  NA   NA  
-bs-postpi-par    "0.243/0.206" NA  NA  NA   NA  
-bs-postpi-nonpar "0.245/0.206" NA  NA  NA   NA  
-val*             "0.236/0.238" NA  NA  NA   NA  
-observed         "0.118/0.116" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive             0.013  NA  NA   NA   NA
-der-postpi       -0.070  NA  NA   NA   NA
-bs-postpi-par    -0.066  NA  NA   NA   NA
-bs-postpi-nonpar -0.066  NA  NA   NA   NA
-val*              0.007  NA  NA   NA   NA
-observed         -0.002  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.039  NA  NA   NA   NA
-der-postpi       0.045  NA  NA   NA   NA
-bs-postpi-par    0.047  NA  NA   NA   NA
-bs-postpi-nonpar 0.047  NA  NA   NA   NA
-val*             0.057  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                  150 300 600 1200 2400
-naive            75.0  NA  NA   NA   NA
-der-postpi       97.1  NA  NA   NA   NA
-bs-postpi-par    97.0  NA  NA   NA   NA
-bs-postpi-nonpar 96.7  NA  NA   NA   NA
-val*             94.8  NA  NA   NA   NA
-observed         95.4  NA  NA   NA   NA
-[1] 3
-[1] 0.7714621
-                 150           300           600 1200 2400
-naive            "0.114/0.198" "0.08/0.177"  NA  NA   NA  
-der-postpi       "0.243/0.201" "0.17/0.18"   NA  NA   NA  
-bs-postpi-par    "0.243/0.206" "0.17/0.183"  NA  NA   NA  
-bs-postpi-nonpar "0.245/0.206" "0.171/0.183" NA  NA   NA  
-val*             "0.236/0.238" "0.166/0.172" NA  NA   NA  
-observed         "0.118/0.116" "0.118/0.119" NA  NA   NA  
-                    150    300 600 1200 2400
-naive             0.013 -0.001  NA   NA   NA
-der-postpi       -0.070 -0.072  NA   NA   NA
-bs-postpi-par    -0.066 -0.068  NA   NA   NA
-bs-postpi-nonpar -0.066 -0.068  NA   NA   NA
-val*              0.007  0.001  NA   NA   NA
-observed         -0.002  0.002  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.039 0.031  NA   NA   NA
-der-postpi       0.045 0.037  NA   NA   NA
-bs-postpi-par    0.047 0.038  NA   NA   NA
-bs-postpi-nonpar 0.047 0.038  NA   NA   NA
-val*             0.057 0.029  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                  150  300 600 1200 2400
-naive            75.0 61.7  NA   NA   NA
-der-postpi       97.1 91.1  NA   NA   NA
-bs-postpi-par    97.0 91.2  NA   NA   NA
-bs-postpi-nonpar 96.7 91.9  NA   NA   NA
-val*             94.8 94.8  NA   NA   NA
-observed         95.4 95.1  NA   NA   NA
-[1] 3
-[1] 0.7711342
-                 150           300           600           1200 2400
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" NA   NA  
-der-postpi       "0.243/0.201" "0.17/0.18"   "0.12/0.175"  NA   NA  
-bs-postpi-par    "0.243/0.206" "0.17/0.183"  "0.12/0.175"  NA   NA  
-bs-postpi-nonpar "0.245/0.206" "0.171/0.183" "0.121/0.175" NA   NA  
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" NA   NA  
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" NA   NA  
-                    150    300    600 1200 2400
-naive             0.013 -0.001  0.007   NA   NA
-der-postpi       -0.070 -0.072 -0.066   NA   NA
-bs-postpi-par    -0.066 -0.068 -0.061   NA   NA
-bs-postpi-nonpar -0.066 -0.068 -0.061   NA   NA
-val*              0.007  0.001  0.003   NA   NA
-observed         -0.002  0.002  0.002   NA   NA
-                   150   300   600 1200 2400
-naive            0.039 0.031 0.026   NA   NA
-der-postpi       0.045 0.037 0.035   NA   NA
-bs-postpi-par    0.047 0.038 0.034   NA   NA
-bs-postpi-nonpar 0.047 0.038 0.034   NA   NA
-val*             0.057 0.029 0.014   NA   NA
-observed            NA    NA    NA   NA   NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2   NA   NA
-der-postpi       97.1 91.1 79.6   NA   NA
-bs-postpi-par    97.0 91.2 80.4   NA   NA
-bs-postpi-nonpar 96.7 91.9 80.1   NA   NA
-val*             94.8 94.8 94.1   NA   NA
-observed         95.4 95.1 95.0   NA   NA
-[1] 3
-[1] 0.7716782
-                 150           300           600           1200          2400
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" "0.04/0.161"  NA  
-der-postpi       "0.243/0.201" "0.17/0.18"   "0.12/0.175"  "0.085/0.173" NA  
-bs-postpi-par    "0.243/0.206" "0.17/0.183"  "0.12/0.175"  "0.085/0.174" NA  
-bs-postpi-nonpar "0.245/0.206" "0.171/0.183" "0.121/0.175" "0.085/0.174" NA  
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" "0.084/0.081" NA  
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" "0.118/0.122" NA  
-                    150    300    600   1200 2400
-naive             0.013 -0.001  0.007  0.000   NA
-der-postpi       -0.070 -0.072 -0.066 -0.074   NA
-bs-postpi-par    -0.066 -0.068 -0.061 -0.073   NA
-bs-postpi-nonpar -0.066 -0.068 -0.061 -0.073   NA
-val*              0.007  0.001  0.003  0.000   NA
-observed         -0.002  0.002  0.002  0.000   NA
-                   150   300   600  1200 2400
-naive            0.039 0.031 0.026 0.026   NA
-der-postpi       0.045 0.037 0.035 0.035   NA
-bs-postpi-par    0.047 0.038 0.034 0.036   NA
-bs-postpi-nonpar 0.047 0.038 0.034 0.036   NA
-val*             0.057 0.029 0.014 0.007   NA
-observed            NA    NA    NA    NA   NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2 38.0   NA
-der-postpi       97.1 91.1 79.6 63.1   NA
-bs-postpi-par    97.0 91.2 80.4 62.9   NA
-bs-postpi-nonpar 96.7 91.9 80.1 62.8   NA
-val*             94.8 94.8 94.1 95.8   NA
-observed         95.4 95.1 95.0 94.3   NA
-[1] 3
-[1] 0.7723981
-                 150           300           600           1200         
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" "0.04/0.161" 
-der-postpi       "0.243/0.201" "0.17/0.18"   "0.12/0.175"  "0.085/0.173"
-bs-postpi-par    "0.243/0.206" "0.17/0.183"  "0.12/0.175"  "0.085/0.174"
-bs-postpi-nonpar "0.245/0.206" "0.171/0.183" "0.121/0.175" "0.085/0.174"
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" "0.084/0.081"
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" "0.118/0.122"
-                 2400         
-naive            "0.028/0.157"
-der-postpi       "0.06/0.166" 
-bs-postpi-par    "0.06/0.166" 
-bs-postpi-nonpar "0.06/0.166" 
-val*             "0.059/0.058"
-observed         "0.118/0.12" 
-                    150    300    600   1200   2400
-naive             0.013 -0.001  0.007  0.000 -0.008
-der-postpi       -0.070 -0.072 -0.066 -0.074 -0.070
-bs-postpi-par    -0.066 -0.068 -0.061 -0.073 -0.067
-bs-postpi-nonpar -0.066 -0.068 -0.061 -0.073 -0.067
-val*              0.007  0.001  0.003  0.000  0.002
-observed         -0.002  0.002  0.002  0.000 -0.004
-                   150   300   600  1200  2400
-naive            0.039 0.031 0.026 0.026 0.025
-der-postpi       0.045 0.037 0.035 0.035 0.032
-bs-postpi-par    0.047 0.038 0.034 0.036 0.032
-bs-postpi-nonpar 0.047 0.038 0.034 0.036 0.032
-val*             0.057 0.029 0.014 0.007 0.003
-observed            NA    NA    NA    NA    NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2 38.0 27.9
-der-postpi       97.1 91.1 79.6 63.1 48.1
-bs-postpi-par    97.0 91.2 80.4 62.9 48.1
-bs-postpi-nonpar 96.7 91.9 80.1 62.8 48.2
-val*             94.8 94.8 94.1 95.8 95.1
-observed         95.4 95.1 95.0 94.3 95.1
-[1] 5
-[1] 0.8884838
-                 150           300 600 1200 2400
-naive            "0.114/0.198" NA  NA  NA   NA  
-der-postpi       "0.244/0.196" NA  NA  NA   NA  
-bs-postpi-par    "0.243/0.201" NA  NA  NA   NA  
-bs-postpi-nonpar "0.245/0.201" NA  NA  NA   NA  
-val*             "0.236/0.238" NA  NA  NA   NA  
-observed         "0.118/0.116" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive             0.013  NA  NA   NA   NA
-der-postpi       -0.049  NA  NA   NA   NA
-bs-postpi-par    -0.043  NA  NA   NA   NA
-bs-postpi-nonpar -0.043  NA  NA   NA   NA
-val*              0.007  NA  NA   NA   NA
-observed         -0.002  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.039  NA  NA   NA   NA
-der-postpi       0.041  NA  NA   NA   NA
-bs-postpi-par    0.042  NA  NA   NA   NA
-bs-postpi-nonpar 0.042  NA  NA   NA   NA
-val*             0.057  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                  150 300 600 1200 2400
-naive            75.0  NA  NA   NA   NA
-der-postpi       97.8  NA  NA   NA   NA
-bs-postpi-par    97.8  NA  NA   NA   NA
-bs-postpi-nonpar 98.1  NA  NA   NA   NA
-val*             94.8  NA  NA   NA   NA
-observed         95.4  NA  NA   NA   NA
-[1] 5
-[1] 0.8881542
-                 150           300           600 1200 2400
-naive            "0.114/0.198" "0.08/0.177"  NA  NA   NA  
-der-postpi       "0.244/0.196" "0.171/0.177" NA  NA   NA  
-bs-postpi-par    "0.243/0.201" "0.17/0.179"  NA  NA   NA  
-bs-postpi-nonpar "0.245/0.201" "0.172/0.179" NA  NA   NA  
-val*             "0.236/0.238" "0.166/0.172" NA  NA   NA  
-observed         "0.118/0.116" "0.118/0.119" NA  NA   NA  
-                    150    300 600 1200 2400
-naive             0.013 -0.001  NA   NA   NA
-der-postpi       -0.049 -0.050  NA   NA   NA
-bs-postpi-par    -0.043 -0.044  NA   NA   NA
-bs-postpi-nonpar -0.043 -0.044  NA   NA   NA
-val*              0.007  0.001  NA   NA   NA
-observed         -0.002  0.002  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.039 0.031  NA   NA   NA
-der-postpi       0.041 0.034  NA   NA   NA
-bs-postpi-par    0.042 0.034  NA   NA   NA
-bs-postpi-nonpar 0.042 0.034  NA   NA   NA
-val*             0.057 0.029  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                  150  300 600 1200 2400
-naive            75.0 61.7  NA   NA   NA
-der-postpi       97.8 92.7  NA   NA   NA
-bs-postpi-par    97.8 92.6  NA   NA   NA
-bs-postpi-nonpar 98.1 93.2  NA   NA   NA
-val*             94.8 94.8  NA   NA   NA
-observed         95.4 95.1  NA   NA   NA
-[1] 5
-[1] 0.887882
-                 150           300           600           1200 2400
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" NA   NA  
-der-postpi       "0.244/0.196" "0.171/0.177" "0.121/0.172" NA   NA  
-bs-postpi-par    "0.243/0.201" "0.17/0.179"  "0.12/0.173"  NA   NA  
-bs-postpi-nonpar "0.245/0.201" "0.172/0.179" "0.121/0.173" NA   NA  
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" NA   NA  
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" NA   NA  
-                    150    300    600 1200 2400
-naive             0.013 -0.001  0.007   NA   NA
-der-postpi       -0.049 -0.050 -0.046   NA   NA
-bs-postpi-par    -0.043 -0.044 -0.040   NA   NA
-bs-postpi-nonpar -0.043 -0.044 -0.040   NA   NA
-val*              0.007  0.001  0.003   NA   NA
-observed         -0.002  0.002  0.002   NA   NA
-                   150   300   600 1200 2400
-naive            0.039 0.031 0.026   NA   NA
-der-postpi       0.041 0.034 0.032   NA   NA
-bs-postpi-par    0.042 0.034 0.031   NA   NA
-bs-postpi-nonpar 0.042 0.034 0.031   NA   NA
-val*             0.057 0.029 0.014   NA   NA
-observed            NA    NA    NA   NA   NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2   NA   NA
-der-postpi       97.8 92.7 83.0   NA   NA
-bs-postpi-par    97.8 92.6 83.3   NA   NA
-bs-postpi-nonpar 98.1 93.2 83.2   NA   NA
-val*             94.8 94.8 94.1   NA   NA
-observed         95.4 95.1 95.0   NA   NA
-[1] 5
-[1] 0.8882053
-                 150           300           600           1200          2400
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" "0.04/0.161"  NA  
-der-postpi       "0.244/0.196" "0.171/0.177" "0.121/0.172" "0.085/0.168" NA  
-bs-postpi-par    "0.243/0.201" "0.17/0.179"  "0.12/0.173"  "0.085/0.169" NA  
-bs-postpi-nonpar "0.245/0.201" "0.172/0.179" "0.121/0.173" "0.086/0.169" NA  
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" "0.084/0.081" NA  
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" "0.118/0.122" NA  
-                    150    300    600   1200 2400
-naive             0.013 -0.001  0.007  0.000   NA
-der-postpi       -0.049 -0.050 -0.046 -0.052   NA
-bs-postpi-par    -0.043 -0.044 -0.040 -0.049   NA
-bs-postpi-nonpar -0.043 -0.044 -0.040 -0.049   NA
-val*              0.007  0.001  0.003  0.000   NA
-observed         -0.002  0.002  0.002  0.000   NA
-                   150   300   600  1200 2400
-naive            0.039 0.031 0.026 0.026   NA
-der-postpi       0.041 0.034 0.032 0.031   NA
-bs-postpi-par    0.042 0.034 0.031 0.031   NA
-bs-postpi-nonpar 0.042 0.034 0.031 0.031   NA
-val*             0.057 0.029 0.014 0.007   NA
-observed            NA    NA    NA    NA   NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2 38.0   NA
-der-postpi       97.8 92.7 83.0 65.8   NA
-bs-postpi-par    97.8 92.6 83.3 66.6   NA
-bs-postpi-nonpar 98.1 93.2 83.2 67.2   NA
-val*             94.8 94.8 94.1 95.8   NA
-observed         95.4 95.1 95.0 94.3   NA
-[1] 5
-[1] 0.8886336
-                 150           300           600           1200         
-naive            "0.114/0.198" "0.08/0.177"  "0.056/0.161" "0.04/0.161" 
-der-postpi       "0.244/0.196" "0.171/0.177" "0.121/0.172" "0.085/0.168"
-bs-postpi-par    "0.243/0.201" "0.17/0.179"  "0.12/0.173"  "0.085/0.169"
-bs-postpi-nonpar "0.245/0.201" "0.172/0.179" "0.121/0.173" "0.086/0.169"
-val*             "0.236/0.238" "0.166/0.172" "0.118/0.118" "0.084/0.081"
-observed         "0.118/0.116" "0.118/0.119" "0.118/0.117" "0.118/0.122"
-                 2400         
-naive            "0.028/0.157"
-der-postpi       "0.06/0.163" 
-bs-postpi-par    "0.06/0.163" 
-bs-postpi-nonpar "0.06/0.163" 
-val*             "0.059/0.058"
-observed         "0.118/0.12" 
-                    150    300    600   1200   2400
-naive             0.013 -0.001  0.007  0.000 -0.008
-der-postpi       -0.049 -0.050 -0.046 -0.052 -0.047
-bs-postpi-par    -0.043 -0.044 -0.040 -0.049 -0.043
-bs-postpi-nonpar -0.043 -0.044 -0.040 -0.049 -0.043
-val*              0.007  0.001  0.003  0.000  0.002
-observed         -0.002  0.002  0.002  0.000 -0.004
-                   150   300   600  1200  2400
-naive            0.039 0.031 0.026 0.026 0.025
-der-postpi       0.041 0.034 0.032 0.031 0.029
-bs-postpi-par    0.042 0.034 0.031 0.031 0.029
-bs-postpi-nonpar 0.042 0.034 0.031 0.031 0.029
-val*             0.057 0.029 0.014 0.007 0.003
-observed            NA    NA    NA    NA    NA
-                  150  300  600 1200 2400
-naive            75.0 61.7 51.2 38.0 27.9
-der-postpi       97.8 92.7 83.0 65.8 51.0
-bs-postpi-par    97.8 92.6 83.3 66.6 51.3
-bs-postpi-nonpar 98.1 93.2 83.2 67.2 50.5
-val*             94.8 94.8 94.1 95.8 95.1
-observed         95.4 95.1 95.0 94.3 95.1
-[1] 0
-[1] 0.4334474
-                 150           300 600 1200 2400
-naive            "0.111/0.158" NA  NA  NA   NA  
-der-postpi       "0.237/0.149" NA  NA  NA   NA  
-bs-postpi-par    "0.237/0.153" NA  NA  NA   NA  
-bs-postpi-nonpar "0.239/0.153" NA  NA  NA   NA  
-val*             "0.234/0.242" NA  NA  NA   NA  
-observed         "0.084/0.082" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive            -0.001  NA  NA   NA   NA
-der-postpi        0.000  NA  NA   NA   NA
-bs-postpi-par    -0.001  NA  NA   NA   NA
-bs-postpi-nonpar -0.001  NA  NA   NA   NA
-val*             -0.004  NA  NA   NA   NA
-observed          0.002  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.025  NA  NA   NA   NA
-der-postpi       0.022  NA  NA   NA   NA
-bs-postpi-par    0.023  NA  NA   NA   NA
-bs-postpi-nonpar 0.023  NA  NA   NA   NA
-val*             0.059  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                  150 300 600 1200 2400
-naive            82.2  NA  NA   NA   NA
-der-postpi       99.7  NA  NA   NA   NA
-bs-postpi-par    99.6  NA  NA   NA   NA
-bs-postpi-nonpar 99.5  NA  NA   NA   NA
-val*             94.1  NA  NA   NA   NA
-observed         94.5  NA  NA   NA   NA
-[1] 0
-[1] 0.4339145
-                 150           300           600 1200 2400
-naive            "0.111/0.158" "0.078/0.131" NA  NA   NA  
-der-postpi       "0.237/0.149" "0.167/0.125" NA  NA   NA  
-bs-postpi-par    "0.237/0.153" "0.167/0.128" NA  NA   NA  
-bs-postpi-nonpar "0.239/0.153" "0.167/0.128" NA  NA   NA  
-val*             "0.234/0.242" "0.166/0.175" NA  NA   NA  
-observed         "0.084/0.082" "0.084/0.082" NA  NA   NA  
-                    150    300 600 1200 2400
-naive            -0.001 -0.006  NA   NA   NA
-der-postpi        0.000 -0.005  NA   NA   NA
-bs-postpi-par    -0.001 -0.005  NA   NA   NA
-bs-postpi-nonpar -0.001 -0.005  NA   NA   NA
-val*             -0.004 -0.003  NA   NA   NA
-observed          0.002  0.001  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.025 0.017  NA   NA   NA
-der-postpi       0.022 0.016  NA   NA   NA
-bs-postpi-par    0.023 0.016  NA   NA   NA
-bs-postpi-nonpar 0.023 0.016  NA   NA   NA
-val*             0.059 0.031  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                  150  300 600 1200 2400
-naive            82.2 74.3  NA   NA   NA
-der-postpi       99.7 99.5  NA   NA   NA
-bs-postpi-par    99.6 99.1  NA   NA   NA
-bs-postpi-nonpar 99.5 99.0  NA   NA   NA
-val*             94.1 93.4  NA   NA   NA
-observed         94.5 95.8  NA   NA   NA
-[1] 0
-[1] 0.4333313
-                 150           300           600           1200 2400
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" NA   NA  
-der-postpi       "0.237/0.149" "0.167/0.125" "0.118/0.117" NA   NA  
-bs-postpi-par    "0.237/0.153" "0.167/0.128" "0.118/0.118" NA   NA  
-bs-postpi-nonpar "0.239/0.153" "0.167/0.128" "0.118/0.118" NA   NA  
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" NA   NA  
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" NA   NA  
-                    150    300    600 1200 2400
-naive            -0.001 -0.006 -0.002   NA   NA
-der-postpi        0.000 -0.005 -0.001   NA   NA
-bs-postpi-par    -0.001 -0.005 -0.001   NA   NA
-bs-postpi-nonpar -0.001 -0.005 -0.001   NA   NA
-val*             -0.004 -0.003 -0.004   NA   NA
-observed          0.002  0.001  0.003   NA   NA
-                   150   300   600 1200 2400
-naive            0.025 0.017 0.015   NA   NA
-der-postpi       0.022 0.016 0.014   NA   NA
-bs-postpi-par    0.023 0.016 0.014   NA   NA
-bs-postpi-nonpar 0.023 0.016 0.014   NA   NA
-val*             0.059 0.031 0.013   NA   NA
-observed            NA    NA    NA   NA   NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0   NA   NA
-der-postpi       99.7 99.5 94.6   NA   NA
-bs-postpi-par    99.6 99.1 94.8   NA   NA
-bs-postpi-nonpar 99.5 99.0 94.1   NA   NA
-val*             94.1 93.4 95.2   NA   NA
-observed         94.5 95.8 96.4   NA   NA
-[1] 0
-[1] 0.4329795
-                 150           300           600           1200          2400
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" "0.039/0.117" NA  
-der-postpi       "0.237/0.149" "0.167/0.125" "0.118/0.117" "0.083/0.11"  NA  
-bs-postpi-par    "0.237/0.153" "0.167/0.128" "0.118/0.118" "0.083/0.11"  NA  
-bs-postpi-nonpar "0.239/0.153" "0.167/0.128" "0.118/0.118" "0.083/0.11"  NA  
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" "0.083/0.085" NA  
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" "0.084/0.086" NA  
-                    150    300    600   1200 2400
-naive            -0.001 -0.006 -0.002  0.003   NA
-der-postpi        0.000 -0.005 -0.001  0.003   NA
-bs-postpi-par    -0.001 -0.005 -0.001  0.003   NA
-bs-postpi-nonpar -0.001 -0.005 -0.001  0.003   NA
-val*             -0.004 -0.003 -0.004  0.001   NA
-observed          0.002  0.001  0.003 -0.001   NA
-                   150   300   600  1200 2400
-naive            0.025 0.017 0.015 0.014   NA
-der-postpi       0.022 0.016 0.014 0.012   NA
-bs-postpi-par    0.023 0.016 0.014 0.012   NA
-bs-postpi-nonpar 0.023 0.016 0.014 0.012   NA
-val*             0.059 0.031 0.013 0.007   NA
-observed            NA    NA    NA    NA   NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0 48.1   NA
-der-postpi       99.7 99.5 94.6 86.7   NA
-bs-postpi-par    99.6 99.1 94.8 86.6   NA
-bs-postpi-nonpar 99.5 99.0 94.1 87.1   NA
-val*             94.1 93.4 95.2 94.4   NA
-observed         94.5 95.8 96.4 94.1   NA
-[1] 0
-[1] 0.4335707
-                 150           300           600           1200         
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" "0.039/0.117"
-der-postpi       "0.237/0.149" "0.167/0.125" "0.118/0.117" "0.083/0.11" 
-bs-postpi-par    "0.237/0.153" "0.167/0.128" "0.118/0.118" "0.083/0.11" 
-bs-postpi-nonpar "0.239/0.153" "0.167/0.128" "0.118/0.118" "0.083/0.11" 
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" "0.083/0.085"
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" "0.084/0.086"
-                 2400         
-naive            "0.027/0.111"
-der-postpi       "0.059/0.106"
-bs-postpi-par    "0.059/0.106"
-bs-postpi-nonpar "0.059/0.106"
-val*             "0.059/0.057"
-observed         "0.084/0.083"
-                    150    300    600   1200   2400
-naive            -0.001 -0.006 -0.002  0.003 -0.003
-der-postpi        0.000 -0.005 -0.001  0.003 -0.003
-bs-postpi-par    -0.001 -0.005 -0.001  0.003 -0.002
-bs-postpi-nonpar -0.001 -0.005 -0.001  0.003 -0.002
-val*             -0.004 -0.003 -0.004  0.001  0.002
-observed          0.002  0.001  0.003 -0.001 -0.002
-                   150   300   600  1200  2400
-naive            0.025 0.017 0.015 0.014 0.012
-der-postpi       0.022 0.016 0.014 0.012 0.011
-bs-postpi-par    0.023 0.016 0.014 0.012 0.011
-bs-postpi-nonpar 0.023 0.016 0.014 0.012 0.011
-val*             0.059 0.031 0.013 0.007 0.003
-observed            NA    NA    NA    NA    NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0 48.1 38.9
-der-postpi       99.7 99.5 94.6 86.7 72.3
-bs-postpi-par    99.6 99.1 94.8 86.6 73.2
-bs-postpi-nonpar 99.5 99.0 94.1 87.1 72.4
-val*             94.1 93.4 95.2 94.4 96.3
-observed         94.5 95.8 96.4 94.1 95.0
-[1] 1
-[1] 0.5243195
-                 150           300 600 1200 2400
-naive            "0.111/0.158" NA  NA  NA   NA  
-der-postpi       "0.238/0.165" NA  NA  NA   NA  
-bs-postpi-par    "0.238/0.168" NA  NA  NA   NA  
-bs-postpi-nonpar "0.239/0.168" NA  NA  NA   NA  
-val*             "0.234/0.242" NA  NA  NA   NA  
-observed         "0.084/0.082" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive            -0.001  NA  NA   NA   NA
-der-postpi       -0.038  NA  NA   NA   NA
-bs-postpi-par    -0.039  NA  NA   NA   NA
-bs-postpi-nonpar -0.039  NA  NA   NA   NA
-val*             -0.004  NA  NA   NA   NA
-observed          0.002  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.025  NA  NA   NA   NA
-der-postpi       0.029  NA  NA   NA   NA
-bs-postpi-par    0.030  NA  NA   NA   NA
-bs-postpi-nonpar 0.030  NA  NA   NA   NA
-val*             0.059  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                  150 300 600 1200 2400
-naive            82.2  NA  NA   NA   NA
-der-postpi       99.6  NA  NA   NA   NA
-bs-postpi-par    99.5  NA  NA   NA   NA
-bs-postpi-nonpar 99.4  NA  NA   NA   NA
-val*             94.1  NA  NA   NA   NA
-observed         94.5  NA  NA   NA   NA
-[1] 1
-[1] 0.5244991
-                 150           300           600 1200 2400
-naive            "0.111/0.158" "0.078/0.131" NA  NA   NA  
-der-postpi       "0.238/0.165" "0.168/0.136" NA  NA   NA  
-bs-postpi-par    "0.238/0.168" "0.168/0.138" NA  NA   NA  
-bs-postpi-nonpar "0.239/0.168" "0.167/0.138" NA  NA   NA  
-val*             "0.234/0.242" "0.166/0.175" NA  NA   NA  
-observed         "0.084/0.082" "0.084/0.082" NA  NA   NA  
-                    150    300 600 1200 2400
-naive            -0.001 -0.006  NA   NA   NA
-der-postpi       -0.038 -0.041  NA   NA   NA
-bs-postpi-par    -0.039 -0.041  NA   NA   NA
-bs-postpi-nonpar -0.039 -0.041  NA   NA   NA
-val*             -0.004 -0.003  NA   NA   NA
-observed          0.002  0.001  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.025 0.017  NA   NA   NA
-der-postpi       0.029 0.020  NA   NA   NA
-bs-postpi-par    0.030 0.021  NA   NA   NA
-bs-postpi-nonpar 0.030 0.021  NA   NA   NA
-val*             0.059 0.031  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                  150  300 600 1200 2400
-naive            82.2 74.3  NA   NA   NA
-der-postpi       99.6 97.9  NA   NA   NA
-bs-postpi-par    99.5 97.9  NA   NA   NA
-bs-postpi-nonpar 99.4 97.6  NA   NA   NA
-val*             94.1 93.4  NA   NA   NA
-observed         94.5 95.8  NA   NA   NA
-[1] 1
-[1] 0.5240794
-                 150           300           600           1200 2400
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" NA   NA  
-der-postpi       "0.238/0.165" "0.168/0.136" "0.119/0.125" NA   NA  
-bs-postpi-par    "0.238/0.168" "0.168/0.138" "0.118/0.126" NA   NA  
-bs-postpi-nonpar "0.239/0.168" "0.167/0.138" "0.119/0.126" NA   NA  
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" NA   NA  
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" NA   NA  
-                    150    300    600 1200 2400
-naive            -0.001 -0.006 -0.002   NA   NA
-der-postpi       -0.038 -0.041 -0.037   NA   NA
-bs-postpi-par    -0.039 -0.041 -0.037   NA   NA
-bs-postpi-nonpar -0.039 -0.041 -0.037   NA   NA
-val*             -0.004 -0.003 -0.004   NA   NA
-observed          0.002  0.001  0.003   NA   NA
-                   150   300   600 1200 2400
-naive            0.025 0.017 0.015   NA   NA
-der-postpi       0.029 0.020 0.017   NA   NA
-bs-postpi-par    0.030 0.021 0.017   NA   NA
-bs-postpi-nonpar 0.030 0.021 0.017   NA   NA
-val*             0.059 0.031 0.013   NA   NA
-observed            NA    NA    NA   NA   NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0   NA   NA
-der-postpi       99.6 97.9 92.6   NA   NA
-bs-postpi-par    99.5 97.9 92.4   NA   NA
-bs-postpi-nonpar 99.4 97.6 91.8   NA   NA
-val*             94.1 93.4 95.2   NA   NA
-observed         94.5 95.8 96.4   NA   NA
-[1] 1
-[1] 0.5224068
-                 150           300           600           1200          2400
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" "0.039/0.117" NA  
-der-postpi       "0.238/0.165" "0.168/0.136" "0.119/0.125" "0.084/0.124" NA  
-bs-postpi-par    "0.238/0.168" "0.168/0.138" "0.118/0.126" "0.084/0.125" NA  
-bs-postpi-nonpar "0.239/0.168" "0.167/0.138" "0.119/0.126" "0.084/0.125" NA  
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" "0.083/0.085" NA  
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" "0.084/0.086" NA  
-                    150    300    600   1200 2400
-naive            -0.001 -0.006 -0.002  0.003   NA
-der-postpi       -0.038 -0.041 -0.037 -0.036   NA
-bs-postpi-par    -0.039 -0.041 -0.037 -0.036   NA
-bs-postpi-nonpar -0.039 -0.041 -0.037 -0.036   NA
-val*             -0.004 -0.003 -0.004  0.001   NA
-observed          0.002  0.001  0.003 -0.001   NA
-                   150   300   600  1200 2400
-naive            0.025 0.017 0.015 0.014   NA
-der-postpi       0.029 0.020 0.017 0.017   NA
-bs-postpi-par    0.030 0.021 0.017 0.017   NA
-bs-postpi-nonpar 0.030 0.021 0.017 0.017   NA
-val*             0.059 0.031 0.013 0.007   NA
-observed            NA    NA    NA    NA   NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0 48.1   NA
-der-postpi       99.6 97.9 92.6 80.6   NA
-bs-postpi-par    99.5 97.9 92.4 79.2   NA
-bs-postpi-nonpar 99.4 97.6 91.8 79.2   NA
-val*             94.1 93.4 95.2 94.4   NA
-observed         94.5 95.8 96.4 94.1   NA
-[1] 1
-[1] 0.5233923
-                 150           300           600           1200         
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" "0.039/0.117"
-der-postpi       "0.238/0.165" "0.168/0.136" "0.119/0.125" "0.084/0.124"
-bs-postpi-par    "0.238/0.168" "0.168/0.138" "0.118/0.126" "0.084/0.125"
-bs-postpi-nonpar "0.239/0.168" "0.167/0.138" "0.119/0.126" "0.084/0.125"
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" "0.083/0.085"
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" "0.084/0.086"
-                 2400         
-naive            "0.027/0.111"
-der-postpi       "0.059/0.122"
-bs-postpi-par    "0.059/0.122"
-bs-postpi-nonpar "0.059/0.122"
-val*             "0.059/0.057"
-observed         "0.084/0.083"
-                    150    300    600   1200   2400
-naive            -0.001 -0.006 -0.002  0.003 -0.003
-der-postpi       -0.038 -0.041 -0.037 -0.036 -0.032
-bs-postpi-par    -0.039 -0.041 -0.037 -0.036 -0.034
-bs-postpi-nonpar -0.039 -0.041 -0.037 -0.036 -0.034
-val*             -0.004 -0.003 -0.004  0.001  0.002
-observed          0.002  0.001  0.003 -0.001 -0.002
-                   150   300   600  1200  2400
-naive            0.025 0.017 0.015 0.014 0.012
-der-postpi       0.029 0.020 0.017 0.017 0.016
-bs-postpi-par    0.030 0.021 0.017 0.017 0.016
-bs-postpi-nonpar 0.030 0.021 0.017 0.017 0.016
-val*             0.059 0.031 0.013 0.007 0.003
-observed            NA    NA    NA    NA    NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0 48.1 38.9
-der-postpi       99.6 97.9 92.6 80.6 65.7
-bs-postpi-par    99.5 97.9 92.4 79.2 65.9
-bs-postpi-nonpar 99.4 97.6 91.8 79.2 65.4
-val*             94.1 93.4 95.2 94.4 96.3
-observed         94.5 95.8 96.4 94.1 95.0
-[1] 3
-[1] 0.7804269
-                 150           300 600 1200 2400
-naive            "0.111/0.158" NA  NA  NA   NA  
-der-postpi       "0.24/0.166"  NA  NA  NA   NA  
-bs-postpi-par    "0.24/0.169"  NA  NA  NA   NA  
-bs-postpi-nonpar "0.241/0.169" NA  NA  NA   NA  
-val*             "0.234/0.242" NA  NA  NA   NA  
-observed         "0.084/0.082" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive            -0.001  NA  NA   NA   NA
-der-postpi       -0.026  NA  NA   NA   NA
-bs-postpi-par    -0.024  NA  NA   NA   NA
-bs-postpi-nonpar -0.024  NA  NA   NA   NA
-val*             -0.004  NA  NA   NA   NA
-observed          0.002  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.025  NA  NA   NA   NA
-der-postpi       0.028  NA  NA   NA   NA
+naive            0.043  NA  NA   NA   NA
+der-postpi       0.031  NA  NA   NA   NA
 bs-postpi-par    0.029  NA  NA   NA   NA
 bs-postpi-nonpar 0.029  NA  NA   NA   NA
-val*             0.059  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                  150 300 600 1200 2400
-naive            82.2  NA  NA   NA   NA
-der-postpi       99.4  NA  NA   NA   NA
-bs-postpi-par    99.3  NA  NA   NA   NA
-bs-postpi-nonpar 99.1  NA  NA   NA   NA
-val*             94.1  NA  NA   NA   NA
-observed         94.5  NA  NA   NA   NA
-[1] 3
-[1] 0.7802419
+val*             0.062  NA  NA   NA   NA
+observed         0.026  NA  NA   NA   NA
+predpowinf       0.032  NA  NA   NA   NA
+                 150 300 600 1200 2400
+naive             74  NA  NA   NA   NA
+der-postpi        99  NA  NA   NA   NA
+bs-postpi-par    100  NA  NA   NA   NA
+bs-postpi-nonpar 100  NA  NA   NA   NA
+val*              97  NA  NA   NA   NA
+observed          95  NA  NA   NA   NA
+predpowinf        97  NA  NA   NA   NA
+[1] 0
+[1] 0.4174684
+(Intercept)          x1 
+ 11.2832574   0.2018525 
+[1] 0.1780091
+(Intercept)          x1 
+11.19493045  0.01109046 
+[1] 0.170091
+(Intercept)          x1 
+ 11.5184147  -0.1713121 
+[1] 0.2047357
+(Intercept)          x1 
+11.06176706 -0.05224933 
+[1] 0.2077838
+(Intercept)          x1 
+11.38687504  0.01373173 
+[1] 0.1602235
+(Intercept)          x1 
+ 11.7005504   0.1117291 
+[1] 0.1767225
+(Intercept)          x1 
+ 10.8260955  -0.1347801 
+[1] 0.1877638
+(Intercept)          x1 
+ 11.6645642   0.1564142 
+[1] 0.1745437
+(Intercept)          x1 
+ 11.9351777   0.1426979 
+[1] 0.2150658
+(Intercept)          x1 
+11.61540405 -0.03975798 
+[1] 0.1557105
+(Intercept)          x1 
+11.72568692 -0.04765964 
+[1] 0.1636726
+(Intercept)          x1 
+ 10.9720139   0.2609286 
+[1] 0.1577206
+(Intercept)          x1 
+11.34751729  0.01954357 
+[1] 0.1743579
+(Intercept)          x1 
+11.77226714 -0.07010331 
+[1] 0.1612817
+(Intercept)          x1 
+ 11.4147690  -0.2408322 
+[1] 0.1868435
+(Intercept)          x1 
+ 11.9600814  -0.3102734 
+[1] 0.1797504
+(Intercept)          x1 
+ 11.4541719  -0.1012287 
+[1] 0.1787122
+(Intercept)          x1 
+ 11.3524657  -0.2153638 
+[1] 0.1543084
+(Intercept)          x1 
+ 11.6794999  -0.2484972 
+[1] 0.1825694
+ (Intercept)           x1 
+11.682281468 -0.007980613 
+[1] 0.1396479
+(Intercept)          x1 
+ 11.3817629  -0.1313486 
+[1] 0.1840196
+(Intercept)          x1 
+ 11.8327531   0.3062803 
+[1] 0.1850554
+(Intercept)          x1 
+11.85823285  0.00147947 
+[1] 0.1652243
+(Intercept)          x1 
+ 11.4222883  -0.1614558 
+[1] 0.1697978
+(Intercept)          x1 
+ 11.8607401  -0.1698661 
+[1] 0.1976329
+(Intercept)          x1 
+ 11.5232759   0.1210845 
+[1] 0.1589935
+(Intercept)          x1 
+ 11.1695004   0.1308941 
+[1] 0.1801641
+(Intercept)          x1 
+ 11.5790696  -0.1929048 
+[1] 0.1581016
+(Intercept)          x1 
+11.84580164 -0.00195541 
+[1] 0.1767046
+(Intercept)          x1 
+   11.41830     0.18726 
+[1] 0.2046294
+(Intercept)          x1 
+ 11.3072606   0.1314572 
+[1] 0.1833342
+(Intercept)          x1 
+ 12.1009366  -0.2236263 
+[1] 0.1713605
+(Intercept)          x1 
+11.71010841 -0.02972832 
+[1] 0.1737083
+(Intercept)          x1 
+11.50811713  0.05268568 
+[1] 0.1796649
+(Intercept)          x1 
+  11.369213   -0.358094 
+[1] 0.167006
+(Intercept)          x1 
+  10.729176    0.102488 
+[1] 0.1974931
+(Intercept)          x1 
+ 12.1911052  -0.3268208 
+[1] 0.1565673
+(Intercept)          x1 
+  11.628719   -0.248935 
+[1] 0.1649854
+(Intercept)          x1 
+ 11.9650168  -0.2476336 
+[1] 0.1487217
+(Intercept)          x1 
+11.61268293  0.04612261 
+[1] 0.1570921
+  (Intercept)            x1 
+11.5599413495 -0.0005794336 
+[1] 0.1839592
+(Intercept)          x1 
+11.64147573 -0.01291825 
+[1] 0.1860688
+(Intercept)          x1 
+11.88015378 -0.05477131 
+[1] 0.172043
+(Intercept)          x1 
+11.53086783 -0.02784462 
+[1] 0.1750204
+(Intercept)          x1 
+11.40252287  0.05377347 
+[1] 0.1720361
+(Intercept)          x1 
+ 10.9445461  -0.0695063 
+[1] 0.1510905
+(Intercept)          x1 
+10.65982572 -0.02037853 
+[1] 0.1861523
+(Intercept)          x1 
+ 11.5170105   0.1753715 
+[1] 0.1942817
+(Intercept)          x1 
+ 11.4414674   0.2128611 
+[1] 0.181044
+(Intercept)          x1 
+ 11.8453074  -0.1228045 
+[1] 0.1702824
+(Intercept)          x1 
+11.21909558  0.05430122 
+[1] 0.1796831
+(Intercept)          x1 
+ 11.6857274  -0.1205243 
+[1] 0.1750794
+(Intercept)          x1 
+ 11.2632910  -0.1381078 
+[1] 0.1776935
+(Intercept)          x1 
+11.02647910 -0.05972226 
+[1] 0.1777252
+(Intercept)          x1 
+10.77461731  0.07890561 
+[1] 0.1484976
+(Intercept)          x1 
+11.87725620 -0.08672122 
+[1] 0.1778953
+(Intercept)          x1 
+11.63428589  0.03610799 
+[1] 0.1900789
+(Intercept)          x1 
+ 11.4439152  -0.1655084 
+[1] 0.1901063
+(Intercept)          x1 
+11.48364062  0.06854766 
+[1] 0.1623553
+(Intercept)          x1 
+ 11.2845839   0.2807066 
+[1] 0.1643348
+(Intercept)          x1 
+11.36142886  0.03452658 
+[1] 0.1537324
+(Intercept)          x1 
+ 11.5899608   0.3145413 
+[1] 0.1741217
+(Intercept)          x1 
+11.29534763 -0.03753717 
+[1] 0.1809113
+(Intercept)          x1 
+11.26640716  0.06602593 
+[1] 0.1824752
+(Intercept)          x1 
+ 11.3975613   0.1140874 
+[1] 0.1719809
+(Intercept)          x1 
+ 11.6360403  -0.1506535 
+[1] 0.1798067
+(Intercept)          x1 
+ 11.5071569  -0.1571055 
+[1] 0.172698
+(Intercept)          x1 
+11.87518434 -0.04244182 
+[1] 0.1687268
+(Intercept)          x1 
+ 11.4404070  -0.0144148 
+[1] 0.1832723
+(Intercept)          x1 
+ 11.2931571   0.1429428 
+[1] 0.1738436
+ (Intercept)           x1 
+11.503328603 -0.003518222 
+[1] 0.1670596
+(Intercept)          x1 
+ 11.3304480  -0.1108958 
+[1] 0.1713127
+(Intercept)          x1 
+11.65996050 -0.04060385 
+[1] 0.1841322
+(Intercept)          x1 
+11.51144948  0.04158569 
+[1] 0.1672018
+(Intercept)          x1 
+11.59010991  0.04991502 
+[1] 0.1745794
+(Intercept)          x1 
+ 11.0731301   0.1154238 
+[1] 0.1713089
+(Intercept)          x1 
+ 11.3044150  -0.2806698 
+[1] 0.1658087
+(Intercept)          x1 
+ 11.6368061  -0.2479155 
+[1] 0.1943128
+(Intercept)          x1 
+11.43874966 -0.04741515 
+[1] 0.168993
+(Intercept)          x1 
+11.76066221  0.05997137 
+[1] 0.1696455
+(Intercept)          x1 
+11.42705178 -0.09998501 
+[1] 0.1778978
+(Intercept)          x1 
+ 11.2520859   0.2683972 
+[1] 0.1620343
+ (Intercept)           x1 
+11.826353073  0.001188199 
+[1] 0.1773442
+(Intercept)          x1 
+11.75512806  0.01118113 
+[1] 0.1820207
+(Intercept)          x1 
+ 11.8834454   0.1201517 
+[1] 0.1775509
+(Intercept)          x1 
+ 11.8860249  -0.1245757 
+[1] 0.1803135
+(Intercept)          x1 
+11.54870567 -0.03690261 
+[1] 0.1813463
+(Intercept)          x1 
+11.86816682 -0.08958236 
+[1] 0.1717391
+(Intercept)          x1 
+ 12.2419386  -0.3047452 
+[1] 0.173273
+(Intercept)          x1 
+11.48272005  0.04777452 
+[1] 0.177465
+(Intercept)          x1 
+ 10.8767283   0.0847223 
+[1] 0.1753571
+(Intercept)          x1 
+ 11.4888539   0.0975335 
+[1] 0.1453014
+(Intercept)          x1 
+11.39155406 -0.03627616 
+[1] 0.1554649
+(Intercept)          x1 
+ 12.0290425  -0.1588703 
+[1] 0.1732541
+(Intercept)          x1 
+10.93298596  0.08281946 
+[1] 0.1900486
+(Intercept)          x1 
+ 11.5063496  -0.1327092 
+[1] 0.1956021
+(Intercept)          x1 
+ 12.1519584  -0.1821644 
+[1] 0.1531163
+(Intercept)          x1 
+ 12.2646182  -0.2347252 
+[1] 0.136017
+(Intercept)          x1 
+11.48292858  0.09794203 
+[1] 0.1653893
+(Intercept)          x1 
+ 11.6252722   0.1235548 
+[1] 0.1700348
                  150           300           600 1200 2400
-naive            "0.111/0.158" "0.078/0.131" NA  NA   NA  
-der-postpi       "0.24/0.166"  "0.169/0.135" NA  NA   NA  
-bs-postpi-par    "0.24/0.169"  "0.169/0.138" NA  NA   NA  
-bs-postpi-nonpar "0.241/0.169" "0.17/0.138"  NA  NA   NA  
-val*             "0.234/0.242" "0.166/0.175" NA  NA   NA  
-observed         "0.084/0.082" "0.084/0.082" NA  NA   NA  
+naive            "0.114/0.207" "0.08/0.195"  NA  NA   NA  
+der-postpi       "0.238/0.177" "0.169/0.173" NA  NA   NA  
+bs-postpi-par    "0.238/0.171" "0.168/0.168" NA  NA   NA  
+bs-postpi-nonpar "0.24/0.171"  "0.172/0.168" NA  NA   NA  
+val*             "0.238/0.248" "0.169/0.18"  NA  NA   NA  
+observed         "0.165/0.161" "0.168/0.144" NA  NA   NA  
+predpowinf       "0.188/0.179" "0.174/0.149" NA  NA   NA  
                     150    300 600 1200 2400
-naive            -0.001 -0.006  NA   NA   NA
-der-postpi       -0.026 -0.031  NA   NA   NA
-bs-postpi-par    -0.024 -0.029  NA   NA   NA
-bs-postpi-nonpar -0.024 -0.029  NA   NA   NA
-val*             -0.004 -0.003  NA   NA   NA
-observed          0.002  0.001  NA   NA   NA
+naive            -0.015 -0.020  NA   NA   NA
+der-postpi       -0.012 -0.023  NA   NA   NA
+bs-postpi-par    -0.016 -0.022  NA   NA   NA
+bs-postpi-nonpar -0.016 -0.022  NA   NA   NA
+val*              0.031 -0.028  NA   NA   NA
+observed         -0.002 -0.005  NA   NA   NA
+predpowinf       -0.002 -0.023  NA   NA   NA
                    150   300 600 1200 2400
-naive            0.025 0.017  NA   NA   NA
-der-postpi       0.028 0.019  NA   NA   NA
-bs-postpi-par    0.029 0.020  NA   NA   NA
-bs-postpi-nonpar 0.029 0.020  NA   NA   NA
-val*             0.059 0.031  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                  150  300 600 1200 2400
-naive            82.2 74.3  NA   NA   NA
-der-postpi       99.4 97.8  NA   NA   NA
-bs-postpi-par    99.3 97.9  NA   NA   NA
-bs-postpi-nonpar 99.1 98.1  NA   NA   NA
-val*             94.1 93.4  NA   NA   NA
-observed         94.5 95.8  NA   NA   NA
-[1] 3
-[1] 0.7800737
+naive            0.043 0.038  NA   NA   NA
+der-postpi       0.031 0.030  NA   NA   NA
+bs-postpi-par    0.029 0.029  NA   NA   NA
+bs-postpi-nonpar 0.029 0.029  NA   NA   NA
+val*             0.062 0.033  NA   NA   NA
+observed         0.026 0.020  NA   NA   NA
+predpowinf       0.032 0.022  NA   NA   NA
+                 150 300 600 1200 2400
+naive             74  57  NA   NA   NA
+der-postpi        99  95  NA   NA   NA
+bs-postpi-par    100  96  NA   NA   NA
+bs-postpi-nonpar 100  98  NA   NA   NA
+val*              97  92  NA   NA   NA
+observed          95  97  NA   NA   NA
+predpowinf        97  98  NA   NA   NA
+[1] 0
+[1] 0.4068252
+(Intercept)          x1 
+ 10.5906689   0.2110094 
+[1] 0.1598083
+(Intercept)          x1 
+11.56770505  0.05820598 
+[1] 0.1775878
+(Intercept)          x1 
+ 11.6498294  -0.2204167 
+[1] 0.1611802
+(Intercept)          x1 
+11.47739988 -0.09111547 
+[1] 0.1494148
+(Intercept)          x1 
+  11.989021   -0.282545 
+[1] 0.1554013
+(Intercept)          x1 
+ 11.1332963   0.1476081 
+[1] 0.1403165
+(Intercept)          x1 
+ 12.2833292   0.1724746 
+[1] 0.1705732
+(Intercept)          x1 
+ 11.5423567   0.2504534 
+[1] 0.1803809
+(Intercept)          x1 
+ 11.4097986  -0.1845841 
+[1] 0.1739106
+(Intercept)          x1 
+  11.168976    0.248037 
+[1] 0.1562044
+(Intercept)          x1 
+10.98571750 -0.07317586 
+[1] 0.1693486
+(Intercept)          x1 
+ 11.4151897   0.1211317 
+[1] 0.1630145
+(Intercept)          x1 
+11.90675422 -0.01893919 
+[1] 0.1605995
+(Intercept)          x1 
+ 11.3109230   0.3306067 
+[1] 0.1707733
+(Intercept)          x1 
+10.98686955  0.04370404 
+[1] 0.170593
+(Intercept)          x1 
+ 11.9199242  -0.1746287 
+[1] 0.1509716
+(Intercept)          x1 
+ 11.5375528  -0.1924168 
+[1] 0.1689737
+(Intercept)          x1 
+ 11.4599088   0.1729375 
+[1] 0.1449246
+(Intercept)          x1 
+ 11.4287408   0.2981359 
+[1] 0.1854584
+(Intercept)          x1 
+ 11.9088184  -0.1271405 
+[1] 0.1277482
+(Intercept)          x1 
+  11.706377   -0.322011 
+[1] 0.148057
+(Intercept)          x1 
+ 11.0707550   0.0370476 
+[1] 0.1415183
+(Intercept)          x1 
+11.76993129  0.07153975 
+[1] 0.1702985
+(Intercept)          x1 
+ 11.5101437  -0.1344227 
+[1] 0.1585974
+(Intercept)          x1 
+11.34253771  0.06511475 
+[1] 0.1451097
+(Intercept)          x1 
+11.53275123  0.09621132 
+[1] 0.1720649
+(Intercept)          x1 
+11.35369880  0.03056397 
+[1] 0.1710409
+(Intercept)          x1 
+ 11.2537731   0.1005494 
+[1] 0.1820284
+(Intercept)          x1 
+11.72408891 -0.03954096 
+[1] 0.1780422
+(Intercept)          x1 
+11.65394034  0.06087481 
+[1] 0.1473113
+(Intercept)          x1 
+ 12.1065876  -0.0369737 
+[1] 0.1699788
+(Intercept)          x1 
+ 12.6113375  -0.5311231 
+[1] 0.1892046
+(Intercept)          x1 
+11.64335774  0.07036324 
+[1] 0.1542225
+(Intercept)          x1 
+11.56098031  0.07841968 
+[1] 0.1612838
+(Intercept)          x1 
+ 11.6372885  -0.1713508 
+[1] 0.1951471
+(Intercept)          x1 
+ 11.5154677  -0.0290489 
+[1] 0.1547652
+(Intercept)          x1 
+ 11.2223062   0.1935539 
+[1] 0.1498926
+(Intercept)          x1 
+ 11.9076900  -0.1143688 
+[1] 0.1576871
+(Intercept)          x1 
+12.01429114  0.01330911 
+[1] 0.1742332
+(Intercept)          x1 
+11.58799879 -0.08181045 
+[1] 0.1564754
+(Intercept)          x1 
+ 10.7268181   0.2528044 
+[1] 0.1555702
+(Intercept)          x1 
+ 11.6019485   0.2262185 
+[1] 0.135825
+(Intercept)          x1 
+ 11.5377978   0.2343445 
+[1] 0.1600571
+(Intercept)          x1 
+ 11.6527123  -0.1681508 
+[1] 0.157094
+(Intercept)          x1 
+11.51263638 -0.09807101 
+[1] 0.1680726
+(Intercept)          x1 
+11.35422710 -0.06754997 
+[1] 0.1699358
+(Intercept)          x1 
+11.66213788  0.06782428 
+[1] 0.1810835
+(Intercept)          x1 
+11.37322046  0.05685222 
+[1] 0.1585724
+(Intercept)          x1 
+   11.14686    -0.02437 
+[1] 0.1785731
+(Intercept)          x1 
+  11.833154   -0.191285 
+[1] 0.1580151
+(Intercept)          x1 
+11.69940312  0.06065237 
+[1] 0.1467559
+(Intercept)          x1 
+ 11.3088729  -0.1690336 
+[1] 0.1448113
+(Intercept)          x1 
+ 12.0467084  -0.1035541 
+[1] 0.193336
+(Intercept)          x1 
+11.28664375 -0.04665591 
+[1] 0.1721233
+(Intercept)          x1 
+ 10.7688161   0.3976922 
+[1] 0.1983269
+(Intercept)          x1 
+ 11.3140404  -0.1573861 
+[1] 0.1746733
+(Intercept)          x1 
+11.14426244  0.03969772 
+[1] 0.1685641
+(Intercept)          x1 
+11.12791431 -0.08175964 
+[1] 0.1958317
+(Intercept)          x1 
+11.43485154  0.01995566 
+[1] 0.1552088
+(Intercept)          x1 
+11.74223766  0.03966747 
+[1] 0.1541475
+(Intercept)          x1 
+11.21282808  0.06364799 
+[1] 0.1692066
+(Intercept)          x1 
+ 12.0258500  -0.1677647 
+[1] 0.1495375
+(Intercept)          x1 
+ 11.7260633   0.1335668 
+[1] 0.1562166
+(Intercept)          x1 
+ 11.9369946  -0.1655671 
+[1] 0.1491478
+(Intercept)          x1 
+ 10.9122883   0.2357272 
+[1] 0.1588507
+(Intercept)          x1 
+ 11.4421447   0.1219069 
+[1] 0.1733114
+(Intercept)          x1 
+ 11.7972808  -0.2734115 
+[1] 0.1611129
+(Intercept)          x1 
+ 11.6853709  -0.1298666 
+[1] 0.1495669
+(Intercept)          x1 
+  11.439458    0.192525 
+[1] 0.1486418
+(Intercept)          x1 
+11.36572894 -0.05741074 
+[1] 0.1545067
+(Intercept)          x1 
+ 11.4457381  -0.1004415 
+[1] 0.1589109
+(Intercept)          x1 
+ 11.6387891  -0.2240188 
+[1] 0.1582448
+ (Intercept)           x1 
+11.917166927 -0.004086061 
+[1] 0.1724967
+(Intercept)          x1 
+11.35710371  0.01868387 
+[1] 0.1634684
+(Intercept)          x1 
+ 11.4976128  -0.3653349 
+[1] 0.1537366
+(Intercept)          x1 
+ 10.9890003   0.1232627 
+[1] 0.1839327
+(Intercept)          x1 
+ 11.2933656   0.1149239 
+[1] 0.2086613
+(Intercept)          x1 
+11.05084579  0.04723581 
+[1] 0.1711585
+(Intercept)          x1 
+ 11.8532280  -0.1953851 
+[1] 0.164878
+(Intercept)          x1 
+11.94844435 -0.06940189 
+[1] 0.1570039
+(Intercept)          x1 
+ 11.6757502   0.1468541 
+[1] 0.1732939
+(Intercept)          x1 
+11.68865604 -0.05086123 
+[1] 0.1506437
+(Intercept)          x1 
+ 12.0700144  -0.1568187 
+[1] 0.1571492
+(Intercept)          x1 
+ 11.0966815   0.1862547 
+[1] 0.1565665
+(Intercept)          x1 
+ 11.7083419  -0.1165018 
+[1] 0.1729528
+(Intercept)          x1 
+ 11.0510108  -0.1430807 
+[1] 0.149872
+(Intercept)          x1 
+ 11.6096354   0.1923444 
+[1] 0.1483412
+ (Intercept)           x1 
+11.572789928 -0.009068347 
+[1] 0.1499979
+(Intercept)          x1 
+ 11.1123299   0.3206322 
+[1] 0.1680951
+(Intercept)          x1 
+ 11.2065100   0.1091514 
+[1] 0.1488139
+(Intercept)          x1 
+ 11.6045662  -0.2183511 
+[1] 0.1465491
+(Intercept)          x1 
+11.65820054 -0.06589807 
+[1] 0.147347
+(Intercept)          x1 
+ 11.3453115  -0.1376471 
+[1] 0.1513035
+(Intercept)          x1 
+ 11.8321434  -0.1626136 
+[1] 0.1793772
+(Intercept)          x1 
+11.48866386  0.06181392 
+[1] 0.1688581
+(Intercept)          x1 
+11.33937244  0.02292057 
+[1] 0.1642393
+(Intercept)          x1 
+11.78265171  0.04707981 
+[1] 0.179152
+(Intercept)          x1 
+ 11.8671096  -0.5065851 
+[1] 0.1907743
+(Intercept)          x1 
+ 11.7804008   0.1046706 
+[1] 0.1322539
+(Intercept)          x1 
+ 12.6491888  -0.4621313 
+[1] 0.1793718
                  150           300           600           1200 2400
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" NA   NA  
-der-postpi       "0.24/0.166"  "0.169/0.135" "0.119/0.125" NA   NA  
-bs-postpi-par    "0.24/0.169"  "0.169/0.138" "0.119/0.128" NA   NA  
-bs-postpi-nonpar "0.241/0.169" "0.17/0.138"  "0.119/0.128" NA   NA  
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" NA   NA  
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" NA   NA  
+naive            "0.114/0.207" "0.08/0.195"  "0.057/0.154" NA   NA  
+der-postpi       "0.238/0.177" "0.169/0.173" "0.118/0.13"  NA   NA  
+bs-postpi-par    "0.238/0.171" "0.168/0.168" "0.118/0.136" NA   NA  
+bs-postpi-nonpar "0.24/0.171"  "0.172/0.168" "0.12/0.136"  NA   NA  
+val*             "0.238/0.248" "0.169/0.18"  "0.118/0.13"  NA   NA  
+observed         "0.165/0.161" "0.168/0.144" "0.167/0.176" NA   NA  
+predpowinf       "0.188/0.179" "0.174/0.149" "0.163/0.178" NA   NA  
                     150    300    600 1200 2400
-naive            -0.001 -0.006 -0.002   NA   NA
-der-postpi       -0.026 -0.031 -0.027   NA   NA
-bs-postpi-par    -0.024 -0.029 -0.025   NA   NA
-bs-postpi-nonpar -0.024 -0.029 -0.025   NA   NA
-val*             -0.004 -0.003 -0.004   NA   NA
-observed          0.002  0.001  0.003   NA   NA
+naive            -0.015 -0.020 -0.014   NA   NA
+der-postpi       -0.012 -0.023 -0.011   NA   NA
+bs-postpi-par    -0.016 -0.022 -0.012   NA   NA
+bs-postpi-nonpar -0.016 -0.022 -0.012   NA   NA
+val*              0.031 -0.028  0.026   NA   NA
+observed         -0.002 -0.005 -0.027   NA   NA
+predpowinf       -0.002 -0.023 -0.012   NA   NA
                    150   300   600 1200 2400
-naive            0.025 0.017 0.015   NA   NA
-der-postpi       0.028 0.019 0.016   NA   NA
-bs-postpi-par    0.029 0.020 0.017   NA   NA
-bs-postpi-nonpar 0.029 0.020 0.017   NA   NA
-val*             0.059 0.031 0.013   NA   NA
-observed            NA    NA    NA   NA   NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0   NA   NA
-der-postpi       99.4 97.8 93.1   NA   NA
-bs-postpi-par    99.3 97.9 93.2   NA   NA
-bs-postpi-nonpar 99.1 98.1 92.7   NA   NA
-val*             94.1 93.4 95.2   NA   NA
-observed         94.5 95.8 96.4   NA   NA
-[1] 3
-[1] 0.7788845
+naive            0.043 0.038 0.024   NA   NA
+der-postpi       0.031 0.030 0.017   NA   NA
+bs-postpi-par    0.029 0.029 0.018   NA   NA
+bs-postpi-nonpar 0.029 0.029 0.018   NA   NA
+val*             0.062 0.033 0.017   NA   NA
+observed         0.026 0.020 0.031   NA   NA
+predpowinf       0.032 0.022 0.032   NA   NA
+                 150 300 600 1200 2400
+naive             74  57  54   NA   NA
+der-postpi        99  95  93   NA   NA
+bs-postpi-par    100  96  91   NA   NA
+bs-postpi-nonpar 100  98  90   NA   NA
+val*              97  92  91   NA   NA
+observed          95  97  94   NA   NA
+predpowinf        97  98  94   NA   NA
+[1] 0
+[1] 0.4114711
+(Intercept)          x1 
+  11.182407    0.119803 
+[1] 0.1531801
+(Intercept)          x1 
+ 11.8938668  -0.0651332 
+[1] 0.1516957
+(Intercept)          x1 
+11.38078433  0.07011629 
+[1] 0.1240785
+(Intercept)          x1 
+11.50835903 -0.07182733 
+[1] 0.1402523
+(Intercept)          x1 
+ 11.7076724   0.1693403 
+[1] 0.1665369
+(Intercept)          x1 
+  11.229997   -0.146953 
+[1] 0.1785586
+(Intercept)          x1 
+ 10.9926045   0.2864724 
+[1] 0.1326628
+(Intercept)          x1 
+11.72411174  0.01042175 
+[1] 0.1509981
+(Intercept)          x1 
+11.35702848  0.04500837 
+[1] 0.1449264
+(Intercept)          x1 
+ 11.4468235  -0.0648541 
+[1] 0.1494149
+(Intercept)          x1 
+ 11.8601423  -0.1907368 
+[1] 0.1505153
+(Intercept)          x1 
+11.29843991  0.01890425 
+[1] 0.1650903
+(Intercept)          x1 
+ 10.8809651   0.3263085 
+[1] 0.1783917
+(Intercept)          x1 
+ 11.4814974  -0.2305826 
+[1] 0.1630696
+(Intercept)          x1 
+10.98821626  0.01488921 
+[1] 0.1597714
+(Intercept)          x1 
+ 11.8392959  -0.4755027 
+[1] 0.170286
+(Intercept)          x1 
+11.60964623 -0.02990811 
+[1] 0.1409618
+(Intercept)          x1 
+ 11.5372766   0.1245007 
+[1] 0.1840413
+(Intercept)          x1 
+ 11.2282717   0.3451331 
+[1] 0.1831681
+(Intercept)          x1 
+ 11.7607474   0.2071589 
+[1] 0.1277486
+(Intercept)          x1 
+  11.694288   -0.123728 
+[1] 0.1564872
+(Intercept)          x1 
+ 12.0989802  -0.4314997 
+[1] 0.145852
+(Intercept)          x1 
+11.21024028 -0.03775002 
+[1] 0.1605559
+(Intercept)          x1 
+ 11.4000695   0.1071701 
+[1] 0.1617553
+(Intercept)          x1 
+11.12961009 -0.03333767 
+[1] 0.1482873
+(Intercept)          x1 
+11.59759663  0.08070318 
+[1] 0.1617245
+(Intercept)          x1 
+11.81788579 -0.03031613 
+[1] 0.1666834
+(Intercept)          x1 
+ 11.5444062   0.1686729 
+[1] 0.1427013
+(Intercept)          x1 
+ 11.0112780   0.2785618 
+[1] 0.1467858
+(Intercept)          x1 
+11.54839266 -0.07495571 
+[1] 0.1393521
+(Intercept)          x1 
+11.78946124 -0.08186803 
+[1] 0.1651589
+(Intercept)          x1 
+11.44452079  0.06891868 
+[1] 0.1540959
+(Intercept)          x1 
+ 11.1588673   0.1548302 
+[1] 0.1612593
+(Intercept)          x1 
+  11.832646   -0.239615 
+[1] 0.1633698
+(Intercept)          x1 
+ 11.2444889  -0.1171007 
+[1] 0.1717165
+(Intercept)          x1 
+11.04469126  0.05981323 
+[1] 0.1374453
+(Intercept)          x1 
+ 11.6093692   0.3167287 
+[1] 0.1623715
+(Intercept)          x1 
+ 11.6737339  -0.1515487 
+[1] 0.1625505
+(Intercept)          x1 
+ 11.4501743  -0.1664949 
+[1] 0.172073
+(Intercept)          x1 
+11.82886908 -0.02213096 
+[1] 0.1625196
+(Intercept)          x1 
+  10.866021    0.352529 
+[1] 0.1673369
+(Intercept)          x1 
+ 11.7052948   0.1601328 
+[1] 0.1858233
+(Intercept)          x1 
+11.40105903 -0.03058255 
+[1] 0.1383204
+(Intercept)          x1 
+12.16520165 -0.03200635 
+[1] 0.148642
+(Intercept)          x1 
+ 12.1173586  -0.4613603 
+[1] 0.1817383
+(Intercept)          x1 
+ 11.6213494  -0.1048866 
+[1] 0.1673442
+(Intercept)          x1 
+11.99036030 -0.05198586 
+[1] 0.1385184
+(Intercept)          x1 
+11.35067124  0.02111033 
+[1] 0.1515328
+(Intercept)          x1 
+12.08850107 -0.02158486 
+[1] 0.1483655
+(Intercept)          x1 
+ 11.7990307  -0.1631648 
+[1] 0.1584912
+(Intercept)          x1 
+ 11.4007979  -0.1013116 
+[1] 0.1354914
+(Intercept)          x1 
+11.57686306 -0.01753567 
+[1] 0.1682202
+(Intercept)          x1 
+11.42423550 -0.02909326 
+[1] 0.1553334
+(Intercept)          x1 
+ 12.1699915  -0.1267345 
+[1] 0.1306637
+(Intercept)          x1 
+ 11.9189354  -0.2362451 
+[1] 0.1602793
+(Intercept)          x1 
+ 11.4721473  -0.1384609 
+[1] 0.1837732
+(Intercept)          x1 
+  11.564782   -0.188644 
+[1] 0.1373513
+(Intercept)          x1 
+11.30113407  0.08058971 
+[1] 0.1405209
+(Intercept)          x1 
+  11.367320   -0.253124 
+[1] 0.1519922
+(Intercept)          x1 
+ 11.4665480  -0.1310077 
+[1] 0.147268
+(Intercept)          x1 
+ 11.0146149   0.3244383 
+[1] 0.1524914
+(Intercept)          x1 
+ 11.7144940  -0.1756894 
+[1] 0.1638571
+(Intercept)          x1 
+ 11.5889470  -0.1365912 
+[1] 0.1666039
+(Intercept)          x1 
+11.15311415  0.08786935 
+[1] 0.1676009
+(Intercept)          x1 
+11.67684986 -0.08484251 
+[1] 0.1658531
+(Intercept)          x1 
+ 11.4993453   0.2639287 
+[1] 0.1555959
+(Intercept)          x1 
+ 12.1404951  -0.1764103 
+[1] 0.1718879
+ (Intercept)           x1 
+11.917674908  0.004923636 
+[1] 0.1551525
+(Intercept)          x1 
+ 11.4686202  -0.1286695 
+[1] 0.1501186
+(Intercept)          x1 
+11.47787819  0.03397864 
+[1] 0.1540181
+(Intercept)          x1 
+  11.955478   -0.166851 
+[1] 0.172277
+(Intercept)          x1 
+ 11.5133585  -0.2774849 
+[1] 0.1520643
+(Intercept)          x1 
+ 11.4451251  -0.1358854 
+[1] 0.1364592
+(Intercept)          x1 
+ 11.5594504  -0.0536336 
+[1] 0.1595275
+(Intercept)          x1 
+11.16044337  0.08121119 
+[1] 0.1611143
+(Intercept)          x1 
+11.83004962  0.06159496 
+[1] 0.1406655
+(Intercept)          x1 
+11.53719256  0.04321435 
+[1] 0.1612396
+(Intercept)          x1 
+11.64428404 -0.02167439 
+[1] 0.1671392
+(Intercept)          x1 
+11.60929689  0.06026891 
+[1] 0.1787558
+(Intercept)          x1 
+ 12.1342895  -0.2640929 
+[1] 0.1495257
+(Intercept)          x1 
+11.40755939  0.08653008 
+[1] 0.1686829
+(Intercept)          x1 
+ 12.0035765   0.2357496 
+[1] 0.1546435
+(Intercept)          x1 
+11.36457070 -0.01544334 
+[1] 0.1431872
+(Intercept)          x1 
+  11.752621   -0.186006 
+[1] 0.1791317
+(Intercept)          x1 
+ 11.5610366   0.1566407 
+[1] 0.1733459
+(Intercept)          x1 
+  11.882901   -0.235039 
+[1] 0.1450278
+(Intercept)          x1 
+ 12.2685814  -0.2425218 
+[1] 0.1514673
+(Intercept)          x1 
+11.50524203 -0.04089067 
+[1] 0.1869051
+(Intercept)          x1 
+ 11.0731910  -0.1055186 
+[1] 0.1316908
+(Intercept)          x1 
+11.73011704  0.00711189 
+[1] 0.1721126
+(Intercept)          x1 
+11.57295948 -0.08016512 
+[1] 0.1562617
+(Intercept)          x1 
+  11.463106   -0.270576 
+[1] 0.1673961
+(Intercept)          x1 
+11.93726568 -0.01705913 
+[1] 0.1443393
+(Intercept)          x1 
+ 11.3372030   0.2219785 
+[1] 0.1701509
+(Intercept)          x1 
+ 11.9972373  -0.1571225 
+[1] 0.1687681
+(Intercept)          x1 
+ 11.0755094   0.2974498 
+[1] 0.1398561
+(Intercept)          x1 
+12.20063902  0.06465292 
+[1] 0.1578821
+(Intercept)          x1 
+11.70095374  0.05264218 
+[1] 0.1541047
+(Intercept)          x1 
+ 11.2636877   0.1937906 
+[1] 0.1508326
+(Intercept)          x1 
+11.76500856  0.01498484 
+[1] 0.1759869
                  150           300           600           1200          2400
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" "0.039/0.117" NA  
-der-postpi       "0.24/0.166"  "0.169/0.135" "0.119/0.125" "0.084/0.124" NA  
-bs-postpi-par    "0.24/0.169"  "0.169/0.138" "0.119/0.128" "0.084/0.125" NA  
-bs-postpi-nonpar "0.241/0.169" "0.17/0.138"  "0.119/0.128" "0.084/0.125" NA  
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" "0.083/0.085" NA  
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" "0.084/0.086" NA  
+naive            "0.114/0.207" "0.08/0.195"  "0.057/0.154" "0.04/0.175"  NA  
+der-postpi       "0.238/0.177" "0.169/0.173" "0.118/0.13"  "0.082/0.152" NA  
+bs-postpi-par    "0.238/0.171" "0.168/0.168" "0.118/0.136" "0.082/0.152" NA  
+bs-postpi-nonpar "0.24/0.171"  "0.172/0.168" "0.12/0.136"  "0.082/0.152" NA  
+val*             "0.238/0.248" "0.169/0.18"  "0.118/0.13"  "0.083/0.081" NA  
+observed         "0.165/0.161" "0.168/0.144" "0.167/0.176" "0.166/0.17"  NA  
+predpowinf       "0.188/0.179" "0.174/0.149" "0.163/0.178" "0.157/0.174" NA  
                     150    300    600   1200 2400
-naive            -0.001 -0.006 -0.002  0.003   NA
-der-postpi       -0.026 -0.031 -0.027 -0.030   NA
-bs-postpi-par    -0.024 -0.029 -0.025 -0.028   NA
-bs-postpi-nonpar -0.024 -0.029 -0.025 -0.028   NA
-val*             -0.004 -0.003 -0.004  0.001   NA
-observed          0.002  0.001  0.003 -0.001   NA
+naive            -0.015 -0.020 -0.014  0.009   NA
+der-postpi       -0.012 -0.023 -0.011  0.007   NA
+bs-postpi-par    -0.016 -0.022 -0.012  0.007   NA
+bs-postpi-nonpar -0.016 -0.022 -0.012  0.007   NA
+val*              0.031 -0.028  0.026  0.000   NA
+observed         -0.002 -0.005 -0.027 -0.017   NA
+predpowinf       -0.002 -0.023 -0.012 -0.020   NA
                    150   300   600  1200 2400
-naive            0.025 0.017 0.015 0.014   NA
-der-postpi       0.028 0.019 0.016 0.016   NA
-bs-postpi-par    0.029 0.020 0.017 0.016   NA
-bs-postpi-nonpar 0.029 0.020 0.017 0.016   NA
-val*             0.059 0.031 0.013 0.007   NA
-observed            NA    NA    NA    NA   NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0 48.1   NA
-der-postpi       99.4 97.8 93.1 79.4   NA
-bs-postpi-par    99.3 97.9 93.2 79.1   NA
-bs-postpi-nonpar 99.1 98.1 92.7 80.3   NA
-val*             94.1 93.4 95.2 94.4   NA
-observed         94.5 95.8 96.4 94.1   NA
-[1] 3
-[1] 0.7793175
+naive            0.043 0.038 0.024 0.030   NA
+der-postpi       0.031 0.030 0.017 0.023   NA
+bs-postpi-par    0.029 0.029 0.018 0.023   NA
+bs-postpi-nonpar 0.029 0.029 0.018 0.023   NA
+val*             0.062 0.033 0.017 0.006   NA
+observed         0.026 0.020 0.031 0.029   NA
+predpowinf       0.032 0.022 0.032 0.030   NA
+                 150 300 600 1200 2400
+naive             74  57  54   38   NA
+der-postpi        99  95  93   74   NA
+bs-postpi-par    100  96  91   74   NA
+bs-postpi-nonpar 100  98  90   73   NA
+val*              97  92  91   97   NA
+observed          95  97  94   93   NA
+predpowinf        97  98  94   93   NA
+[1] 0
+[1] 0.4037236
+(Intercept)          x1 
+ 10.9269629   0.1517206 
+[1] 0.1536833
+(Intercept)          x1 
+ 11.1198206   0.1965773 
+[1] 0.1487531
+(Intercept)          x1 
+ 11.0572221  -0.1364643 
+[1] 0.1556094
+(Intercept)          x1 
+11.32596562  0.03753309 
+[1] 0.165147
+(Intercept)          x1 
+ 11.5640228   0.1494422 
+[1] 0.143239
+(Intercept)          x1 
+ 11.3928041   0.3074281 
+[1] 0.1534235
+(Intercept)          x1 
+ 10.8786060   0.1172651 
+[1] 0.1599216
+(Intercept)          x1 
+11.77768476  0.08157974 
+[1] 0.1499604
+(Intercept)          x1 
+11.50625085  0.07308735 
+[1] 0.130057
+(Intercept)          x1 
+ 12.0349757  -0.1573359 
+[1] 0.1853095
+(Intercept)          x1 
+ 11.4508126  -0.1761931 
+[1] 0.1336843
+(Intercept)          x1 
+11.64710456  0.01305964 
+[1] 0.1653344
+(Intercept)          x1 
+ 12.1698443  -0.2833963 
+[1] 0.1569576
+(Intercept)          x1 
+ 11.7472337  -0.1508438 
+[1] 0.1595016
+(Intercept)          x1 
+ 11.3025961   0.2001505 
+[1] 0.1506262
+(Intercept)          x1 
+11.59621778  0.02567328 
+[1] 0.1327663
+(Intercept)          x1 
+11.58543477  0.02597076 
+[1] 0.1288564
+(Intercept)          x1 
+ 10.8227684   0.1116989 
+[1] 0.1513522
+(Intercept)          x1 
+ 11.9510590  -0.3045926 
+[1] 0.1533551
+(Intercept)          x1 
+11.50435067  0.04801124 
+[1] 0.169742
+(Intercept)          x1 
+ 11.3229511   0.1322508 
+[1] 0.142269
+(Intercept)          x1 
+11.26647033  0.00583445 
+[1] 0.1484831
+(Intercept)          x1 
+ 11.3750920   0.1109119 
+[1] 0.1695699
+(Intercept)          x1 
+ 11.8342652   0.1028463 
+[1] 0.1727018
+(Intercept)          x1 
+11.19888194  0.07629461 
+[1] 0.149284
+(Intercept)          x1 
+11.45694578  0.05223185 
+[1] 0.1613727
+(Intercept)          x1 
+ 11.1186705   0.1332843 
+[1] 0.1608031
+(Intercept)          x1 
+ 11.0965540   0.1563505 
+[1] 0.1653957
+(Intercept)          x1 
+ 11.4158690  -0.1826631 
+[1] 0.1822841
+ (Intercept)           x1 
+11.855572105  0.003448207 
+[1] 0.1384202
+(Intercept)          x1 
+12.15529573 -0.07676147 
+[1] 0.1490444
+(Intercept)          x1 
+11.59042841  0.02285049 
+[1] 0.1291629
+(Intercept)          x1 
+ 12.0527428  -0.2721426 
+[1] 0.1631029
+(Intercept)          x1 
+11.56640250  0.02826704 
+[1] 0.1482741
+(Intercept)          x1 
+11.64250920 -0.02325436 
+[1] 0.1592707
+(Intercept)          x1 
+ 11.3321338   0.1394847 
+[1] 0.1497315
+ (Intercept)           x1 
+11.716490160 -0.008577824 
+[1] 0.1473515
+(Intercept)          x1 
+ 11.6262386  -0.1599977 
+[1] 0.1679688
+(Intercept)          x1 
+ 11.7636802  -0.0658324 
+[1] 0.1658653
+(Intercept)          x1 
+11.70695388 -0.03205998 
+[1] 0.1696947
+(Intercept)          x1 
+ 11.6934702  -0.1132058 
+[1] 0.1485815
+(Intercept)          x1 
+ 10.7522444   0.2864716 
+[1] 0.1627918
+(Intercept)          x1 
+ 11.8221427  -0.2676856 
+[1] 0.1759017
+(Intercept)          x1 
+ 11.8471135  -0.1945002 
+[1] 0.1680995
+(Intercept)          x1 
+ 11.6039349  -0.2451528 
+[1] 0.13957
+(Intercept)          x1 
+10.98393271  0.08413856 
+[1] 0.1534187
+(Intercept)          x1 
+ 11.5368259  -0.1038548 
+[1] 0.1612387
+(Intercept)          x1 
+ 12.1978828  -0.1719443 
+[1] 0.1717733
+(Intercept)          x1 
+11.13500868  0.07522496 
+[1] 0.1593485
+(Intercept)          x1 
+ 11.7862276  -0.2037442 
+[1] 0.1637473
+(Intercept)          x1 
+11.52935613  0.02419068 
+[1] 0.1391975
+(Intercept)          x1 
+ 11.8263735  -0.1214794 
+[1] 0.154353
+(Intercept)          x1 
+ 11.1115108   0.1436006 
+[1] 0.1466396
+(Intercept)          x1 
+10.88118898  0.07024922 
+[1] 0.170138
+(Intercept)          x1 
+11.67727830 -0.06398581 
+[1] 0.1550186
+(Intercept)          x1 
+ 11.6549971   0.1317221 
+[1] 0.1450258
+ (Intercept)           x1 
+11.894282291  0.002918967 
+[1] 0.1281173
+(Intercept)          x1 
+11.13510091 -0.02306497 
+[1] 0.1589431
+(Intercept)          x1 
+11.13106151 -0.07495114 
+[1] 0.140648
+(Intercept)          x1 
+ 11.6708521   0.1235044 
+[1] 0.1447082
+(Intercept)          x1 
+11.57728527 -0.05732421 
+[1] 0.18003
+(Intercept)          x1 
+11.32755454  0.03019365 
+[1] 0.1580545
+(Intercept)          x1 
+ 11.4806506  -0.1592935 
+[1] 0.1576664
+(Intercept)          x1 
+11.45178712 -0.02351922 
+[1] 0.1466285
+(Intercept)          x1 
+11.93952806 -0.09509071 
+[1] 0.1580733
+(Intercept)          x1 
+ 11.6312572   0.2004155 
+[1] 0.1743572
+(Intercept)          x1 
+11.17760504 -0.05638996 
+[1] 0.1461776
+(Intercept)          x1 
+11.34949746  0.06171972 
+[1] 0.1610923
+(Intercept)          x1 
+11.47358358 -0.01919582 
+[1] 0.1710243
+(Intercept)          x1 
+ 11.6526618   0.1061013 
+[1] 0.1537713
+(Intercept)          x1 
+ 11.2934363   0.1110419 
+[1] 0.148951
+(Intercept)          x1 
+11.31796722 -0.06931454 
+[1] 0.1519141
+(Intercept)          x1 
+ 10.9993029   0.5648681 
+[1] 0.1528864
+(Intercept)          x1 
+ 11.5000585  -0.0947348 
+[1] 0.1603445
+(Intercept)          x1 
+ 12.0334373  -0.0348588 
+[1] 0.1533809
+(Intercept)          x1 
+11.45821627  0.06907216 
+[1] 0.1344119
+(Intercept)          x1 
+11.67868560  0.05253888 
+[1] 0.164615
+(Intercept)          x1 
+11.95908787  0.05494126 
+[1] 0.1786773
+(Intercept)          x1 
+10.77552300  0.03168585 
+[1] 0.168838
+(Intercept)          x1 
+ 11.7108581   0.1198484 
+[1] 0.1690903
+(Intercept)          x1 
+ 11.8717545   0.1712545 
+[1] 0.1456748
+(Intercept)          x1 
+ 11.7603419  -0.1993608 
+[1] 0.1517785
+ (Intercept)           x1 
+1.148560e+01 7.357101e-04 
+[1] 0.1460525
+(Intercept)          x1 
+ 11.1158321   0.2816768 
+[1] 0.1547706
+(Intercept)          x1 
+ 11.1865468   0.1689168 
+[1] 0.1520111
+(Intercept)          x1 
+11.30227515 -0.01487785 
+[1] 0.1683511
+(Intercept)          x1 
+ 11.2827273   0.1307164 
+[1] 0.162517
+(Intercept)          x1 
+ 11.0708569   0.1625508 
+[1] 0.1693787
+(Intercept)          x1 
+ 11.4089310   0.1059929 
+[1] 0.1640463
+(Intercept)          x1 
+ 10.6769497   0.3458494 
+[1] 0.1694506
+(Intercept)          x1 
+ 11.7454592  -0.1710926 
+[1] 0.1589441
+(Intercept)          x1 
+ 11.2550115   0.3026399 
+[1] 0.1438044
+(Intercept)          x1 
+ 10.9820662   0.2741313 
+[1] 0.1793548
+(Intercept)          x1 
+ 11.4669101  -0.3271366 
+[1] 0.1800981
+(Intercept)          x1 
+ 11.6107224   0.1573733 
+[1] 0.1628661
+(Intercept)          x1 
+ 10.7896284   0.1506318 
+[1] 0.1788572
+(Intercept)          x1 
+ 10.6379690   0.2910182 
+[1] 0.1560745
+(Intercept)          x1 
+11.66783227  0.09462579 
+[1] 0.1478075
+(Intercept)          x1 
+11.41022421  0.09588713 
+[1] 0.1577782
+(Intercept)          x1 
+ 11.7633010  -0.2977159 
+[1] 0.1653198
                  150           300           600           1200         
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" "0.039/0.117"
-der-postpi       "0.24/0.166"  "0.169/0.135" "0.119/0.125" "0.084/0.124"
-bs-postpi-par    "0.24/0.169"  "0.169/0.138" "0.119/0.128" "0.084/0.125"
-bs-postpi-nonpar "0.241/0.169" "0.17/0.138"  "0.119/0.128" "0.084/0.125"
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" "0.083/0.085"
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" "0.084/0.086"
+naive            "0.114/0.207" "0.08/0.195"  "0.057/0.154" "0.04/0.175" 
+der-postpi       "0.238/0.177" "0.169/0.173" "0.118/0.13"  "0.082/0.152"
+bs-postpi-par    "0.238/0.171" "0.168/0.168" "0.118/0.136" "0.082/0.152"
+bs-postpi-nonpar "0.24/0.171"  "0.172/0.168" "0.12/0.136"  "0.082/0.152"
+val*             "0.238/0.248" "0.169/0.18"  "0.118/0.13"  "0.083/0.081"
+observed         "0.165/0.161" "0.168/0.144" "0.167/0.176" "0.166/0.17" 
+predpowinf       "0.188/0.179" "0.174/0.149" "0.163/0.178" "0.157/0.174"
                  2400         
-naive            "0.027/0.111"
-der-postpi       "0.06/0.118" 
-bs-postpi-par    "0.059/0.12" 
-bs-postpi-nonpar "0.059/0.12" 
+naive            "0.029/0.137"
+der-postpi       "0.059/0.114"
+bs-postpi-par    "0.058/0.113"
+bs-postpi-nonpar "0.059/0.113"
 val*             "0.059/0.057"
-observed         "0.084/0.083"
+observed         "0.168/0.162"
+predpowinf       "0.157/0.16" 
                     150    300    600   1200   2400
-naive            -0.001 -0.006 -0.002  0.003 -0.003
-der-postpi       -0.026 -0.031 -0.027 -0.030 -0.024
-bs-postpi-par    -0.024 -0.029 -0.025 -0.028 -0.023
-bs-postpi-nonpar -0.024 -0.029 -0.025 -0.028 -0.023
-val*             -0.004 -0.003 -0.004  0.001  0.002
-observed          0.002  0.001  0.003 -0.001 -0.002
+naive            -0.015 -0.020 -0.014  0.009 -0.024
+der-postpi       -0.012 -0.023 -0.011  0.007 -0.019
+bs-postpi-par    -0.016 -0.022 -0.012  0.007 -0.020
+bs-postpi-nonpar -0.016 -0.022 -0.012  0.007 -0.020
+val*              0.031 -0.028  0.026  0.000 -0.002
+observed         -0.002 -0.005 -0.027 -0.017  0.018
+predpowinf       -0.002 -0.023 -0.012 -0.020  0.023
                    150   300   600  1200  2400
-naive            0.025 0.017 0.015 0.014 0.012
-der-postpi       0.028 0.019 0.016 0.016 0.015
-bs-postpi-par    0.029 0.020 0.017 0.016 0.015
-bs-postpi-nonpar 0.029 0.020 0.017 0.016 0.015
-val*             0.059 0.031 0.013 0.007 0.003
-observed            NA    NA    NA    NA    NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0 48.1 38.9
-der-postpi       99.4 97.8 93.1 79.4 65.7
-bs-postpi-par    99.3 97.9 93.2 79.1 65.4
-bs-postpi-nonpar 99.1 98.1 92.7 80.3 64.8
-val*             94.1 93.4 95.2 94.4 96.3
-observed         94.5 95.8 96.4 94.1 95.0
-[1] 5
-[1] 0.892474
+naive            0.043 0.038 0.024 0.030 0.019
+der-postpi       0.031 0.030 0.017 0.023 0.013
+bs-postpi-par    0.029 0.029 0.018 0.023 0.013
+bs-postpi-nonpar 0.029 0.029 0.018 0.023 0.013
+val*             0.062 0.033 0.017 0.006 0.003
+observed         0.026 0.020 0.031 0.029 0.026
+predpowinf       0.032 0.022 0.032 0.030 0.026
+                 150 300 600 1200 2400
+naive             74  57  54   38   25
+der-postpi        99  95  93   74   64
+bs-postpi-par    100  96  91   74   64
+bs-postpi-nonpar 100  98  90   73   67
+val*              97  92  91   97   98
+observed          95  97  94   93   96
+predpowinf        97  98  94   93   95
+[1] 1
+[1] 0.5072884
+(Intercept)          x1 
+ 11.0331083   0.9189199 
+[1] 0.185694
+(Intercept)          x1 
+ 11.6108527   0.8508521 
+[1] 0.1986853
+(Intercept)          x1 
+  11.244354    1.090174 
+[1] 0.192118
+(Intercept)          x1 
+   11.63147     1.03639 
+[1] 0.1848994
+(Intercept)          x1 
+  11.217213    1.507087 
+[1] 0.2044742
+(Intercept)          x1 
+   11.86056     1.01493 
+[1] 0.1913215
+(Intercept)          x1 
+  11.323875    1.332837 
+[1] 0.2112416
+(Intercept)          x1 
+ 11.5854898   0.8854744 
+[1] 0.2044491
+(Intercept)          x1 
+ 11.7563111   0.8146827 
+[1] 0.1768496
+(Intercept)          x1 
+  11.485499    1.000457 
+[1] 0.1791315
+(Intercept)          x1 
+ 11.4301239   0.8965775 
+[1] 0.1821237
+(Intercept)          x1 
+  11.730105    1.022482 
+[1] 0.1680797
+(Intercept)          x1 
+ 11.8163695   0.6088049 
+[1] 0.2028113
+(Intercept)          x1 
+ 11.2718224   0.9537643 
+[1] 0.1757483
+(Intercept)          x1 
+ 11.7741283   0.7892742 
+[1] 0.1785707
+(Intercept)          x1 
+  11.455488    1.088311 
+[1] 0.1890088
+(Intercept)          x1 
+  11.492814    1.048132 
+[1] 0.1775735
+(Intercept)          x1 
+ 11.9618296   0.5717481 
+[1] 0.1740347
+(Intercept)          x1 
+ 11.7305253   0.7558535 
+[1] 0.2049724
+(Intercept)          x1 
+ 12.0049582   0.8223495 
+[1] 0.1894192
+(Intercept)          x1 
+  11.369255    1.058606 
+[1] 0.1716666
+(Intercept)          x1 
+  11.575778    1.095622 
+[1] 0.1850812
+(Intercept)          x1 
+  11.758277    1.046186 
+[1] 0.2110065
+(Intercept)          x1 
+  11.807320    1.089812 
+[1] 0.1950457
+(Intercept)          x1 
+  11.042413    1.070686 
+[1] 0.1983698
+(Intercept)          x1 
+  11.437608    1.027975 
+[1] 0.1956549
+(Intercept)          x1 
+  10.710741    1.155477 
+[1] 0.1658522
+(Intercept)          x1 
+ 12.2326893   0.7298733 
+[1] 0.2213187
+(Intercept)          x1 
+  10.831176    1.015915 
+[1] 0.2158764
+(Intercept)          x1 
+  12.193847    1.109666 
+[1] 0.1783524
+(Intercept)          x1 
+ 11.3728648   0.9528025 
+[1] 0.1867391
+(Intercept)          x1 
+  11.644319    1.256447 
+[1] 0.2103684
+(Intercept)          x1 
+ 11.3344212   0.8235197 
+[1] 0.1871386
+(Intercept)          x1 
+  11.963370    1.018791 
+[1] 0.1882987
+(Intercept)          x1 
+  10.885672    1.162317 
+[1] 0.2171596
+(Intercept)          x1 
+  11.051775    1.085374 
+[1] 0.158946
+(Intercept)          x1 
+  10.849624    1.326947 
+[1] 0.1866132
+(Intercept)          x1 
+ 12.1166286   0.9285991 
+[1] 0.1636724
+(Intercept)          x1 
+ 11.7910774   0.7702903 
+[1] 0.1700049
+(Intercept)          x1 
+  11.894384    1.088837 
+[1] 0.1854472
+(Intercept)          x1 
+  11.387576    1.104055 
+[1] 0.1786426
+(Intercept)          x1 
+  11.245973    1.069037 
+[1] 0.226995
+(Intercept)          x1 
+ 12.0134306   0.8934664 
+[1] 0.1926109
+(Intercept)          x1 
+ 11.5546683   0.7842545 
+[1] 0.1675559
+(Intercept)          x1 
+  11.550262    1.139022 
+[1] 0.1865768
+(Intercept)          x1 
+ 12.0493527   0.7377734 
+[1] 0.186877
+(Intercept)          x1 
+  11.302086    1.256675 
+[1] 0.2003855
+(Intercept)          x1 
+ 11.4281418   0.9585562 
+[1] 0.1797642
+(Intercept)          x1 
+ 11.9448463   0.8899553 
+[1] 0.1759484
+(Intercept)          x1 
+ 11.8332777   0.8110901 
+[1] 0.2133879
+(Intercept)          x1 
+  12.132856    1.158667 
+[1] 0.1787613
+(Intercept)          x1 
+ 11.4531583   0.9139195 
+[1] 0.1577439
+(Intercept)          x1 
+ 11.3649806   0.9561369 
+[1] 0.172311
+(Intercept)          x1 
+  11.650475    1.025779 
+[1] 0.2073764
+(Intercept)          x1 
+ 11.9065551   0.6131704 
+[1] 0.2056263
+(Intercept)          x1 
+  11.669834    1.005983 
+[1] 0.150548
+(Intercept)          x1 
+  11.792230    1.143371 
+[1] 0.1621567
+(Intercept)          x1 
+ 11.9019340   0.8290236 
+[1] 0.1695849
+(Intercept)          x1 
+  11.110569    1.141722 
+[1] 0.1879209
+(Intercept)          x1 
+ 11.9098545   0.8224515 
+[1] 0.1862409
+(Intercept)          x1 
+  11.563866    0.930546 
+[1] 0.1999086
+(Intercept)          x1 
+  11.808916    1.058704 
+[1] 0.190505
+(Intercept)          x1 
+ 11.7210013   0.8607747 
+[1] 0.1575955
+(Intercept)          x1 
+  11.039883    1.120719 
+[1] 0.2088394
+(Intercept)          x1 
+  11.028309    1.261201 
+[1] 0.1953872
+(Intercept)          x1 
+  11.077263    1.178759 
+[1] 0.1625139
+(Intercept)          x1 
+  11.586439    1.073927 
+[1] 0.1744439
+(Intercept)          x1 
+ 11.6092634   0.8367626 
+[1] 0.2055673
+(Intercept)          x1 
+ 11.0876199   0.9937385 
+[1] 0.1971769
+(Intercept)          x1 
+  10.579742    1.195991 
+[1] 0.1826611
+(Intercept)          x1 
+  11.045228    1.322015 
+[1] 0.1848553
+(Intercept)          x1 
+ 11.3613445   0.9373685 
+[1] 0.1843503
+(Intercept)          x1 
+ 11.2683812   0.9210653 
+[1] 0.1799229
+(Intercept)          x1 
+  11.626211    1.118011 
+[1] 0.1982635
+(Intercept)          x1 
+  11.605984    1.015589 
+[1] 0.2038392
+(Intercept)          x1 
+ 11.7151956   0.8804216 
+[1] 0.2005263
+(Intercept)          x1 
+ 11.4854844   0.8484052 
+[1] 0.1777206
+(Intercept)          x1 
+  11.216303    1.069792 
+[1] 0.1764639
+(Intercept)          x1 
+ 12.0059298   0.8335023 
+[1] 0.1777789
+(Intercept)          x1 
+ 11.4373814   0.9833558 
+[1] 0.1992622
+(Intercept)          x1 
+ 12.2120004   0.7646701 
+[1] 0.1914088
+(Intercept)          x1 
+  11.936515    1.032908 
+[1] 0.1846304
+(Intercept)          x1 
+  10.960971    0.959926 
+[1] 0.1817463
+(Intercept)          x1 
+  11.527340    1.203043 
+[1] 0.1624465
+(Intercept)          x1 
+ 11.5256629   0.8590271 
+[1] 0.1606483
+(Intercept)          x1 
+  11.355263    1.109102 
+[1] 0.1967578
+(Intercept)          x1 
+  10.826683    1.195308 
+[1] 0.1811089
+(Intercept)          x1 
+ 11.8033236   0.7747744 
+[1] 0.2000703
+(Intercept)          x1 
+  10.595677    1.219553 
+[1] 0.1970762
+(Intercept)          x1 
+ 11.7472854   0.9397664 
+[1] 0.2200712
+(Intercept)          x1 
+  10.645829    1.276939 
+[1] 0.1838952
+(Intercept)          x1 
+ 11.3813052   0.8433455 
+[1] 0.1840539
+(Intercept)          x1 
+  10.993992    1.123993 
+[1] 0.1906071
+(Intercept)          x1 
+ 12.0823423   0.9965855 
+[1] 0.1849881
+(Intercept)          x1 
+  11.295461    1.167801 
+[1] 0.2068504
+(Intercept)          x1 
+ 11.9072812   0.5514142 
+[1] 0.2070692
+(Intercept)          x1 
+  11.543675    1.110576 
+[1] 0.1999721
+(Intercept)          x1 
+ 11.7442695   0.8376286 
+[1] 0.2156296
+(Intercept)          x1 
+ 11.8436048   0.9615687 
+[1] 0.1900787
+(Intercept)          x1 
+  11.422180    1.370759 
+[1] 0.1945381
                  150           300 600 1200 2400
-naive            "0.111/0.158" NA  NA  NA   NA  
-der-postpi       "0.24/0.162"  NA  NA  NA   NA  
-bs-postpi-par    "0.24/0.164"  NA  NA  NA   NA  
-bs-postpi-nonpar "0.241/0.164" NA  NA  NA   NA  
-val*             "0.234/0.242" NA  NA  NA   NA  
-observed         "0.084/0.082" NA  NA  NA   NA  
+naive            "0.114/0.207" NA  NA  NA   NA  
+der-postpi       "0.241/0.19"  NA  NA  NA   NA  
+bs-postpi-par    "0.24/0.194"  NA  NA  NA   NA  
+bs-postpi-nonpar "0.24/0.194"  NA  NA  NA   NA  
+val*             "0.238/0.248" NA  NA  NA   NA  
+observed         "0.165/0.161" NA  NA  NA   NA  
+predpowinf       "0.188/0.179" NA  NA  NA   NA  
                     150 300 600 1200 2400
-naive            -0.001  NA  NA   NA   NA
-der-postpi       -0.015  NA  NA   NA   NA
-bs-postpi-par    -0.011  NA  NA   NA   NA
-bs-postpi-nonpar -0.011  NA  NA   NA   NA
-val*             -0.004  NA  NA   NA   NA
-observed          0.002  NA  NA   NA   NA
+naive            -0.015  NA  NA   NA   NA
+der-postpi       -0.094  NA  NA   NA   NA
+bs-postpi-par    -0.093  NA  NA   NA   NA
+bs-postpi-nonpar -0.093  NA  NA   NA   NA
+val*              0.031  NA  NA   NA   NA
+observed         -0.002  NA  NA   NA   NA
+predpowinf       -0.002  NA  NA   NA   NA
                    150 300 600 1200 2400
-naive            0.025  NA  NA   NA   NA
-der-postpi       0.027  NA  NA   NA   NA
-bs-postpi-par    0.027  NA  NA   NA   NA
-bs-postpi-nonpar 0.027  NA  NA   NA   NA
-val*             0.059  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                  150 300 600 1200 2400
-naive            82.2  NA  NA   NA   NA
-der-postpi       99.4  NA  NA   NA   NA
-bs-postpi-par    99.1  NA  NA   NA   NA
-bs-postpi-nonpar 99.1  NA  NA   NA   NA
-val*             94.1  NA  NA   NA   NA
-observed         94.5  NA  NA   NA   NA
-[1] 5
-[1] 0.8923263
+naive            0.043  NA  NA   NA   NA
+der-postpi       0.045  NA  NA   NA   NA
+bs-postpi-par    0.046  NA  NA   NA   NA
+bs-postpi-nonpar 0.046  NA  NA   NA   NA
+val*             0.062  NA  NA   NA   NA
+observed         0.026  NA  NA   NA   NA
+predpowinf       0.032  NA  NA   NA   NA
+                 150 300 600 1200 2400
+naive             74  NA  NA   NA   NA
+der-postpi        97  NA  NA   NA   NA
+bs-postpi-par     96  NA  NA   NA   NA
+bs-postpi-nonpar  97  NA  NA   NA   NA
+val*              97  NA  NA   NA   NA
+observed          95  NA  NA   NA   NA
+predpowinf        97  NA  NA   NA   NA
+[1] 1
+[1] 0.508632
+(Intercept)          x1 
+  11.283257    1.201852 
+[1] 0.1780091
+(Intercept)          x1 
+   11.19493     1.01109 
+[1] 0.170091
+(Intercept)          x1 
+ 11.5184148   0.8286878 
+[1] 0.2047358
+(Intercept)          x1 
+ 11.0617670   0.9477507 
+[1] 0.2077838
+(Intercept)          x1 
+  11.386875    1.013732 
+[1] 0.1602235
+(Intercept)          x1 
+  11.700550    1.111729 
+[1] 0.1767225
+(Intercept)          x1 
+ 10.8260957   0.8652198 
+[1] 0.1877638
+(Intercept)          x1 
+  11.664564    1.156414 
+[1] 0.1745437
+(Intercept)          x1 
+  11.935178    1.142698 
+[1] 0.2150658
+(Intercept)          x1 
+  11.615404    0.960242 
+[1] 0.1557105
+(Intercept)          x1 
+ 11.7256869   0.9523403 
+[1] 0.1636726
+(Intercept)          x1 
+  10.972014    1.260929 
+[1] 0.1577206
+(Intercept)          x1 
+  11.347517    1.019544 
+[1] 0.1743579
+(Intercept)          x1 
+ 11.7722671   0.9298967 
+[1] 0.1612817
+(Intercept)          x1 
+ 11.4147690   0.7591678 
+[1] 0.1868435
+(Intercept)          x1 
+ 11.9600815   0.6897265 
+[1] 0.1797504
+(Intercept)          x1 
+ 11.4541719   0.8987713 
+[1] 0.1787122
+(Intercept)          x1 
+ 11.3524657   0.7846362 
+[1] 0.1543084
+(Intercept)          x1 
+ 11.6794999   0.7515028 
+[1] 0.1825694
+(Intercept)          x1 
+ 11.6822814   0.9920194 
+[1] 0.1396479
+(Intercept)          x1 
+ 11.3817629   0.8686515 
+[1] 0.1840196
+(Intercept)          x1 
+   11.83275     1.30628 
+[1] 0.1850554
+(Intercept)          x1 
+  11.858233    1.001479 
+[1] 0.1652243
+(Intercept)          x1 
+ 11.4222883   0.8385442 
+[1] 0.1697978
+(Intercept)          x1 
+  11.860740    0.830134 
+[1] 0.1976329
+(Intercept)          x1 
+  11.523276    1.121085 
+[1] 0.1589935
+(Intercept)          x1 
+  11.169500    1.130894 
+[1] 0.1801641
+(Intercept)          x1 
+ 11.5790697   0.8070951 
+[1] 0.1581016
+(Intercept)          x1 
+ 11.8458016   0.9980446 
+[1] 0.1767046
+(Intercept)          x1 
+   11.41830     1.18726 
+[1] 0.2046294
+(Intercept)          x1 
+  11.307261    1.131457 
+[1] 0.1833342
+(Intercept)          x1 
+ 12.1009365   0.7763737 
+[1] 0.1713605
+(Intercept)          x1 
+ 11.7101084   0.9702717 
+[1] 0.1737083
+(Intercept)          x1 
+  11.508117    1.052686 
+[1] 0.1796649
+(Intercept)          x1 
+  11.369213    0.641906 
+[1] 0.167006
+(Intercept)          x1 
+  10.729176    1.102488 
+[1] 0.1974931
+(Intercept)          x1 
+ 12.1911052   0.6731792 
+[1] 0.1565673
+(Intercept)          x1 
+  11.628719    0.751065 
+[1] 0.1649854
+(Intercept)          x1 
+ 11.9650169   0.7523664 
+[1] 0.1487217
+(Intercept)          x1 
+  11.612683    1.046123 
+[1] 0.1570921
+(Intercept)          x1 
+ 11.5599414   0.9994205 
+[1] 0.1839592
+(Intercept)          x1 
+ 11.6414758   0.9870817 
+[1] 0.1860688
+(Intercept)          x1 
+ 11.8801537   0.9452287 
+[1] 0.1720431
+(Intercept)          x1 
+ 11.5308678   0.9721554 
+[1] 0.1750204
+(Intercept)          x1 
+  11.402523    1.053773 
+[1] 0.1720361
+(Intercept)          x1 
+ 10.9445461   0.9304937 
+[1] 0.1510905
+(Intercept)          x1 
+ 10.6598258   0.9796214 
+[1] 0.1861523
+(Intercept)          x1 
+  11.517010    1.175371 
+[1] 0.1942817
+(Intercept)          x1 
+  11.441467    1.212861 
+[1] 0.181044
+(Intercept)          x1 
+ 11.8453075   0.8771955 
+[1] 0.1702824
+(Intercept)          x1 
+  11.219096    1.054301 
+[1] 0.1796831
+(Intercept)          x1 
+ 11.6857274   0.8794757 
+[1] 0.1750794
+(Intercept)          x1 
+ 11.2632909   0.8618922 
+[1] 0.1776934
+(Intercept)          x1 
+ 11.0264791   0.9402777 
+[1] 0.1777252
+(Intercept)          x1 
+  10.774617    1.078906 
+[1] 0.1484976
+(Intercept)          x1 
+ 11.8772561   0.9132788 
+[1] 0.1778953
+(Intercept)          x1 
+  11.634286    1.036108 
+[1] 0.1900789
+(Intercept)          x1 
+ 11.4439152   0.8344916 
+[1] 0.1901063
+(Intercept)          x1 
+  11.483641    1.068548 
+[1] 0.1623553
+(Intercept)          x1 
+  11.284584    1.280707 
+[1] 0.1643348
+(Intercept)          x1 
+  11.361429    1.034527 
+[1] 0.1537324
+(Intercept)          x1 
+  11.589961    1.314541 
+[1] 0.1741217
+(Intercept)          x1 
+ 11.2953477   0.9624628 
+[1] 0.1809113
+(Intercept)          x1 
+  11.266407    1.066026 
+[1] 0.1824753
+(Intercept)          x1 
+  11.397561    1.114087 
+[1] 0.1719809
+(Intercept)          x1 
+ 11.6360401   0.8493466 
+[1] 0.1798067
+(Intercept)          x1 
+ 11.5071570   0.8428946 
+[1] 0.172698
+(Intercept)          x1 
+ 11.8751844   0.9575581 
+[1] 0.1687268
+(Intercept)          x1 
+ 11.4404070   0.9855852 
+[1] 0.1832723
+(Intercept)          x1 
+  11.293157    1.142943 
+[1] 0.1738436
+(Intercept)          x1 
+ 11.5033286   0.9964818 
+[1] 0.1670596
+(Intercept)          x1 
+ 11.3304480   0.8891041 
+[1] 0.1713128
+(Intercept)          x1 
+ 11.6599604   0.9593962 
+[1] 0.1841322
+(Intercept)          x1 
+  11.511449    1.041586 
+[1] 0.1672018
+(Intercept)          x1 
+  11.590110    1.049915 
+[1] 0.1745794
+(Intercept)          x1 
+  11.073130    1.115424 
+[1] 0.1713089
+(Intercept)          x1 
+ 11.3044149   0.7193303 
+[1] 0.1658086
+(Intercept)          x1 
+ 11.6368061   0.7520845 
+[1] 0.1943128
+(Intercept)          x1 
+ 11.4387497   0.9525849 
+[1] 0.168993
+(Intercept)          x1 
+  11.760662    1.059971 
+[1] 0.1696455
+(Intercept)          x1 
+  11.427052    0.900015 
+[1] 0.1778979
+(Intercept)          x1 
+  11.252086    1.268397 
+[1] 0.1620343
+(Intercept)          x1 
+  11.826353    1.001188 
+[1] 0.1773442
+(Intercept)          x1 
+  11.755128    1.011181 
+[1] 0.1820207
+(Intercept)          x1 
+  11.883445    1.120152 
+[1] 0.1775509
+(Intercept)          x1 
+ 11.8860248   0.8754243 
+[1] 0.1803135
+(Intercept)          x1 
+ 11.5487056   0.9630974 
+[1] 0.1813463
+(Intercept)          x1 
+ 11.8681668   0.9104177 
+[1] 0.1717392
+(Intercept)          x1 
+ 12.2419386   0.6952548 
+[1] 0.173273
+(Intercept)          x1 
+  11.482720    1.047774 
+[1] 0.177465
+(Intercept)          x1 
+  10.876728    1.084722 
+[1] 0.1753571
+(Intercept)          x1 
+  11.488854    1.097534 
+[1] 0.1453014
+(Intercept)          x1 
+  11.391554    0.963724 
+[1] 0.1554649
+(Intercept)          x1 
+ 12.0290424   0.8411298 
+[1] 0.1732541
+(Intercept)          x1 
+  10.932986    1.082819 
+[1] 0.1900486
+(Intercept)          x1 
+ 11.5063496   0.8672908 
+[1] 0.1956021
+(Intercept)          x1 
+ 12.1519584   0.8178356 
+[1] 0.1531163
+(Intercept)          x1 
+ 12.2646182   0.7652748 
+[1] 0.136017
+(Intercept)          x1 
+  11.482929    1.097942 
+[1] 0.1653893
+(Intercept)          x1 
+  11.625272    1.123555 
+[1] 0.1700348
                  150           300           600 1200 2400
-naive            "0.111/0.158" "0.078/0.131" NA  NA   NA  
-der-postpi       "0.24/0.162"  "0.169/0.133" NA  NA   NA  
-bs-postpi-par    "0.24/0.164"  "0.169/0.136" NA  NA   NA  
-bs-postpi-nonpar "0.241/0.164" "0.169/0.136" NA  NA   NA  
-val*             "0.234/0.242" "0.166/0.175" NA  NA   NA  
-observed         "0.084/0.082" "0.084/0.082" NA  NA   NA  
+naive            "0.114/0.207" "0.08/0.195"  NA  NA   NA  
+der-postpi       "0.241/0.19"  "0.17/0.153"  NA  NA   NA  
+bs-postpi-par    "0.24/0.194"  "0.169/0.159" NA  NA   NA  
+bs-postpi-nonpar "0.24/0.194"  "0.17/0.159"  NA  NA   NA  
+val*             "0.238/0.248" "0.169/0.18"  NA  NA   NA  
+observed         "0.165/0.161" "0.168/0.144" NA  NA   NA  
+predpowinf       "0.188/0.179" "0.174/0.149" NA  NA   NA  
                     150    300 600 1200 2400
-naive            -0.001 -0.006  NA   NA   NA
-der-postpi       -0.015 -0.020  NA   NA   NA
-bs-postpi-par    -0.011 -0.016  NA   NA   NA
-bs-postpi-nonpar -0.011 -0.016  NA   NA   NA
-val*             -0.004 -0.003  NA   NA   NA
-observed          0.002  0.001  NA   NA   NA
+naive            -0.015 -0.020  NA   NA   NA
+der-postpi       -0.094 -0.099  NA   NA   NA
+bs-postpi-par    -0.093 -0.101  NA   NA   NA
+bs-postpi-nonpar -0.093 -0.101  NA   NA   NA
+val*              0.031 -0.028  NA   NA   NA
+observed         -0.002 -0.005  NA   NA   NA
+predpowinf       -0.002 -0.023  NA   NA   NA
                    150   300 600 1200 2400
-naive            0.025 0.017  NA   NA   NA
-der-postpi       0.027 0.018  NA   NA   NA
-bs-postpi-par    0.027 0.019  NA   NA   NA
-bs-postpi-nonpar 0.027 0.019  NA   NA   NA
-val*             0.059 0.031  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                  150  300 600 1200 2400
-naive            82.2 74.3  NA   NA   NA
-der-postpi       99.4 98.2  NA   NA   NA
-bs-postpi-par    99.1 98.1  NA   NA   NA
-bs-postpi-nonpar 99.1 98.2  NA   NA   NA
-val*             94.1 93.4  NA   NA   NA
-observed         94.5 95.8  NA   NA   NA
-[1] 5
-[1] 0.8922447
+naive            0.043 0.038  NA   NA   NA
+der-postpi       0.045 0.033  NA   NA   NA
+bs-postpi-par    0.046 0.035  NA   NA   NA
+bs-postpi-nonpar 0.046 0.035  NA   NA   NA
+val*             0.062 0.033  NA   NA   NA
+observed         0.026 0.020  NA   NA   NA
+predpowinf       0.032 0.022  NA   NA   NA
+                 150 300 600 1200 2400
+naive             74  57  NA   NA   NA
+der-postpi        97  91  NA   NA   NA
+bs-postpi-par     96  92  NA   NA   NA
+bs-postpi-nonpar  97  92  NA   NA   NA
+val*              97  92  NA   NA   NA
+observed          95  97  NA   NA   NA
+predpowinf        97  98  NA   NA   NA
+[1] 1
+[1] 0.4975245
+(Intercept)          x1 
+  10.590669    1.211009 
+[1] 0.1598083
+(Intercept)          x1 
+  11.567705    1.058206 
+[1] 0.1775878
+(Intercept)          x1 
+ 11.6498294   0.7795833 
+[1] 0.1611802
+(Intercept)          x1 
+ 11.4773999   0.9088846 
+[1] 0.1494148
+(Intercept)          x1 
+ 11.9890214   0.7174551 
+[1] 0.1554013
+(Intercept)          x1 
+  11.133296    1.147608 
+[1] 0.1403165
+(Intercept)          x1 
+  12.283329    1.172475 
+[1] 0.1705731
+(Intercept)          x1 
+  11.542357    1.250453 
+[1] 0.1803809
+(Intercept)          x1 
+ 11.4097987   0.8154159 
+[1] 0.1739106
+(Intercept)          x1 
+  11.168975    1.248037 
+[1] 0.1562044
+(Intercept)          x1 
+ 10.9857175   0.9268241 
+[1] 0.1693486
+(Intercept)          x1 
+  11.415190    1.121132 
+[1] 0.1630145
+(Intercept)          x1 
+ 11.9067542   0.9810608 
+[1] 0.1605995
+(Intercept)          x1 
+  11.310923    1.330607 
+[1] 0.1707733
+(Intercept)          x1 
+  10.986870    1.043704 
+[1] 0.170593
+(Intercept)          x1 
+ 11.9199241   0.8253713 
+[1] 0.1509716
+(Intercept)          x1 
+ 11.5375528   0.8075831 
+[1] 0.1689737
+(Intercept)          x1 
+  11.459909    1.172937 
+[1] 0.1449246
+(Intercept)          x1 
+  11.428741    1.298136 
+[1] 0.1854584
+(Intercept)          x1 
+ 11.9088183   0.8728595 
+[1] 0.1277482
+(Intercept)          x1 
+  11.706377    0.677989 
+[1] 0.148057
+(Intercept)          x1 
+  11.070755    1.037048 
+[1] 0.1415183
+(Intercept)          x1 
+   11.76993     1.07154 
+[1] 0.1702985
+(Intercept)          x1 
+ 11.5101437   0.8655773 
+[1] 0.1585974
+(Intercept)          x1 
+  11.342538    1.065115 
+[1] 0.1451097
+(Intercept)          x1 
+  11.532751    1.096211 
+[1] 0.1720649
+(Intercept)          x1 
+  11.353699    1.030564 
+[1] 0.1710409
+(Intercept)          x1 
+  11.253773    1.100549 
+[1] 0.1820284
+(Intercept)          x1 
+ 11.7240890   0.9604589 
+[1] 0.1780422
+(Intercept)          x1 
+  11.653940    1.060875 
+[1] 0.1473113
+(Intercept)          x1 
+ 12.1065877   0.9630263 
+[1] 0.1699788
+(Intercept)          x1 
+ 12.6113374   0.4688768 
+[1] 0.1892046
+(Intercept)          x1 
+  11.643358    1.070363 
+[1] 0.1542225
+(Intercept)          x1 
+   11.56098     1.07842 
+[1] 0.1612838
+(Intercept)          x1 
+ 11.6372886   0.8286491 
+[1] 0.1951471
+(Intercept)          x1 
+ 11.5154677   0.9709511 
+[1] 0.1547652
+(Intercept)          x1 
+  11.222306    1.193554 
+[1] 0.1498926
+(Intercept)          x1 
+ 11.9076900   0.8856312 
+[1] 0.1576871
+(Intercept)          x1 
+  12.014291    1.013309 
+[1] 0.1742332
+(Intercept)          x1 
+ 11.5879988   0.9181895 
+[1] 0.1564754
+(Intercept)          x1 
+  10.726818    1.252804 
+[1] 0.1555702
+(Intercept)          x1 
+  11.601948    1.226219 
+[1] 0.135825
+(Intercept)          x1 
+  11.537798    1.234344 
+[1] 0.1600571
+(Intercept)          x1 
+ 11.6527123   0.8318492 
+[1] 0.1570941
+(Intercept)          x1 
+  11.512636    0.901929 
+[1] 0.1680726
+(Intercept)          x1 
+   11.35423     0.93245 
+[1] 0.1699358
+(Intercept)          x1 
+  11.662138    1.067824 
+[1] 0.1810835
+(Intercept)          x1 
+  11.373220    1.056852 
+[1] 0.1585724
+(Intercept)          x1 
+   11.14686     0.97563 
+[1] 0.1785731
+(Intercept)          x1 
+ 11.8331543   0.8087149 
+[1] 0.1580151
+(Intercept)          x1 
+  11.699403    1.060652 
+[1] 0.1467559
+(Intercept)          x1 
+ 11.3088729   0.8309664 
+[1] 0.1448113
+(Intercept)          x1 
+ 12.0467084   0.8964458 
+[1] 0.193336
+(Intercept)          x1 
+ 11.2866437   0.9533441 
+[1] 0.1721233
+(Intercept)          x1 
+  10.768816    1.397692 
+[1] 0.1983269
+(Intercept)          x1 
+ 11.3140404   0.8426139 
+[1] 0.1746733
+(Intercept)          x1 
+  11.144262    1.039698 
+[1] 0.1685641
+(Intercept)          x1 
+ 11.1279143   0.9182403 
+[1] 0.1958317
+(Intercept)          x1 
+  11.434851    1.019956 
+[1] 0.1552088
+(Intercept)          x1 
+  11.742238    1.039667 
+[1] 0.1541475
+(Intercept)          x1 
+  11.212828    1.063648 
+[1] 0.1692066
+(Intercept)          x1 
+ 12.0258500   0.8322353 
+[1] 0.1495375
+(Intercept)          x1 
+  11.726063    1.133567 
+[1] 0.1562166
+(Intercept)          x1 
+ 11.9369947   0.8344328 
+[1] 0.1491478
+(Intercept)          x1 
+  10.912288    1.235727 
+[1] 0.1588507
+(Intercept)          x1 
+  11.442145    1.121907 
+[1] 0.1733113
+(Intercept)          x1 
+ 11.7972808   0.7265886 
+[1] 0.1611129
+(Intercept)          x1 
+ 11.6853709   0.8701333 
+[1] 0.1495669
+(Intercept)          x1 
+  11.439458    1.192525 
+[1] 0.1486418
+(Intercept)          x1 
+ 11.3657288   0.9425893 
+[1] 0.1545067
+(Intercept)          x1 
+ 11.4457381   0.8995585 
+[1] 0.1589109
+(Intercept)          x1 
+ 11.6387891   0.7759812 
+[1] 0.1582448
+(Intercept)          x1 
+ 11.9171669   0.9959139 
+[1] 0.1724967
+(Intercept)          x1 
+  11.357104    1.018684 
+[1] 0.1634684
+(Intercept)          x1 
+ 11.4976129   0.6346651 
+[1] 0.1537366
+(Intercept)          x1 
+  10.989000    1.123263 
+[1] 0.1839327
+(Intercept)          x1 
+  11.293366    1.114924 
+[1] 0.2086613
+(Intercept)          x1 
+  11.050846    1.047236 
+[1] 0.1711585
+(Intercept)          x1 
+  11.853228    0.804615 
+[1] 0.164878
+(Intercept)          x1 
+ 11.9484441   0.9305983 
+[1] 0.1570039
+(Intercept)          x1 
+  11.675750    1.146854 
+[1] 0.1732939
+(Intercept)          x1 
+ 11.6886561   0.9491388 
+[1] 0.1506437
+(Intercept)          x1 
+ 12.0700144   0.8431813 
+[1] 0.1571492
+(Intercept)          x1 
+  11.096682    1.186255 
+[1] 0.1565665
+(Intercept)          x1 
+ 11.7083419   0.8834982 
+[1] 0.1729528
+(Intercept)          x1 
+ 11.0510108   0.8569193 
+[1] 0.149872
+(Intercept)          x1 
+  11.609635    1.192344 
+[1] 0.1483412
+(Intercept)          x1 
+ 11.5727899   0.9909317 
+[1] 0.1499979
+(Intercept)          x1 
+  11.112330    1.320632 
+[1] 0.1680951
+(Intercept)          x1 
+  11.206510    1.109152 
+[1] 0.1488139
+(Intercept)          x1 
+ 11.6045662   0.7816489 
+[1] 0.1465491
+(Intercept)          x1 
+  11.658200    0.934102 
+[1] 0.147347
+(Intercept)          x1 
+ 11.3453116   0.8623528 
+[1] 0.1513035
+(Intercept)          x1 
+ 11.8321434   0.8373864 
+[1] 0.1793772
+(Intercept)          x1 
+  11.488664    1.061814 
+[1] 0.1688581
+(Intercept)          x1 
+  11.339372    1.022921 
+[1] 0.1642393
+(Intercept)          x1 
+   11.78265     1.04708 
+[1] 0.179152
+(Intercept)          x1 
+ 11.8671096   0.4934149 
+[1] 0.1907743
+(Intercept)          x1 
+  11.780401    1.104671 
+[1] 0.1322539
+(Intercept)          x1 
+ 12.6491889   0.5378686 
+[1] 0.1793718
                  150           300           600           1200 2400
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" NA   NA  
-der-postpi       "0.24/0.162"  "0.169/0.133" "0.119/0.123" NA   NA  
-bs-postpi-par    "0.24/0.164"  "0.169/0.136" "0.119/0.124" NA   NA  
-bs-postpi-nonpar "0.241/0.164" "0.169/0.136" "0.119/0.124" NA   NA  
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" NA   NA  
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" NA   NA  
+naive            "0.114/0.207" "0.08/0.195"  "0.057/0.154" NA   NA  
+der-postpi       "0.241/0.19"  "0.17/0.153"  "0.119/0.166" NA   NA  
+bs-postpi-par    "0.24/0.194"  "0.169/0.159" "0.119/0.166" NA   NA  
+bs-postpi-nonpar "0.24/0.194"  "0.17/0.159"  "0.118/0.166" NA   NA  
+val*             "0.238/0.248" "0.169/0.18"  "0.118/0.13"  NA   NA  
+observed         "0.165/0.161" "0.168/0.144" "0.167/0.176" NA   NA  
+predpowinf       "0.188/0.179" "0.174/0.149" "0.163/0.178" NA   NA  
                     150    300    600 1200 2400
-naive            -0.001 -0.006 -0.002   NA   NA
-der-postpi       -0.015 -0.020 -0.017   NA   NA
-bs-postpi-par    -0.011 -0.016 -0.014   NA   NA
-bs-postpi-nonpar -0.011 -0.016 -0.014   NA   NA
-val*             -0.004 -0.003 -0.004   NA   NA
-observed          0.002  0.001  0.003   NA   NA
+naive            -0.015 -0.020 -0.014   NA   NA
+der-postpi       -0.094 -0.099 -0.105   NA   NA
+bs-postpi-par    -0.093 -0.101 -0.101   NA   NA
+bs-postpi-nonpar -0.093 -0.101 -0.101   NA   NA
+val*              0.031 -0.028  0.026   NA   NA
+observed         -0.002 -0.005 -0.027   NA   NA
+predpowinf       -0.002 -0.023 -0.012   NA   NA
                    150   300   600 1200 2400
-naive            0.025 0.017 0.015   NA   NA
-der-postpi       0.027 0.018 0.015   NA   NA
-bs-postpi-par    0.027 0.019 0.016   NA   NA
-bs-postpi-nonpar 0.027 0.019 0.016   NA   NA
-val*             0.059 0.031 0.013   NA   NA
-observed            NA    NA    NA   NA   NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0   NA   NA
-der-postpi       99.4 98.2 94.0   NA   NA
-bs-postpi-par    99.1 98.1 93.9   NA   NA
-bs-postpi-nonpar 99.1 98.2 94.2   NA   NA
-val*             94.1 93.4 95.2   NA   NA
-observed         94.5 95.8 96.4   NA   NA
-[1] 5
-[1] 0.8916724
+naive            0.043 0.038 0.024   NA   NA
+der-postpi       0.045 0.033 0.038   NA   NA
+bs-postpi-par    0.046 0.035 0.037   NA   NA
+bs-postpi-nonpar 0.046 0.035 0.037   NA   NA
+val*             0.062 0.033 0.017   NA   NA
+observed         0.026 0.020 0.031   NA   NA
+predpowinf       0.032 0.022 0.032   NA   NA
+                 150 300 600 1200 2400
+naive             74  57  54   NA   NA
+der-postpi        97  91  74   NA   NA
+bs-postpi-par     96  92  78   NA   NA
+bs-postpi-nonpar  97  92  79   NA   NA
+val*              97  92  91   NA   NA
+observed          95  97  94   NA   NA
+predpowinf        97  98  94   NA   NA
+[1] 1
+[1] 0.5040339
+(Intercept)          x1 
+  11.182407    1.119803 
+[1] 0.1531801
+(Intercept)          x1 
+ 11.8938668   0.9348668 
+[1] 0.1516957
+(Intercept)          x1 
+  11.380784    1.070116 
+[1] 0.1240785
+(Intercept)          x1 
+ 11.5083590   0.9281727 
+[1] 0.1402523
+(Intercept)          x1 
+   11.70767     1.16934 
+[1] 0.1665369
+(Intercept)          x1 
+  11.229997    0.853047 
+[1] 0.1785586
+(Intercept)          x1 
+  10.992604    1.286472 
+[1] 0.1326628
+(Intercept)          x1 
+  11.724112    1.010422 
+[1] 0.1509981
+(Intercept)          x1 
+  11.357028    1.045008 
+[1] 0.1449264
+(Intercept)          x1 
+ 11.4468235   0.9351459 
+[1] 0.1494149
+(Intercept)          x1 
+ 11.8601423   0.8092632 
+[1] 0.1505153
+(Intercept)          x1 
+  11.298440    1.018904 
+[1] 0.1650903
+(Intercept)          x1 
+  10.880965    1.326309 
+[1] 0.1783917
+(Intercept)          x1 
+ 11.4814974   0.7694173 
+[1] 0.1630696
+(Intercept)          x1 
+  10.988216    1.014889 
+[1] 0.1597714
+(Intercept)          x1 
+ 11.8392959   0.5244973 
+[1] 0.170286
+(Intercept)          x1 
+ 11.6096462   0.9700919 
+[1] 0.1409618
+(Intercept)          x1 
+  11.537277    1.124501 
+[1] 0.1840413
+(Intercept)          x1 
+  11.228272    1.345133 
+[1] 0.1831681
+(Intercept)          x1 
+  11.760747    1.207159 
+[1] 0.1277486
+(Intercept)          x1 
+  11.694289    0.876272 
+[1] 0.1564872
+(Intercept)          x1 
+ 12.0989802   0.5685003 
+[1] 0.145852
+(Intercept)          x1 
+ 11.2102403   0.9622499 
+[1] 0.1605559
+(Intercept)          x1 
+   11.40007     1.10717 
+[1] 0.1617553
+(Intercept)          x1 
+ 11.1296101   0.9666623 
+[1] 0.1482873
+(Intercept)          x1 
+  11.597597    1.080703 
+[1] 0.1617245
+(Intercept)          x1 
+ 11.8178858   0.9696839 
+[1] 0.1666834
+(Intercept)          x1 
+  11.544406    1.168673 
+[1] 0.1427013
+(Intercept)          x1 
+  11.011278    1.278562 
+[1] 0.1467858
+(Intercept)          x1 
+ 11.5483926   0.9250443 
+[1] 0.1393521
+(Intercept)          x1 
+  11.789461    0.918132 
+[1] 0.1651589
+(Intercept)          x1 
+  11.444521    1.068919 
+[1] 0.1540959
+(Intercept)          x1 
+   11.15887     1.15483 
+[1] 0.1612593
+(Intercept)          x1 
+  11.832646    0.760385 
+[1] 0.1633698
+(Intercept)          x1 
+ 11.2444888   0.8828993 
+[1] 0.1717165
+(Intercept)          x1 
+  11.044691    1.059813 
+[1] 0.1374453
+(Intercept)          x1 
+  11.609369    1.316729 
+[1] 0.1623715
+(Intercept)          x1 
+ 11.6737339   0.8484513 
+[1] 0.1625505
+(Intercept)          x1 
+ 11.4501743   0.8335052 
+[1] 0.172073
+(Intercept)          x1 
+  11.828869    0.977869 
+[1] 0.1625196
+(Intercept)          x1 
+  10.866021    1.352529 
+[1] 0.1673369
+(Intercept)          x1 
+  11.705295    1.160133 
+[1] 0.1858233
+(Intercept)          x1 
+ 11.4010590   0.9694174 
+[1] 0.1383204
+(Intercept)          x1 
+ 12.1652017   0.9679936 
+[1] 0.148642
+(Intercept)          x1 
+ 12.1173585   0.5386397 
+[1] 0.1817383
+(Intercept)          x1 
+ 11.6213494   0.8951134 
+[1] 0.1673441
+(Intercept)          x1 
+ 11.9903602   0.9480142 
+[1] 0.1385184
+(Intercept)          x1 
+   11.35067     1.02111 
+[1] 0.1515328
+(Intercept)          x1 
+ 12.0885011   0.9784152 
+[1] 0.1483655
+(Intercept)          x1 
+ 11.7990306   0.8368352 
+[1] 0.1584912
+(Intercept)          x1 
+ 11.4007979   0.8986884 
+[1] 0.1354914
+(Intercept)          x1 
+ 11.5768631   0.9824643 
+[1] 0.1682202
+(Intercept)          x1 
+ 11.4242354   0.9709069 
+[1] 0.1553334
+(Intercept)          x1 
+ 12.1699915   0.8732655 
+[1] 0.1306637
+(Intercept)          x1 
+  11.918935    0.763755 
+[1] 0.1602793
+(Intercept)          x1 
+ 11.4721473   0.8615391 
+[1] 0.1837732
+(Intercept)          x1 
+  11.564782    0.811356 
+[1] 0.1373513
+(Intercept)          x1 
+   11.30113     1.08059 
+[1] 0.1405209
+(Intercept)          x1 
+ 11.3673198   0.7468761 
+[1] 0.1519922
+(Intercept)          x1 
+ 11.4665481   0.8689922 
+[1] 0.147268
+(Intercept)          x1 
+  11.014615    1.324438 
+[1] 0.1524914
+(Intercept)          x1 
+ 11.7144939   0.8243107 
+[1] 0.1638571
+(Intercept)          x1 
+ 11.5889469   0.8634089 
+[1] 0.1666039
+(Intercept)          x1 
+  11.153114    1.087869 
+[1] 0.1676009
+(Intercept)          x1 
+ 11.6768499   0.9151575 
+[1] 0.1658531
+(Intercept)          x1 
+  11.499345    1.263929 
+[1] 0.1555959
+(Intercept)          x1 
+ 12.1404951   0.8235898 
+[1] 0.1718879
+(Intercept)          x1 
+  11.917675    1.004924 
+[1] 0.1551525
+(Intercept)          x1 
+ 11.4686202   0.8713305 
+[1] 0.1501186
+(Intercept)          x1 
+  11.477878    1.033979 
+[1] 0.1540181
+(Intercept)          x1 
+ 11.9554784   0.8331491 
+[1] 0.172277
+(Intercept)          x1 
+ 11.5133585   0.7225151 
+[1] 0.1520643
+(Intercept)          x1 
+ 11.4451251   0.8641146 
+[1] 0.1364592
+(Intercept)          x1 
+ 11.5594504   0.9463664 
+[1] 0.1595275
+(Intercept)          x1 
+  11.160443    1.081211 
+[1] 0.1611143
+(Intercept)          x1 
+  11.830050    1.061595 
+[1] 0.1406655
+(Intercept)          x1 
+  11.537193    1.043214 
+[1] 0.1612396
+(Intercept)          x1 
+ 11.6442841   0.9783256 
+[1] 0.1671392
+(Intercept)          x1 
+  11.609297    1.060269 
+[1] 0.1787558
+(Intercept)          x1 
+  12.134289    0.735907 
+[1] 0.1495257
+(Intercept)          x1 
+   11.40756     1.08653 
+[1] 0.1686829
+(Intercept)          x1 
+   12.00358     1.23575 
+[1] 0.1546435
+(Intercept)          x1 
+ 11.3645707   0.9845566 
+[1] 0.1431872
+(Intercept)          x1 
+  11.752621    0.813994 
+[1] 0.1791317
+(Intercept)          x1 
+  11.561037    1.156641 
+[1] 0.1733459
+(Intercept)          x1 
+ 11.8829013   0.7649611 
+[1] 0.1450278
+(Intercept)          x1 
+ 12.2685814   0.7574782 
+[1] 0.1514673
+(Intercept)          x1 
+ 11.5052420   0.9591093 
+[1] 0.1869051
+(Intercept)          x1 
+ 11.0731910   0.8944814 
+[1] 0.1316908
+(Intercept)          x1 
+  11.730117    1.007112 
+[1] 0.1721126
+(Intercept)          x1 
+ 11.5729595   0.9198348 
+[1] 0.1562617
+(Intercept)          x1 
+  11.463106    0.729424 
+[1] 0.1673961
+(Intercept)          x1 
+ 11.9372657   0.9829409 
+[1] 0.1443393
+(Intercept)          x1 
+  11.337203    1.221978 
+[1] 0.1701509
+(Intercept)          x1 
+ 11.9972372   0.8428775 
+[1] 0.1687681
+(Intercept)          x1 
+   11.07551     1.29745 
+[1] 0.1398561
+(Intercept)          x1 
+  12.200639    1.064653 
+[1] 0.1578821
+(Intercept)          x1 
+  11.700954    1.052642 
+[1] 0.1541047
+(Intercept)          x1 
+  11.263688    1.193791 
+[1] 0.1508326
+(Intercept)          x1 
+  11.765009    1.014985 
+[1] 0.1759869
                  150           300           600           1200          2400
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" "0.039/0.117" NA  
-der-postpi       "0.24/0.162"  "0.169/0.133" "0.119/0.123" "0.085/0.121" NA  
-bs-postpi-par    "0.24/0.164"  "0.169/0.136" "0.119/0.124" "0.084/0.122" NA  
-bs-postpi-nonpar "0.241/0.164" "0.169/0.136" "0.119/0.124" "0.084/0.122" NA  
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" "0.083/0.085" NA  
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" "0.084/0.086" NA  
+naive            "0.114/0.207" "0.08/0.195"  "0.057/0.154" "0.04/0.175"  NA  
+der-postpi       "0.241/0.19"  "0.17/0.153"  "0.119/0.166" "0.083/0.171" NA  
+bs-postpi-par    "0.24/0.194"  "0.169/0.159" "0.119/0.166" "0.083/0.172" NA  
+bs-postpi-nonpar "0.24/0.194"  "0.17/0.159"  "0.118/0.166" "0.083/0.172" NA  
+val*             "0.238/0.248" "0.169/0.18"  "0.118/0.13"  "0.083/0.081" NA  
+observed         "0.165/0.161" "0.168/0.144" "0.167/0.176" "0.166/0.17"  NA  
+predpowinf       "0.188/0.179" "0.174/0.149" "0.163/0.178" "0.157/0.174" NA  
                     150    300    600   1200 2400
-naive            -0.001 -0.006 -0.002  0.003   NA
-der-postpi       -0.015 -0.020 -0.017 -0.020   NA
-bs-postpi-par    -0.011 -0.016 -0.014 -0.018   NA
-bs-postpi-nonpar -0.011 -0.016 -0.014 -0.018   NA
-val*             -0.004 -0.003 -0.004  0.001   NA
-observed          0.002  0.001  0.003 -0.001   NA
+naive            -0.015 -0.020 -0.014  0.009   NA
+der-postpi       -0.094 -0.099 -0.105 -0.095   NA
+bs-postpi-par    -0.093 -0.101 -0.101 -0.092   NA
+bs-postpi-nonpar -0.093 -0.101 -0.101 -0.092   NA
+val*              0.031 -0.028  0.026  0.000   NA
+observed         -0.002 -0.005 -0.027 -0.017   NA
+predpowinf       -0.002 -0.023 -0.012 -0.020   NA
                    150   300   600  1200 2400
-naive            0.025 0.017 0.015 0.014   NA
-der-postpi       0.027 0.018 0.015 0.015   NA
-bs-postpi-par    0.027 0.019 0.016 0.015   NA
-bs-postpi-nonpar 0.027 0.019 0.016 0.015   NA
-val*             0.059 0.031 0.013 0.007   NA
-observed            NA    NA    NA    NA   NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0 48.1   NA
-der-postpi       99.4 98.2 94.0 82.3   NA
-bs-postpi-par    99.1 98.1 93.9 80.8   NA
-bs-postpi-nonpar 99.1 98.2 94.2 81.1   NA
-val*             94.1 93.4 95.2 94.4   NA
-observed         94.5 95.8 96.4 94.1   NA
-[1] 5
-[1] 0.8918247
+naive            0.043 0.038 0.024 0.030   NA
+der-postpi       0.045 0.033 0.038 0.038   NA
+bs-postpi-par    0.046 0.035 0.037 0.038   NA
+bs-postpi-nonpar 0.046 0.035 0.037 0.038   NA
+val*             0.062 0.033 0.017 0.006   NA
+observed         0.026 0.020 0.031 0.029   NA
+predpowinf       0.032 0.022 0.032 0.030   NA
+                 150 300 600 1200 2400
+naive             74  57  54   38   NA
+der-postpi        97  91  74   54   NA
+bs-postpi-par     96  92  78   59   NA
+bs-postpi-nonpar  97  92  79   61   NA
+val*              97  92  91   97   NA
+observed          95  97  94   93   NA
+predpowinf        97  98  94   93   NA
+[1] 1
+[1] 0.4995058
+(Intercept)          x1 
+  10.926963    1.151721 
+[1] 0.1536833
+(Intercept)          x1 
+  11.119821    1.196577 
+[1] 0.1487531
+(Intercept)          x1 
+ 11.0572221   0.8635357 
+[1] 0.1556094
+(Intercept)          x1 
+  11.325966    1.037533 
+[1] 0.165147
+(Intercept)          x1 
+  11.564023    1.149442 
+[1] 0.143239
+(Intercept)          x1 
+  11.392804    1.307428 
+[1] 0.1534235
+(Intercept)          x1 
+  10.878606    1.117265 
+[1] 0.1599216
+(Intercept)          x1 
+   11.77768     1.08158 
+[1] 0.1499604
+(Intercept)          x1 
+  11.506251    1.073087 
+[1] 0.130057
+(Intercept)          x1 
+ 12.0349756   0.8426641 
+[1] 0.1853095
+(Intercept)          x1 
+ 11.4508126   0.8238069 
+[1] 0.1336843
+(Intercept)          x1 
+   11.64710     1.01306 
+[1] 0.1653344
+(Intercept)          x1 
+ 12.1698443   0.7166037 
+[1] 0.1569576
+(Intercept)          x1 
+ 11.7472337   0.8491562 
+[1] 0.1595016
+(Intercept)          x1 
+  11.302596    1.200151 
+[1] 0.1506262
+(Intercept)          x1 
+  11.596218    1.025673 
+[1] 0.1327663
+(Intercept)          x1 
+  11.585435    1.025971 
+[1] 0.1288564
+(Intercept)          x1 
+  10.822768    1.111699 
+[1] 0.1513522
+(Intercept)          x1 
+ 11.9510590   0.6954074 
+[1] 0.1533551
+(Intercept)          x1 
+  11.504351    1.048011 
+[1] 0.169742
+(Intercept)          x1 
+  11.322951    1.132251 
+[1] 0.142269
+(Intercept)          x1 
+  11.266470    1.005834 
+[1] 0.1484831
+(Intercept)          x1 
+  11.375092    1.110912 
+[1] 0.1695699
+(Intercept)          x1 
+  11.834265    1.102846 
+[1] 0.1727018
+(Intercept)          x1 
+  11.198882    1.076295 
+[1] 0.149284
+(Intercept)          x1 
+  11.456946    1.052232 
+[1] 0.1613727
+(Intercept)          x1 
+  11.118670    1.133284 
+[1] 0.1608031
+(Intercept)          x1 
+   11.09655     1.15635 
+[1] 0.1653957
+(Intercept)          x1 
+ 11.4158690   0.8173368 
+[1] 0.1822841
+(Intercept)          x1 
+  11.855572    1.003448 
+[1] 0.1384202
+(Intercept)          x1 
+ 12.1552958   0.9232385 
+[1] 0.1490444
+(Intercept)          x1 
+   11.59043     1.02285 
+[1] 0.1291629
+(Intercept)          x1 
+ 12.0527428   0.7278574 
+[1] 0.1631029
+(Intercept)          x1 
+  11.566402    1.028267 
+[1] 0.1482741
+(Intercept)          x1 
+ 11.6425092   0.9767457 
+[1] 0.1592707
+(Intercept)          x1 
+  11.332134    1.139485 
+[1] 0.1497315
+(Intercept)          x1 
+ 11.7164901   0.9914222 
+[1] 0.1473515
+(Intercept)          x1 
+ 11.6262386   0.8400023 
+[1] 0.1679688
+(Intercept)          x1 
+ 11.7636802   0.9341676 
+[1] 0.1658653
+(Intercept)          x1 
+   11.70695     0.96794 
+[1] 0.1696947
+(Intercept)          x1 
+ 11.6934702   0.8867942 
+[1] 0.1485815
+(Intercept)          x1 
+  10.752244    1.286472 
+[1] 0.1627919
+(Intercept)          x1 
+ 11.8221427   0.7323144 
+[1] 0.1759017
+(Intercept)          x1 
+ 11.8471135   0.8054998 
+[1] 0.1680995
+(Intercept)          x1 
+ 11.6039348   0.7548472 
+[1] 0.13957
+(Intercept)          x1 
+  10.983933    1.084139 
+[1] 0.1534187
+(Intercept)          x1 
+ 11.5368259   0.8961452 
+[1] 0.1612387
+(Intercept)          x1 
+ 12.1978829   0.8280557 
+[1] 0.1717733
+(Intercept)          x1 
+  11.135009    1.075225 
+[1] 0.1593485
+(Intercept)          x1 
+ 11.7862276   0.7962558 
+[1] 0.1637473
+(Intercept)          x1 
+  11.529356    1.024191 
+[1] 0.1391974
+(Intercept)          x1 
+ 11.8263736   0.8785206 
+[1] 0.154353
+(Intercept)          x1 
+  11.111511    1.143601 
+[1] 0.1466396
+(Intercept)          x1 
+  10.881189    1.070249 
+[1] 0.170138
+(Intercept)          x1 
+ 11.6772783   0.9360142 
+[1] 0.1550186
+(Intercept)          x1 
+  11.654997    1.131722 
+[1] 0.1450258
+(Intercept)          x1 
+  11.894282    1.002919 
+[1] 0.1281173
+(Intercept)          x1 
+  11.135101    0.976935 
+[1] 0.1589431
+(Intercept)          x1 
+ 11.1310615   0.9250489 
+[1] 0.140648
+(Intercept)          x1 
+  11.670852    1.123504 
+[1] 0.1447082
+(Intercept)          x1 
+ 11.5772853   0.9426758 
+[1] 0.18003
+(Intercept)          x1 
+  11.327555    1.030194 
+[1] 0.1580545
+(Intercept)          x1 
+ 11.4806506   0.8407065 
+[1] 0.1576664
+(Intercept)          x1 
+ 11.4517870   0.9764808 
+[1] 0.1466285
+(Intercept)          x1 
+ 11.9395280   0.9049093 
+[1] 0.1580733
+(Intercept)          x1 
+  11.631257    1.200415 
+[1] 0.1743572
+(Intercept)          x1 
+   11.17761     0.94361 
+[1] 0.1461776
+(Intercept)          x1 
+   11.34950     1.06172 
+[1] 0.1610923
+(Intercept)          x1 
+ 11.4735837   0.9808041 
+[1] 0.1710243
+(Intercept)          x1 
+  11.652662    1.106101 
+[1] 0.1537713
+(Intercept)          x1 
+  11.293436    1.111042 
+[1] 0.148951
+(Intercept)          x1 
+ 11.3179672   0.9306854 
+[1] 0.1519141
+(Intercept)          x1 
+  10.999303    1.564868 
+[1] 0.1528864
+(Intercept)          x1 
+ 11.5000585   0.9052652 
+[1] 0.1603445
+(Intercept)          x1 
+ 12.0334373   0.9651412 
+[1] 0.1533809
+(Intercept)          x1 
+  11.458216    1.069072 
+[1] 0.1344119
+(Intercept)          x1 
+  11.678686    1.052539 
+[1] 0.164615
+(Intercept)          x1 
+  11.959088    1.054941 
+[1] 0.1786773
+(Intercept)          x1 
+  10.775523    1.031686 
+[1] 0.168838
+(Intercept)          x1 
+  11.710858    1.119848 
+[1] 0.1690903
+(Intercept)          x1 
+  11.871754    1.171255 
+[1] 0.1456748
+(Intercept)          x1 
+ 11.7603420   0.8006392 
+[1] 0.1517785
+(Intercept)          x1 
+  11.485605    1.000736 
+[1] 0.1460525
+(Intercept)          x1 
+  11.115832    1.281677 
+[1] 0.1547706
+(Intercept)          x1 
+  11.186547    1.168917 
+[1] 0.1520111
+(Intercept)          x1 
+ 11.3022752   0.9851221 
+[1] 0.1683511
+(Intercept)          x1 
+  11.282727    1.130716 
+[1] 0.162517
+(Intercept)          x1 
+  11.070857    1.162551 
+[1] 0.1693787
+(Intercept)          x1 
+  11.408931    1.105993 
+[1] 0.1640463
+(Intercept)          x1 
+  10.676950    1.345849 
+[1] 0.1694506
+(Intercept)          x1 
+ 11.7454592   0.8289074 
+[1] 0.1589441
+(Intercept)          x1 
+   11.25501     1.30264 
+[1] 0.1438044
+(Intercept)          x1 
+  10.982066    1.274131 
+[1] 0.1793548
+(Intercept)          x1 
+ 11.4669102   0.6728634 
+[1] 0.1800981
+(Intercept)          x1 
+  11.610722    1.157373 
+[1] 0.1628661
+(Intercept)          x1 
+  10.789628    1.150632 
+[1] 0.1788572
+(Intercept)          x1 
+  10.637969    1.291018 
+[1] 0.1560745
+(Intercept)          x1 
+  11.667832    1.094626 
+[1] 0.1478075
+(Intercept)          x1 
+  11.410224    1.095887 
+[1] 0.1577782
+(Intercept)          x1 
+ 11.7633011   0.7022841 
+[1] 0.1653198
                  150           300           600           1200         
-naive            "0.111/0.158" "0.078/0.131" "0.055/0.123" "0.039/0.117"
-der-postpi       "0.24/0.162"  "0.169/0.133" "0.119/0.123" "0.085/0.121"
-bs-postpi-par    "0.24/0.164"  "0.169/0.136" "0.119/0.124" "0.084/0.122"
-bs-postpi-nonpar "0.241/0.164" "0.169/0.136" "0.119/0.124" "0.084/0.122"
-val*             "0.234/0.242" "0.166/0.175" "0.118/0.114" "0.083/0.085"
-observed         "0.084/0.082" "0.084/0.082" "0.084/0.081" "0.084/0.086"
+naive            "0.114/0.207" "0.08/0.195"  "0.057/0.154" "0.04/0.175" 
+der-postpi       "0.241/0.19"  "0.17/0.153"  "0.119/0.166" "0.083/0.171"
+bs-postpi-par    "0.24/0.194"  "0.169/0.159" "0.119/0.166" "0.083/0.172"
+bs-postpi-nonpar "0.24/0.194"  "0.17/0.159"  "0.118/0.166" "0.083/0.172"
+val*             "0.238/0.248" "0.169/0.18"  "0.118/0.13"  "0.083/0.081"
+observed         "0.165/0.161" "0.168/0.144" "0.167/0.176" "0.166/0.17" 
+predpowinf       "0.188/0.179" "0.174/0.149" "0.163/0.178" "0.157/0.174"
                  2400         
-naive            "0.027/0.111"
-der-postpi       "0.06/0.114" 
-bs-postpi-par    "0.059/0.115"
-bs-postpi-nonpar "0.059/0.115"
+naive            "0.029/0.137"
+der-postpi       "0.059/0.159"
+bs-postpi-par    "0.059/0.158"
+bs-postpi-nonpar "0.061/0.158"
 val*             "0.059/0.057"
-observed         "0.084/0.083"
+observed         "0.168/0.162"
+predpowinf       "0.157/0.16" 
                     150    300    600   1200   2400
-naive            -0.001 -0.006 -0.002  0.003 -0.003
-der-postpi       -0.015 -0.020 -0.017 -0.020 -0.015
-bs-postpi-par    -0.011 -0.016 -0.014 -0.018 -0.013
-bs-postpi-nonpar -0.011 -0.016 -0.014 -0.018 -0.013
-val*             -0.004 -0.003 -0.004  0.001  0.002
-observed          0.002  0.001  0.003 -0.001 -0.002
+naive            -0.015 -0.020 -0.014  0.009 -0.024
+der-postpi       -0.094 -0.099 -0.105 -0.095 -0.110
+bs-postpi-par    -0.093 -0.101 -0.101 -0.092 -0.107
+bs-postpi-nonpar -0.093 -0.101 -0.101 -0.092 -0.107
+val*              0.031 -0.028  0.026  0.000 -0.002
+observed         -0.002 -0.005 -0.027 -0.017  0.018
+predpowinf       -0.002 -0.023 -0.012 -0.020  0.023
                    150   300   600  1200  2400
-naive            0.025 0.017 0.015 0.014 0.012
-der-postpi       0.027 0.018 0.015 0.015 0.013
-bs-postpi-par    0.027 0.019 0.016 0.015 0.013
-bs-postpi-nonpar 0.027 0.019 0.016 0.015 0.013
-val*             0.059 0.031 0.013 0.007 0.003
-observed            NA    NA    NA    NA    NA
-                  150  300  600 1200 2400
-naive            82.2 74.3 62.0 48.1 38.9
-der-postpi       99.4 98.2 94.0 82.3 68.4
-bs-postpi-par    99.1 98.1 93.9 80.8 68.2
-bs-postpi-nonpar 99.1 98.2 94.2 81.1 67.5
-val*             94.1 93.4 95.2 94.4 96.3
-observed         94.5 95.8 96.4 94.1 95.0
-[1] 0
-[1] 0.4443699
-                 150           300 600 1200 2400
-naive            "0.108/0.128" NA  NA  NA   NA  
-der-postpi       "0.238/0.125" NA  NA  NA   NA  
-bs-postpi-par    "0.238/0.128" NA  NA  NA   NA  
-bs-postpi-nonpar "0.238/0.128" NA  NA  NA   NA  
-val*             "0.234/0.231" NA  NA  NA   NA  
-observed         "0.059/0.061" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive             0.008  NA  NA   NA   NA
-der-postpi        0.008  NA  NA   NA   NA
-bs-postpi-par     0.008  NA  NA   NA   NA
-bs-postpi-nonpar  0.008  NA  NA   NA   NA
-val*              0.005  NA  NA   NA   NA
-observed         -0.001  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.016  NA  NA   NA   NA
-der-postpi       0.016  NA  NA   NA   NA
-bs-postpi-par    0.016  NA  NA   NA   NA
-bs-postpi-nonpar 0.016  NA  NA   NA   NA
-val*             0.053  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive             90.1  NA  NA   NA   NA
-der-postpi       100.0  NA  NA   NA   NA
-bs-postpi-par    100.0  NA  NA   NA   NA
-bs-postpi-nonpar 100.0  NA  NA   NA   NA
-val*              94.9  NA  NA   NA   NA
-observed          94.9  NA  NA   NA   NA
-[1] 0
-[1] 0.4459041
-                 150           300           600 1200 2400
-naive            "0.108/0.128" "0.077/0.104" NA  NA   NA  
-der-postpi       "0.238/0.125" "0.168/0.101" NA  NA   NA  
-bs-postpi-par    "0.238/0.128" "0.168/0.103" NA  NA   NA  
-bs-postpi-nonpar "0.238/0.128" "0.169/0.103" NA  NA   NA  
-val*             "0.234/0.231" "0.166/0.177" NA  NA   NA  
-observed         "0.059/0.061" "0.059/0.059" NA  NA   NA  
-                    150   300 600 1200 2400
-naive             0.008 0.010  NA   NA   NA
-der-postpi        0.008 0.009  NA   NA   NA
-bs-postpi-par     0.008 0.010  NA   NA   NA
-bs-postpi-nonpar  0.008 0.010  NA   NA   NA
-val*              0.005 0.002  NA   NA   NA
-observed         -0.001 0.003  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.016 0.011  NA   NA   NA
-der-postpi       0.016 0.010  NA   NA   NA
-bs-postpi-par    0.016 0.011  NA   NA   NA
-bs-postpi-nonpar 0.016 0.011  NA   NA   NA
-val*             0.053 0.031  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                   150   300 600 1200 2400
-naive             90.1  86.4  NA   NA   NA
-der-postpi       100.0 100.0  NA   NA   NA
-bs-postpi-par    100.0 100.0  NA   NA   NA
-bs-postpi-nonpar 100.0  99.9  NA   NA   NA
-val*              94.9  93.5  NA   NA   NA
-observed          94.9  94.4  NA   NA   NA
-[1] 0
-[1] 0.4450767
-                 150           300           600           1200 2400
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" NA   NA  
-der-postpi       "0.238/0.125" "0.168/0.101" "0.118/0.092" NA   NA  
-bs-postpi-par    "0.238/0.128" "0.168/0.103" "0.118/0.093" NA   NA  
-bs-postpi-nonpar "0.238/0.128" "0.169/0.103" "0.118/0.093" NA   NA  
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" NA   NA  
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" NA   NA  
-                    150   300    600 1200 2400
-naive             0.008 0.010 -0.001   NA   NA
-der-postpi        0.008 0.009 -0.001   NA   NA
-bs-postpi-par     0.008 0.010 -0.002   NA   NA
-bs-postpi-nonpar  0.008 0.010 -0.002   NA   NA
-val*              0.005 0.002  0.004   NA   NA
-observed         -0.001 0.003  0.000   NA   NA
-                   150   300   600 1200 2400
-naive            0.016 0.011 0.009   NA   NA
-der-postpi       0.016 0.010 0.008   NA   NA
-bs-postpi-par    0.016 0.011 0.009   NA   NA
-bs-postpi-nonpar 0.016 0.011 0.009   NA   NA
-val*             0.053 0.031 0.014   NA   NA
-observed            NA    NA    NA   NA   NA
-                   150   300  600 1200 2400
-naive             90.1  86.4 74.2   NA   NA
-der-postpi       100.0 100.0 98.9   NA   NA
-bs-postpi-par    100.0 100.0 98.6   NA   NA
-bs-postpi-nonpar 100.0  99.9 98.8   NA   NA
-val*              94.9  93.5 94.6   NA   NA
-observed          94.9  94.4 94.1   NA   NA
-[1] 0
-[1] 0.4466243
-                 150           300           600           1200          2400
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" "0.038/0.085" NA  
-der-postpi       "0.238/0.125" "0.168/0.101" "0.118/0.092" "0.084/0.084" NA  
-bs-postpi-par    "0.238/0.128" "0.168/0.103" "0.118/0.093" "0.084/0.085" NA  
-bs-postpi-nonpar "0.238/0.128" "0.169/0.103" "0.118/0.093" "0.083/0.085" NA  
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" "0.084/0.083" NA  
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" "0.059/0.058" NA  
-                    150   300    600   1200 2400
-naive             0.008 0.010 -0.001  0.000   NA
-der-postpi        0.008 0.009 -0.001  0.000   NA
-bs-postpi-par     0.008 0.010 -0.002  0.000   NA
-bs-postpi-nonpar  0.008 0.010 -0.002  0.000   NA
-val*              0.005 0.002  0.004 -0.001   NA
-observed         -0.001 0.003  0.000  0.001   NA
-                   150   300   600  1200 2400
-naive            0.016 0.011 0.009 0.007   NA
-der-postpi       0.016 0.010 0.008 0.007   NA
-bs-postpi-par    0.016 0.011 0.009 0.007   NA
-bs-postpi-nonpar 0.016 0.011 0.009 0.007   NA
-val*             0.053 0.031 0.014 0.007   NA
-observed            NA    NA    NA    NA   NA
-                   150   300  600 1200 2400
-naive             90.1  86.4 74.2 62.8   NA
-der-postpi       100.0 100.0 98.9 95.0   NA
-bs-postpi-par    100.0 100.0 98.6 94.8   NA
-bs-postpi-nonpar 100.0  99.9 98.8 94.6   NA
-val*              94.9  93.5 94.6 95.7   NA
-observed          94.9  94.4 94.1 95.3   NA
-[1] 0
-[1] 0.4453634
-                 150           300           600           1200         
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" "0.038/0.085"
-der-postpi       "0.238/0.125" "0.168/0.101" "0.118/0.092" "0.084/0.084"
-bs-postpi-par    "0.238/0.128" "0.168/0.103" "0.118/0.093" "0.084/0.085"
-bs-postpi-nonpar "0.238/0.128" "0.169/0.103" "0.118/0.093" "0.083/0.085"
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" "0.084/0.083"
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" "0.059/0.058"
-                 2400         
-naive            "0.027/0.081"
-der-postpi       "0.059/0.079"
-bs-postpi-par    "0.059/0.079"
-bs-postpi-nonpar "0.059/0.079"
-val*             "0.059/0.059"
-observed         "0.059/0.059"
-                    150   300    600   1200   2400
-naive             0.008 0.010 -0.001  0.000  0.000
-der-postpi        0.008 0.009 -0.001  0.000  0.000
-bs-postpi-par     0.008 0.010 -0.002  0.000 -0.001
-bs-postpi-nonpar  0.008 0.010 -0.002  0.000 -0.001
-val*              0.005 0.002  0.004 -0.001 -0.001
-observed         -0.001 0.003  0.000  0.001  0.001
-                   150   300   600  1200  2400
-naive            0.016 0.011 0.009 0.007 0.007
-der-postpi       0.016 0.010 0.008 0.007 0.006
-bs-postpi-par    0.016 0.011 0.009 0.007 0.006
-bs-postpi-nonpar 0.016 0.011 0.009 0.007 0.006
-val*             0.053 0.031 0.014 0.007 0.004
-observed            NA    NA    NA    NA    NA
-                   150   300  600 1200 2400
-naive             90.1  86.4 74.2 62.8 48.2
-der-postpi       100.0 100.0 98.9 95.0 85.8
-bs-postpi-par    100.0 100.0 98.6 94.8 86.2
-bs-postpi-nonpar 100.0  99.9 98.8 94.6 86.5
-val*              94.9  93.5 94.6 95.7 95.3
-observed          94.9  94.4 94.1 95.3 95.8
-[1] 1
-[1] 0.5315004
-                 150           300 600 1200 2400
-naive            "0.108/0.128" NA  NA  NA   NA  
-der-postpi       "0.238/0.131" NA  NA  NA   NA  
-bs-postpi-par    "0.238/0.133" NA  NA  NA   NA  
-bs-postpi-nonpar "0.239/0.133" NA  NA  NA   NA  
-val*             "0.234/0.231" NA  NA  NA   NA  
-observed         "0.059/0.061" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive             0.008  NA  NA   NA   NA
-der-postpi       -0.009  NA  NA   NA   NA
-bs-postpi-par    -0.009  NA  NA   NA   NA
-bs-postpi-nonpar -0.009  NA  NA   NA   NA
-val*              0.005  NA  NA   NA   NA
-observed         -0.001  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.016  NA  NA   NA   NA
-der-postpi       0.017  NA  NA   NA   NA
-bs-postpi-par    0.018  NA  NA   NA   NA
-bs-postpi-nonpar 0.018  NA  NA   NA   NA
-val*             0.053  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive             90.1  NA  NA   NA   NA
-der-postpi       100.0  NA  NA   NA   NA
-bs-postpi-par    100.0  NA  NA   NA   NA
-bs-postpi-nonpar 100.0  NA  NA   NA   NA
-val*              94.9  NA  NA   NA   NA
-observed          94.9  NA  NA   NA   NA
-[1] 1
-[1] 0.5331131
-                 150           300           600 1200 2400
-naive            "0.108/0.128" "0.077/0.104" NA  NA   NA  
-der-postpi       "0.238/0.131" "0.168/0.109" NA  NA   NA  
-bs-postpi-par    "0.238/0.133" "0.168/0.111" NA  NA   NA  
-bs-postpi-nonpar "0.239/0.133" "0.168/0.111" NA  NA   NA  
-val*             "0.234/0.231" "0.166/0.177" NA  NA   NA  
-observed         "0.059/0.061" "0.059/0.059" NA  NA   NA  
-                    150    300 600 1200 2400
-naive             0.008  0.010  NA   NA   NA
-der-postpi       -0.009 -0.004  NA   NA   NA
-bs-postpi-par    -0.009 -0.005  NA   NA   NA
-bs-postpi-nonpar -0.009 -0.005  NA   NA   NA
-val*              0.005  0.002  NA   NA   NA
-observed         -0.001  0.003  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.016 0.011  NA   NA   NA
-der-postpi       0.017 0.012  NA   NA   NA
-bs-postpi-par    0.018 0.012  NA   NA   NA
-bs-postpi-nonpar 0.018 0.012  NA   NA   NA
-val*             0.053 0.031  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                   150  300 600 1200 2400
-naive             90.1 86.4  NA   NA   NA
-der-postpi       100.0 99.8  NA   NA   NA
-bs-postpi-par    100.0 99.8  NA   NA   NA
-bs-postpi-nonpar 100.0 99.9  NA   NA   NA
-val*              94.9 93.5  NA   NA   NA
-observed          94.9 94.4  NA   NA   NA
-[1] 1
-[1] 0.5325142
-                 150           300           600           1200 2400
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" NA   NA  
-der-postpi       "0.238/0.131" "0.168/0.109" "0.118/0.098" NA   NA  
-bs-postpi-par    "0.238/0.133" "0.168/0.111" "0.118/0.098" NA   NA  
-bs-postpi-nonpar "0.239/0.133" "0.168/0.111" "0.118/0.098" NA   NA  
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" NA   NA  
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" NA   NA  
-                    150    300    600 1200 2400
-naive             0.008  0.010 -0.001   NA   NA
-der-postpi       -0.009 -0.004 -0.016   NA   NA
-bs-postpi-par    -0.009 -0.005 -0.017   NA   NA
-bs-postpi-nonpar -0.009 -0.005 -0.017   NA   NA
-val*              0.005  0.002  0.004   NA   NA
-observed         -0.001  0.003  0.000   NA   NA
-                   150   300   600 1200 2400
-naive            0.016 0.011 0.009   NA   NA
-der-postpi       0.017 0.012 0.010   NA   NA
-bs-postpi-par    0.018 0.012 0.010   NA   NA
-bs-postpi-nonpar 0.018 0.012 0.010   NA   NA
-val*             0.053 0.031 0.014   NA   NA
-observed            NA    NA    NA   NA   NA
-                   150  300  600 1200 2400
-naive             90.1 86.4 74.2   NA   NA
-der-postpi       100.0 99.8 98.0   NA   NA
-bs-postpi-par    100.0 99.8 98.3   NA   NA
-bs-postpi-nonpar 100.0 99.9 98.2   NA   NA
-val*              94.9 93.5 94.6   NA   NA
-observed          94.9 94.4 94.1   NA   NA
-[1] 1
-[1] 0.5341714
-                 150           300           600           1200          2400
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" "0.038/0.085" NA  
-der-postpi       "0.238/0.131" "0.168/0.109" "0.118/0.098" "0.084/0.087" NA  
-bs-postpi-par    "0.238/0.133" "0.168/0.111" "0.118/0.098" "0.084/0.088" NA  
-bs-postpi-nonpar "0.239/0.133" "0.168/0.111" "0.118/0.098" "0.084/0.088" NA  
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" "0.084/0.083" NA  
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" "0.059/0.058" NA  
-                    150    300    600   1200 2400
-naive             0.008  0.010 -0.001  0.000   NA
-der-postpi       -0.009 -0.004 -0.016 -0.009   NA
-bs-postpi-par    -0.009 -0.005 -0.017 -0.010   NA
-bs-postpi-nonpar -0.009 -0.005 -0.017 -0.010   NA
-val*              0.005  0.002  0.004 -0.001   NA
-observed         -0.001  0.003  0.000  0.001   NA
-                   150   300   600  1200 2400
-naive            0.016 0.011 0.009 0.007   NA
-der-postpi       0.017 0.012 0.010 0.008   NA
-bs-postpi-par    0.018 0.012 0.010 0.008   NA
-bs-postpi-nonpar 0.018 0.012 0.010 0.008   NA
-val*             0.053 0.031 0.014 0.007   NA
-observed            NA    NA    NA    NA   NA
-                   150  300  600 1200 2400
-naive             90.1 86.4 74.2 62.8   NA
-der-postpi       100.0 99.8 98.0 93.6   NA
-bs-postpi-par    100.0 99.8 98.3 93.4   NA
-bs-postpi-nonpar 100.0 99.9 98.2 93.1   NA
-val*              94.9 93.5 94.6 95.7   NA
-observed          94.9 94.4 94.1 95.3   NA
-[1] 1
-[1] 0.5328693
-                 150           300           600           1200         
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" "0.038/0.085"
-der-postpi       "0.238/0.131" "0.168/0.109" "0.118/0.098" "0.084/0.087"
-bs-postpi-par    "0.238/0.133" "0.168/0.111" "0.118/0.098" "0.084/0.088"
-bs-postpi-nonpar "0.239/0.133" "0.168/0.111" "0.118/0.098" "0.084/0.088"
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" "0.084/0.083"
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" "0.059/0.058"
-                 2400         
-naive            "0.027/0.081"
-der-postpi       "0.059/0.085"
-bs-postpi-par    "0.059/0.085"
-bs-postpi-nonpar "0.059/0.085"
-val*             "0.059/0.059"
-observed         "0.059/0.059"
-                    150    300    600   1200   2400
-naive             0.008  0.010 -0.001  0.000  0.000
-der-postpi       -0.009 -0.004 -0.016 -0.009 -0.012
-bs-postpi-par    -0.009 -0.005 -0.017 -0.010 -0.013
-bs-postpi-nonpar -0.009 -0.005 -0.017 -0.010 -0.013
-val*              0.005  0.002  0.004 -0.001 -0.001
-observed         -0.001  0.003  0.000  0.001  0.001
-                   150   300   600  1200  2400
-naive            0.016 0.011 0.009 0.007 0.007
-der-postpi       0.017 0.012 0.010 0.008 0.007
-bs-postpi-par    0.018 0.012 0.010 0.008 0.007
-bs-postpi-nonpar 0.018 0.012 0.010 0.008 0.007
-val*             0.053 0.031 0.014 0.007 0.004
-observed            NA    NA    NA    NA    NA
-                   150  300  600 1200 2400
-naive             90.1 86.4 74.2 62.8 48.2
-der-postpi       100.0 99.8 98.0 93.6 83.0
-bs-postpi-par    100.0 99.8 98.3 93.4 82.5
-bs-postpi-nonpar 100.0 99.9 98.2 93.1 82.2
-val*              94.9 93.5 94.6 95.7 95.3
-observed          94.9 94.4 94.1 95.3 95.8
-[1] 3
-[1] 0.7827311
-                 150           300 600 1200 2400
-naive            "0.108/0.128" NA  NA  NA   NA  
-der-postpi       "0.238/0.129" NA  NA  NA   NA  
-bs-postpi-par    "0.238/0.134" NA  NA  NA   NA  
-bs-postpi-nonpar "0.241/0.134" NA  NA  NA   NA  
-val*             "0.234/0.231" NA  NA  NA   NA  
-observed         "0.059/0.061" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive             0.008  NA  NA   NA   NA
-der-postpi       -0.011  NA  NA   NA   NA
-bs-postpi-par    -0.012  NA  NA   NA   NA
-bs-postpi-nonpar -0.012  NA  NA   NA   NA
-val*              0.005  NA  NA   NA   NA
-observed         -0.001  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.016  NA  NA   NA   NA
-der-postpi       0.017  NA  NA   NA   NA
-bs-postpi-par    0.018  NA  NA   NA   NA
-bs-postpi-nonpar 0.018  NA  NA   NA   NA
-val*             0.053  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive             90.1  NA  NA   NA   NA
-der-postpi       100.0  NA  NA   NA   NA
-bs-postpi-par    100.0  NA  NA   NA   NA
-bs-postpi-nonpar 100.0  NA  NA   NA   NA
-val*              94.9  NA  NA   NA   NA
-observed          94.9  NA  NA   NA   NA
-[1] 3
-[1] 0.7833205
-                 150           300           600 1200 2400
-naive            "0.108/0.128" "0.077/0.104" NA  NA   NA  
-der-postpi       "0.238/0.129" "0.168/0.11"  NA  NA   NA  
-bs-postpi-par    "0.238/0.134" "0.168/0.114" NA  NA   NA  
-bs-postpi-nonpar "0.241/0.134" "0.169/0.114" NA  NA   NA  
-val*             "0.234/0.231" "0.166/0.177" NA  NA   NA  
-observed         "0.059/0.061" "0.059/0.059" NA  NA   NA  
-                    150    300 600 1200 2400
-naive             0.008  0.010  NA   NA   NA
-der-postpi       -0.011 -0.004  NA   NA   NA
-bs-postpi-par    -0.012 -0.003  NA   NA   NA
-bs-postpi-nonpar -0.012 -0.003  NA   NA   NA
-val*              0.005  0.002  NA   NA   NA
-observed         -0.001  0.003  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.016 0.011  NA   NA   NA
-der-postpi       0.017 0.012  NA   NA   NA
-bs-postpi-par    0.018 0.013  NA   NA   NA
-bs-postpi-nonpar 0.018 0.013  NA   NA   NA
-val*             0.053 0.031  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                   150  300 600 1200 2400
-naive             90.1 86.4  NA   NA   NA
-der-postpi       100.0 99.9  NA   NA   NA
-bs-postpi-par    100.0 99.8  NA   NA   NA
-bs-postpi-nonpar 100.0 99.7  NA   NA   NA
-val*              94.9 93.5  NA   NA   NA
-observed          94.9 94.4  NA   NA   NA
-[1] 3
-[1] 0.7833676
-                 150           300           600           1200 2400
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" NA   NA  
-der-postpi       "0.238/0.129" "0.168/0.11"  "0.118/0.093" NA   NA  
-bs-postpi-par    "0.238/0.134" "0.168/0.114" "0.118/0.094" NA   NA  
-bs-postpi-nonpar "0.241/0.134" "0.169/0.114" "0.118/0.094" NA   NA  
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" NA   NA  
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" NA   NA  
-                    150    300    600 1200 2400
-naive             0.008  0.010 -0.001   NA   NA
-der-postpi       -0.011 -0.004 -0.013   NA   NA
-bs-postpi-par    -0.012 -0.003 -0.011   NA   NA
-bs-postpi-nonpar -0.012 -0.003 -0.011   NA   NA
-val*              0.005  0.002  0.004   NA   NA
-observed         -0.001  0.003  0.000   NA   NA
-                   150   300   600 1200 2400
-naive            0.016 0.011 0.009   NA   NA
-der-postpi       0.017 0.012 0.009   NA   NA
-bs-postpi-par    0.018 0.013 0.009   NA   NA
-bs-postpi-nonpar 0.018 0.013 0.009   NA   NA
-val*             0.053 0.031 0.014   NA   NA
-observed            NA    NA    NA   NA   NA
-                   150  300  600 1200 2400
-naive             90.1 86.4 74.2   NA   NA
-der-postpi       100.0 99.9 99.0   NA   NA
-bs-postpi-par    100.0 99.8 99.1   NA   NA
-bs-postpi-nonpar 100.0 99.7 98.9   NA   NA
-val*              94.9 93.5 94.6   NA   NA
-observed          94.9 94.4 94.1   NA   NA
-[1] 3
-[1] 0.7838737
-                 150           300           600           1200          2400
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" "0.038/0.085" NA  
-der-postpi       "0.238/0.129" "0.168/0.11"  "0.118/0.093" "0.084/0.085" NA  
-bs-postpi-par    "0.238/0.134" "0.168/0.114" "0.118/0.094" "0.084/0.086" NA  
-bs-postpi-nonpar "0.241/0.134" "0.169/0.114" "0.118/0.094" "0.084/0.086" NA  
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" "0.084/0.083" NA  
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" "0.059/0.058" NA  
-                    150    300    600   1200 2400
-naive             0.008  0.010 -0.001  0.000   NA
-der-postpi       -0.011 -0.004 -0.013 -0.006   NA
-bs-postpi-par    -0.012 -0.003 -0.011 -0.004   NA
-bs-postpi-nonpar -0.012 -0.003 -0.011 -0.004   NA
-val*              0.005  0.002  0.004 -0.001   NA
-observed         -0.001  0.003  0.000  0.001   NA
-                   150   300   600  1200 2400
-naive            0.016 0.011 0.009 0.007   NA
-der-postpi       0.017 0.012 0.009 0.007   NA
-bs-postpi-par    0.018 0.013 0.009 0.007   NA
-bs-postpi-nonpar 0.018 0.013 0.009 0.007   NA
-val*             0.053 0.031 0.014 0.007   NA
-observed            NA    NA    NA    NA   NA
-                   150  300  600 1200 2400
-naive             90.1 86.4 74.2 62.8   NA
-der-postpi       100.0 99.9 99.0 94.1   NA
-bs-postpi-par    100.0 99.8 99.1 94.3   NA
-bs-postpi-nonpar 100.0 99.7 98.9 93.6   NA
-val*              94.9 93.5 94.6 95.7   NA
-observed          94.9 94.4 94.1 95.3   NA
-[1] 3
-[1] 0.783195
-                 150           300           600           1200         
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" "0.038/0.085"
-der-postpi       "0.238/0.129" "0.168/0.11"  "0.118/0.093" "0.084/0.085"
-bs-postpi-par    "0.238/0.134" "0.168/0.114" "0.118/0.094" "0.084/0.086"
-bs-postpi-nonpar "0.241/0.134" "0.169/0.114" "0.118/0.094" "0.084/0.086"
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" "0.084/0.083"
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" "0.059/0.058"
-                 2400         
-naive            "0.027/0.081"
-der-postpi       "0.059/0.083"
-bs-postpi-par    "0.059/0.084"
-bs-postpi-nonpar "0.059/0.084"
-val*             "0.059/0.059"
-observed         "0.059/0.059"
-                    150    300    600   1200   2400
-naive             0.008  0.010 -0.001  0.000  0.000
-der-postpi       -0.011 -0.004 -0.013 -0.006 -0.009
-bs-postpi-par    -0.012 -0.003 -0.011 -0.004 -0.008
-bs-postpi-nonpar -0.012 -0.003 -0.011 -0.004 -0.008
-val*              0.005  0.002  0.004 -0.001 -0.001
-observed         -0.001  0.003  0.000  0.001  0.001
-                   150   300   600  1200  2400
-naive            0.016 0.011 0.009 0.007 0.007
-der-postpi       0.017 0.012 0.009 0.007 0.007
-bs-postpi-par    0.018 0.013 0.009 0.007 0.007
-bs-postpi-nonpar 0.018 0.013 0.009 0.007 0.007
-val*             0.053 0.031 0.014 0.007 0.004
-observed            NA    NA    NA    NA    NA
-                   150  300  600 1200 2400
-naive             90.1 86.4 74.2 62.8 48.2
-der-postpi       100.0 99.9 99.0 94.1 83.5
-bs-postpi-par    100.0 99.8 99.1 94.3 83.8
-bs-postpi-nonpar 100.0 99.7 98.9 93.6 84.0
-val*              94.9 93.5 94.6 95.7 95.3
-observed          94.9 94.4 94.1 95.3 95.8
-[1] 5
-[1] 0.8935316
-                 150           300 600 1200 2400
-naive            "0.108/0.128" NA  NA  NA   NA  
-der-postpi       "0.239/0.128" NA  NA  NA   NA  
-bs-postpi-par    "0.239/0.132" NA  NA  NA   NA  
-bs-postpi-nonpar "0.238/0.132" NA  NA  NA   NA  
-val*             "0.234/0.231" NA  NA  NA   NA  
-observed         "0.059/0.061" NA  NA  NA   NA  
-                    150 300 600 1200 2400
-naive             0.008  NA  NA   NA   NA
-der-postpi       -0.008  NA  NA   NA   NA
-bs-postpi-par    -0.008  NA  NA   NA   NA
-bs-postpi-nonpar -0.008  NA  NA   NA   NA
-val*              0.005  NA  NA   NA   NA
-observed         -0.001  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive            0.016  NA  NA   NA   NA
-der-postpi       0.016  NA  NA   NA   NA
-bs-postpi-par    0.018  NA  NA   NA   NA
-bs-postpi-nonpar 0.018  NA  NA   NA   NA
-val*             0.053  NA  NA   NA   NA
-observed            NA  NA  NA   NA   NA
-                   150 300 600 1200 2400
-naive             90.1  NA  NA   NA   NA
-der-postpi       100.0  NA  NA   NA   NA
-bs-postpi-par     99.9  NA  NA   NA   NA
-bs-postpi-nonpar  99.9  NA  NA   NA   NA
-val*              94.9  NA  NA   NA   NA
-observed          94.9  NA  NA   NA   NA
-[1] 5
-[1] 0.8937458
-                 150           300           600 1200 2400
-naive            "0.108/0.128" "0.077/0.104" NA  NA   NA  
-der-postpi       "0.239/0.128" "0.168/0.108" NA  NA   NA  
-bs-postpi-par    "0.239/0.132" "0.168/0.111" NA  NA   NA  
-bs-postpi-nonpar "0.238/0.132" "0.169/0.111" NA  NA   NA  
-val*             "0.234/0.231" "0.166/0.177" NA  NA   NA  
-observed         "0.059/0.061" "0.059/0.059" NA  NA   NA  
-                    150    300 600 1200 2400
-naive             0.008  0.010  NA   NA   NA
-der-postpi       -0.008 -0.002  NA   NA   NA
-bs-postpi-par    -0.008 -0.001  NA   NA   NA
-bs-postpi-nonpar -0.008 -0.001  NA   NA   NA
-val*              0.005  0.002  NA   NA   NA
-observed         -0.001  0.003  NA   NA   NA
-                   150   300 600 1200 2400
-naive            0.016 0.011  NA   NA   NA
-der-postpi       0.016 0.012  NA   NA   NA
-bs-postpi-par    0.018 0.012  NA   NA   NA
-bs-postpi-nonpar 0.018 0.012  NA   NA   NA
-val*             0.053 0.031  NA   NA   NA
-observed            NA    NA  NA   NA   NA
-                   150  300 600 1200 2400
-naive             90.1 86.4  NA   NA   NA
-der-postpi       100.0 99.9  NA   NA   NA
-bs-postpi-par     99.9 99.9  NA   NA   NA
-bs-postpi-nonpar  99.9 99.8  NA   NA   NA
-val*              94.9 93.5  NA   NA   NA
-observed          94.9 94.4  NA   NA   NA
-[1] 5
-[1] 0.8938523
-                 150           300           600           1200 2400
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" NA   NA  
-der-postpi       "0.239/0.128" "0.168/0.108" "0.119/0.09"  NA   NA  
-bs-postpi-par    "0.239/0.132" "0.168/0.111" "0.118/0.091" NA   NA  
-bs-postpi-nonpar "0.238/0.132" "0.169/0.111" "0.118/0.091" NA   NA  
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" NA   NA  
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" NA   NA  
-                    150    300    600 1200 2400
-naive             0.008  0.010 -0.001   NA   NA
-der-postpi       -0.008 -0.002 -0.008   NA   NA
-bs-postpi-par    -0.008 -0.001 -0.008   NA   NA
-bs-postpi-nonpar -0.008 -0.001 -0.008   NA   NA
-val*              0.005  0.002  0.004   NA   NA
-observed         -0.001  0.003  0.000   NA   NA
-                   150   300   600 1200 2400
-naive            0.016 0.011 0.009   NA   NA
-der-postpi       0.016 0.012 0.008   NA   NA
-bs-postpi-par    0.018 0.012 0.008   NA   NA
-bs-postpi-nonpar 0.018 0.012 0.008   NA   NA
-val*             0.053 0.031 0.014   NA   NA
-observed            NA    NA    NA   NA   NA
-                   150  300  600 1200 2400
-naive             90.1 86.4 74.2   NA   NA
-der-postpi       100.0 99.9 99.1   NA   NA
-bs-postpi-par     99.9 99.9 98.7   NA   NA
-bs-postpi-nonpar  99.9 99.8 98.7   NA   NA
-val*              94.9 93.5 94.6   NA   NA
-observed          94.9 94.4 94.1   NA   NA
-[1] 5
-[1] 0.893992
-                 150           300           600           1200          2400
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" "0.038/0.085" NA  
-der-postpi       "0.239/0.128" "0.168/0.108" "0.119/0.09"  "0.084/0.084" NA  
-bs-postpi-par    "0.239/0.132" "0.168/0.111" "0.118/0.091" "0.084/0.086" NA  
-bs-postpi-nonpar "0.238/0.132" "0.169/0.111" "0.118/0.091" "0.084/0.086" NA  
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" "0.084/0.083" NA  
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" "0.059/0.058" NA  
-                    150    300    600   1200 2400
-naive             0.008  0.010 -0.001  0.000   NA
-der-postpi       -0.008 -0.002 -0.008 -0.003   NA
-bs-postpi-par    -0.008 -0.001 -0.008 -0.001   NA
-bs-postpi-nonpar -0.008 -0.001 -0.008 -0.001   NA
-val*              0.005  0.002  0.004 -0.001   NA
-observed         -0.001  0.003  0.000  0.001   NA
-                   150   300   600  1200 2400
-naive            0.016 0.011 0.009 0.007   NA
-der-postpi       0.016 0.012 0.008 0.007   NA
-bs-postpi-par    0.018 0.012 0.008 0.007   NA
-bs-postpi-nonpar 0.018 0.012 0.008 0.007   NA
-val*             0.053 0.031 0.014 0.007   NA
-observed            NA    NA    NA    NA   NA
-                   150  300  600 1200 2400
-naive             90.1 86.4 74.2 62.8   NA
-der-postpi       100.0 99.9 99.1 95.0   NA
-bs-postpi-par     99.9 99.9 98.7 94.3   NA
-bs-postpi-nonpar  99.9 99.8 98.7 94.1   NA
-val*              94.9 93.5 94.6 95.7   NA
-observed          94.9 94.4 94.1 95.3   NA
-[1] 5
-[1] 0.8936561
-                 150           300           600           1200         
-naive            "0.108/0.128" "0.077/0.104" "0.054/0.094" "0.038/0.085"
-der-postpi       "0.239/0.128" "0.168/0.108" "0.119/0.09"  "0.084/0.084"
-bs-postpi-par    "0.239/0.132" "0.168/0.111" "0.118/0.091" "0.084/0.086"
-bs-postpi-nonpar "0.238/0.132" "0.169/0.111" "0.118/0.091" "0.084/0.086"
-val*             "0.234/0.231" "0.166/0.177" "0.118/0.117" "0.084/0.083"
-observed         "0.059/0.061" "0.059/0.059" "0.059/0.061" "0.059/0.058"
-                 2400         
-naive            "0.027/0.081"
-der-postpi       "0.059/0.081"
-bs-postpi-par    "0.059/0.082"
-bs-postpi-nonpar "0.059/0.082"
-val*             "0.059/0.059"
-observed         "0.059/0.059"
-                    150    300    600   1200   2400
-naive             0.008  0.010 -0.001  0.000  0.000
-der-postpi       -0.008 -0.002 -0.008 -0.003 -0.006
-bs-postpi-par    -0.008 -0.001 -0.008 -0.001 -0.004
-bs-postpi-nonpar -0.008 -0.001 -0.008 -0.001 -0.004
-val*              0.005  0.002  0.004 -0.001 -0.001
-observed         -0.001  0.003  0.000  0.001  0.001
-                   150   300   600  1200  2400
-naive            0.016 0.011 0.009 0.007 0.007
-der-postpi       0.016 0.012 0.008 0.007 0.007
-bs-postpi-par    0.018 0.012 0.008 0.007 0.007
-bs-postpi-nonpar 0.018 0.012 0.008 0.007 0.007
-val*             0.053 0.031 0.014 0.007 0.004
-observed            NA    NA    NA    NA    NA
-                   150  300  600 1200 2400
-naive             90.1 86.4 74.2 62.8 48.2
-der-postpi       100.0 99.9 99.1 95.0 85.6
-bs-postpi-par     99.9 99.9 98.7 94.3 84.9
-bs-postpi-nonpar  99.9 99.8 98.7 94.1 84.5
-val*              94.9 93.5 94.6 95.7 95.3
-observed          94.9 94.4 94.1 95.3 95.8
+naive            0.043 0.038 0.024 0.030 0.019
+der-postpi       0.045 0.033 0.038 0.038 0.037
+bs-postpi-par    0.046 0.035 0.037 0.038 0.036
+bs-postpi-nonpar 0.046 0.035 0.037 0.038 0.036
+val*             0.062 0.033 0.017 0.006 0.003
+observed         0.026 0.020 0.031 0.029 0.026
+predpowinf       0.032 0.022 0.032 0.030 0.026
+                 150 300 600 1200 2400
+naive             74  57  54   38   25
+der-postpi        97  91  74   54   41
+bs-postpi-par     96  92  78   59   39
+bs-postpi-nonpar  97  92  79   61   42
+val*              97  92  91   97   98
+observed          95  97  94   93   96
+predpowinf        97  98  94   93   95
 There were 50 or more warnings (use warnings() to see the first 50)
