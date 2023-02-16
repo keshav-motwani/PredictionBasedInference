@@ -177,9 +177,6 @@ predpowinf = function(sim_dat_tv){
     
     se = sqrt((V[2, 2] / n) + (V_tilde[2, 2] / N))
     
-    print(theta_hat_pp)
-    print(se)
-    
     ## results
     df = rbind(df, data.frame(sim = i,
                               predpowinf_beta = theta_hat_pp[2],
@@ -248,7 +245,6 @@ postpi_bs = function(sim_dat_tv){
   
   ## bootstrap bs times from the validation set
   bs = 100
-  set.seed(2019)
   
   df = c()
   
@@ -315,8 +311,8 @@ postpi_bs = function(sim_dat_tv){
 
 plan(multicore, workers = 32)
 
-n_rep = 50
-n_sim = 50
+n_rep = 100
+n_sim = 100
 
 beta2 = 0.5
 beta3 = 3
@@ -326,7 +322,7 @@ set.seed(2019)
 
 n_traintests = 300 # c(300, 600, 1200)
 n_vals = c(150, 300, 600, 1200, 2400)
-beta1s = c(0, 1) # , 3, 5)
+beta1s = c(1, 0) # , 3, 5)
 
 methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*", "observed", "predpowinf")
 
@@ -342,7 +338,7 @@ for (k in 1:length(n_traintests)) {
     colnames(reported_var_result) = as.character(n_vals)
     rownames(reported_var_result) = methods
     
-    bias_result = mse_result = coverage_result = reported_var_result
+    true_var_result = bias_result = mse_result = coverage_result = reported_var_result
     
     p_value_result = list()
     
@@ -409,22 +405,22 @@ for (k in 1:length(n_traintests)) {
       }))))
       
       }
-      
-      reported_var_result = reported_var_result / n_rep
-      true_var_result = true_var_result / n_rep
-      bias_result = bias_result / n_rep
-      mse_result = mse_result / n_rep
-      coverage_result = coverage_result / n_rep
+
+      reported_var_result[, i] = reported_var_result[, i] / n_rep
+      true_var_result[, i] = true_var_result[, i] / n_rep
+      bias_result[, i] = bias_result[, i] / n_rep
+      mse_result[, i] = mse_result[, i] / n_rep
+      coverage_result[, i] = coverage_result[, i] / n_rep
       
       print(reported_var_result)
       print(true_var_result)
       print(bias_result)
       print(mse_result)
       print(coverage_result)
-      
+            
     }
-    
-    file = paste0("results_observed_test_only/main_postpi_sim_results_beta1_", beta1s[j], "_ntraintest_", n_traintests[k], ".rds")
+
+    file = paste0("results_fixed_train_100rep/main_postpi_sim_results_beta1_", beta1s[j], "_ntraintest_", n_traintests[k], ".rds")
     saveRDS(list(reported_var_result, true_var_result, bias_result, mse_result, coverage_result, do.call(rbind, p_value_result)), file)
     
   }

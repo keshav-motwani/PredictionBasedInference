@@ -174,9 +174,6 @@ predpowinf = function(sim_dat_tv){
     
     se = sqrt((V[2, 2] / n) + (V_tilde[2, 2] / N))
 
-    print(theta_hat_pp)
-    print(se)
-
     ## results
     df = rbind(df, data.frame(sim = i,
                               predpowinf_beta = theta_hat_pp[2],
@@ -338,7 +335,7 @@ for (k in 1:length(n_traintests)) {
     colnames(reported_var_result) = as.character(n_vals)
     rownames(reported_var_result) = methods
   
-    bias_result = mse_result = coverage_result = reported_var_result
+    true_var_result = bias_result = mse_result = coverage_result = reported_var_result
   
     p_value_result = list()
   
@@ -410,7 +407,7 @@ for (k in 1:length(n_traintests)) {
   
     }
   
-    file = paste0("results_observed_test_only/main_postpi_sim_results_beta1_", beta1s[j], "_ntraintest_", n_traintests[k], ".rds")
+    file = paste0("results/main_postpi_sim_results_beta1_", beta1s[j], "_ntraintest_", n_traintests[k], ".rds")
     saveRDS(list(reported_var_result, true_var_result, bias_result, mse_result, coverage_result, do.call(rbind, p_value_result)), file)
   
   }
