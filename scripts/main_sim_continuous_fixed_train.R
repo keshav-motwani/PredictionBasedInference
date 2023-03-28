@@ -1,4 +1,3 @@
-library(furrr)
 library(purrr)
 library(dplyr)
 library(tidyr)
@@ -10,30 +9,51 @@ library(glue)
 library(gam)
 library(kableExtra)
 
-postpi_sim = function(ss, n_sim, beta1, beta2, beta3, beta4){
+postpi_sim_train = function(ss) {
+  
+  data.frame(x1 = rnorm(sum(ss[1]), mean = 1, sd = 1),
+             
+             x2 = rnorm(sum(ss[1]), mean = 1, sd = 1),
+             
+             x3 = rnorm(sum(ss[1]), mean = 1, sd = 1),
+             
+             x4 = rnorm(sum(ss[1]), mean = 2, sd = 1),
+             
+             e_g = rnorm(sum(ss[1]),mean = 0, sd=1),
+             
+             set = "training",
+             
+             sim = 1)
+  
+}
+
+postpi_sim = function(ss, n_sim, beta1, beta2, beta3, beta4, train_data){
   
   
   sim_dat = c()
   
   for(i in 1:n_sim){
     
-    sim_dat =  rbind(sim_dat,data.frame(x1 = rnorm(sum(ss), mean = 1, sd = 1),
+    sim_dat =  rbind(sim_dat,data.frame(x1 = rnorm(sum(ss[2:3]), mean = 1, sd = 1),
                                         
-                                        x2 = rnorm(sum(ss), mean = 1, sd = 1),
+                                        x2 = rnorm(sum(ss[2:3]), mean = 1, sd = 1),
                                         
-                                        x3 = rnorm(sum(ss), mean = 1, sd = 1),
+                                        x3 = rnorm(sum(ss[2:3]), mean = 1, sd = 1),
                                         
-                                        x4 = rnorm(sum(ss), mean = 2, sd = 1),
+                                        x4 = rnorm(sum(ss[2:3]), mean = 2, sd = 1),
                                         
-                                        e_g = rnorm(sum(ss),mean = 0, sd=1),
+                                        e_g = rnorm(sum(ss[2:3]),mean = 0, sd=1),
                                         
-                                        set = rep(c("training","testing","validation"),ss),
+                                        set = rep(c("testing","validation"),ss[2:3]),
                                         
                                         sim = i))
     
   }## end for
   
+  sim_dat = rbind(sim_dat, train_data)
   
+  sim_dat = sim_dat  %>%
+    mutate(sx3 = smooth(x3), sx4 = smooth(x4)) 
   
   ## Set the ground truth model using x1, x2, x3
   
@@ -47,10 +67,6 @@ postpi_sim = function(ss, n_sim, beta1, beta2, beta3, beta4){
   ## simulate y values
   sim_dat = sim_dat %>% mutate(y = g(beta1,beta2,beta3,beta4,x1,x2,x3,x4) + e_g)
   
-  for (i in 1:n_sim) {
-    sim_dat[sim_dat$set == "training" & sim_dat$sim == i, ] = sim_dat[sim_dat$set == "training" & sim_dat$sim == 1, ] %>% mutate(sim = i)
-  }
-  
   ## use training set to train the model
   ## Get predicted values in the testing and validation set
   
@@ -59,10 +75,10 @@ postpi_sim = function(ss, n_sim, beta1, beta2, beta3, beta4){
   
   test_val_data$pred = rep(NA, nrow(test_val_data))
   
+  trained_model = gam(y ~ s(x1)+s(x2)+s(x3) + s(x4),
+                      data = filter(train_data, sim == 1))
+  # 
   for( i in 1:n_sim){
-    
-    trained_model = gam(y ~ s(x1)+s(x2)+s(x3) + s(x4),
-                        data = filter(train_data, sim == i))
     
     pred_vals = predict(trained_model, newdata = filter(test_val_data, sim == i))
     
@@ -70,9 +86,20 @@ postpi_sim = function(ss, n_sim, beta1, beta2, beta3, beta4){
     
   }
   
-  train_data$pred = NA
+  large_dataset = data.frame(
+    x1 = rnorm(100000, mean = 1, sd = 1),
+    x2 = rnorm(100000, mean = 1, sd = 1),
+    x3 = rnorm(100000, mean = 1, sd = 1),
+    x4 = rnorm(100000, mean = 2, sd = 1),
+    e_g = rnorm(100000, mean = 0, sd = 1)
+  )  %>%
+    mutate(y = g(beta1, beta2, beta3, beta4, x1, x2, x3, x4) + e_g) %>%
+    mutate(sx3 = smooth(x3), sx4 = smooth(x4)) %>%
+    mutate(pred = predict(trained_model, .))
   
-  rbind(train_data, test_val_data)
+  test_val_data$corr = cor(large_dataset$pred, with(large_dataset, g(beta1, beta2, beta3, beta4, x1, x2, x3, x4)))
+  
+  test_val_data
   
 }
 
@@ -257,7 +284,7 @@ postpi_bs = function(sim_dat_tv){
     data = filter(val_data, sim == i)
     
     
-    bs_step = future_map(1:bs, .f = function(i){
+    bs_step = map(1:bs, .f = function(i){
       
       bs_idx = sample(1:nrow(data),nrow(data),replace = TRUE)
       
@@ -309,119 +336,99 @@ postpi_bs = function(sim_dat_tv){
   
 }
 
-plan(multicore, workers = 32)
+# plan(multicore, workers = 32)
 
-n_rep = 100
+n_rep = 3
 n_sim = 100
 
 beta2 = 0.5
 beta3 = 3
 beta4 = 4
 
-set.seed(2019)
+set.seed(2023)
 
-n_traintests = 300 # c(300, 600, 1200)
-n_vals = c(150, 300, 600, 1200, 2400)
-beta1s = c(1, 0) # , 3, 5)
+n_trains = 300 # c(300, 3000, 30000)
+n_vals = c(1000, 2000, 4000, 8000, 16000)
+beta1s = c(0, 1) # c(0, 1) # , 3, 5)
 
 methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*", "observed", "predpowinf")
 
 coverage = function(true, est, se) {
-  mean((true >= est - 1.96 * se) & (true <= est + 1.96 * se))
+  ((true >= est - 1.96 * se) & (true <= est + 1.96 * se))
 }
 
-for (k in 1:length(n_traintests)) {
+for (k in 1:length(n_trains)) {
   
-  for (j in 1:length(beta1s)){
+  n_train = n_trains[k]
+  
+  for (j in 1:length(beta1s)) {
     
-    reported_var_result = matrix(0, nrow = length(methods), ncol = length(n_vals))
-    colnames(reported_var_result) = as.character(n_vals)
-    rownames(reported_var_result) = methods
-    
-    true_var_result = bias_result = mse_result = coverage_result = reported_var_result
-    
-    p_value_result = list()
-    
-    n_traintest = n_traintests[k]
     beta1 = beta1s[j]
     
+    result = list()
+    
+    for (r in 1:n_rep) {
+    
+    train_data = postpi_sim_train(n_train)
+  
     for (i in 1:length(n_vals)) {
       
       n_val = n_vals[i]
-      
-      print(beta1)
-      
-      for (r in 1:n_rep) {
-      
-      sim_dat_tv = postpi_sim(c(n_traintest, n_traintest, n_val), n_sim, beta1, beta2, beta3,beta4)
-      
-      test_data = filter(sim_dat_tv, set == "testing")
-      correlation = cor(test_data$pred, test_data$y)
-      print(correlation)
-      
-      predpowinf_df = predpowinf(sim_dat_tv)
-      truth_nc_df = truth_and_nc(sim_dat_tv)
-      der_df = postpi_der(sim_dat_tv)
-      bs_df = postpi_bs(sim_dat_tv)
-      
-      df = cbind(truth_nc_df,der_df,bs_df,predpowinf_df,correlation=correlation, beta1 = beta1)
-      
-      estimates = matrix(NA, nrow = n_sim, ncol = length(methods))
-      colnames(estimates) = methods
-      
-      reported_ses = estimates
-
-      estimates[, "naive"] = df$nc_beta
-      estimates[, "der-postpi"] = df$der_beta
-      estimates[, "bs-postpi-par"] = df$bs_beta
-      estimates[, "bs-postpi-nonpar"] = df$bs_beta
-      estimates[, "val*"] = df$truth_beta
-      estimates[, "observed"] = df$observed_beta
-      estimates[, "predpowinf"] = df$predpowinf_beta
-      
-      reported_ses[, "naive"] = df$nc_sd
-      reported_ses[, "der-postpi"] = df$der_se
-      reported_ses[, "bs-postpi-par"] = df$model_se
-      reported_ses[, "bs-postpi-nonpar"] = df$sd_se
-      reported_ses[, "val*"] = df$truth_sd
-      reported_ses[, "observed"] = df$observed_sd
-      reported_ses[, "predpowinf"] = df$predpowinf_se
-      
-      z_stat = list()
-      
-      for (method in methods) {
-
-        reported_var_result[method, i] = reported_var_result[method, i] + mean(reported_ses[, method]^2)
-        true_var_result[method, i] = true_var_result[method, i] + var(estimates[, method])
-        bias_result[method, i] = bias_result[method, i] + mean(estimates[, method]) - beta1
-        mse_result[method, i] = mse_result[method, i] + mean((estimates[, method] - beta1)^2)
-        coverage_result[method, i] = coverage_result[method, i] + coverage(beta1, estimates[, method], reported_ses[, method])
-        z_stat[[method]] = estimates[, method] / reported_ses[, method]
+      n_test = n_val * 0.1
         
-      }
-
-      p_value_result = c(p_value_result, list(do.call(rbind, lapply(1:length(z_stat), function(i) {
-        data.frame(z = z_stat[[i]], method = names(z_stat)[i], p = 2 * (1 - pnorm(abs(z_stat[[i]]))), beta1 = beta1, n_val = n_val)
-      }))))
-      
-      }
-
-      reported_var_result[, i] = reported_var_result[, i] / n_rep
-      true_var_result[, i] = true_var_result[, i] / n_rep
-      bias_result[, i] = bias_result[, i] / n_rep
-      mse_result[, i] = mse_result[, i] / n_rep
-      coverage_result[, i] = coverage_result[, i] / n_rep
-      
-      print(reported_var_result)
-      print(true_var_result)
-      print(bias_result)
-      print(mse_result)
-      print(coverage_result)
+        print(beta1)
+        
+        sim_dat_tv = postpi_sim(c(n_train, n_test, n_val), n_sim, beta1, beta2, beta3, beta4, train_data)
+        corr = sim_dat_tv$corr[1]
+        
+        predpowinf_df = predpowinf(sim_dat_tv)
+        truth_nc_df = truth_and_nc(sim_dat_tv)
+        der_df = postpi_der(sim_dat_tv)
+        bs_df = postpi_bs(sim_dat_tv)
+        
+        df = cbind(truth_nc_df,der_df,bs_df,predpowinf_df, beta1 = beta1)
+        
+        estimates = matrix(NA, nrow = n_sim, ncol = length(methods))
+        colnames(estimates) = methods
+        reported_ses = estimates
+  
+        estimates[, "naive"] = df$nc_beta
+        estimates[, "der-postpi"] = df$der_beta
+        estimates[, "bs-postpi-par"] = df$bs_beta
+        estimates[, "bs-postpi-nonpar"] = df$bs_beta
+        estimates[, "val*"] = df$truth_beta
+        estimates[, "observed"] = df$observed_beta
+        estimates[, "predpowinf"] = df$predpowinf_beta
+        
+        reported_ses[, "naive"] = df$nc_sd
+        reported_ses[, "der-postpi"] = df$der_se
+        reported_ses[, "bs-postpi-par"] = df$model_se
+        reported_ses[, "bs-postpi-nonpar"] = df$sd_se
+        reported_ses[, "val*"] = df$truth_sd
+        reported_ses[, "observed"] = df$observed_sd
+        reported_ses[, "predpowinf"] = df$predpowinf_se
+        
+        for (method in methods) {
+  
+          reported_var = reported_ses[, method]^2
+          bias = estimates[, method] - beta1
+          cov = coverage(beta1, estimates[, method], reported_ses[, method])
+          z_stat = estimates[, method] / reported_ses[, method]
+          p_value = 2 * (1 - pnorm(abs(z_stat)))
+          
+          result = c(result, list(data.frame(n_train = n_train, n_test = n_test, n_val = n_val, corr = corr, beta1 = beta1, method = method, rep = r,
+                                             reported_var = reported_var, bias = bias, 
+                                             coverage = cov, z_stat = z_stat, p_value = p_value)))
+          
+        }
             
+      }
+      
     }
 
-    file = paste0("results_fixed_train_100rep/main_postpi_sim_results_beta1_", beta1s[j], "_ntraintest_", n_traintests[k], ".rds")
-    saveRDS(list(reported_var_result, true_var_result, bias_result, mse_result, coverage_result, do.call(rbind, p_value_result)), file)
+    dir.create("results_fixed_train")
+    file = paste0("results_fixed_train/main_postpi_sim_results_beta1_", beta1s[j], "_ntrain_", n_trains[k], ".rds")
+    saveRDS(do.call(rbind, result), file)
     
   }
   
