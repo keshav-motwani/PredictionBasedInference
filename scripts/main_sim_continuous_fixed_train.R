@@ -28,7 +28,7 @@ postpi_sim_train = function(ss) {
   
 }
 
-postpi_sim = function(ss, n_sim, beta1, beta2, beta3, beta4, train_data){
+postpi_sim = function(ss, n_sim, beta1, beta2, beta3, beta4, train_data, oracle){
   
   
   sim_dat = c()
@@ -97,6 +97,11 @@ postpi_sim = function(ss, n_sim, beta1, beta2, beta3, beta4, train_data){
     mutate(y = g(beta1, beta2, beta3, beta4, x1, x2, x3, x4) + e_g) %>%
     mutate(sx3 = smooth(x3), sx4 = smooth(x4)) %>%
     mutate(pred = predict(trained_model, .))
+  
+  if (oracle) {
+    test_val_data$pred = with(test_val_data, beta1 * x1 + beta2 * x2 + beta3 * sx3 + beta4 * sx4)
+    large_dataset$pred = with(large_dataset, beta1 * x1 + beta2 * x2 + beta3 * sx3 + beta4 * sx4)
+  }
   
   test_val_data$corr = cor(large_dataset$pred, with(large_dataset, g(beta1, beta2, beta3, beta4, x1, x2, x3, x4)))
   
@@ -339,7 +344,7 @@ postpi_bs = function(sim_dat_tv){
 
 # plan(multicore, workers = 32)
 
-n_rep = 3
+n_rep = 4
 n_sim = 100
 
 beta2 = 0.5
@@ -369,6 +374,12 @@ for (k in 1:length(n_trains)) {
     result = list()
     
     for (r in 1:n_rep) {
+      
+      if (r == 4) {
+        oracle = TRUE
+      } else {
+        oracle = FALSE
+      }
     
     train_data = postpi_sim_train(n_train)
   
@@ -379,7 +390,7 @@ for (k in 1:length(n_trains)) {
         
         print(beta1)
         
-        sim_dat_tv = postpi_sim(c(n_train, n_test, n_val), n_sim, beta1, beta2, beta3, beta4, train_data)
+        sim_dat_tv = postpi_sim(c(n_train, n_test, n_val), n_sim, beta1, beta2, beta3, beta4, train_data, oracle)
         corr = sim_dat_tv$corr[1]
         
         predpowinf_df = predpowinf(sim_dat_tv)

@@ -3,8 +3,8 @@ library(ggplot2)
 result_path = "results/"
 n_train = 300
 
-methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "predpowinf", "observed", "val*")
-methods_new = c("Naive", "postPI, analytical", "postPI, 'parametric bootstrap'", "postPI, 'nonparametric bootstrap'", "Prediction-Powered Inference", "Classical, using labeled data", "Oracle, using unlabeled y")
+methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "predpowinf", "observed") # , "val*")
+methods_new = c("Naive", "postPI, analytical", "postPI, 'parametric bootstrap'", "postPI, 'nonparametric bootstrap'", "Prediction-Powered Inference", "Classical, using labeled data") # , "Oracle, using unlabeled y")
 names(methods_new) = methods
 
 beta1 = 0
@@ -47,16 +47,16 @@ coverage = result %>%
   group_by(n_val, method) %>%
   summarize(coverage = mean(coverage))
 
-ggplot(coverage, aes(x = as.numeric(as.character(n_val)), y = coverage)) +
+ggplot(coverage, aes(x = as.numeric(as.character(n_val)), y = coverage, color = method)) +
   geom_point(size = 1) +
-  geom_line() +
-  facet_wrap(~method, nrow = 2) +
+  geom_line(show.legend = FALSE) +
   geom_hline(aes(yintercept = .95), linetype = "dashed", color = "black") +
   theme_bw() +
-  labs(y = "Empirical Coverage", x = expression(n[unlab])) +
-  ggsci::scale_color_aaas() +
-  theme(legend.position = "bottom") +
-  ylim(0, 1)
+  labs(y = "Empirical Coverage", x = expression(n[unlab]), color = "") +
+  ggsci::scale_color_npg() +
+  theme(legend.position = "right") +
+  ylim(0, 1) +
+  guides(color = guide_legend(ncol = 1, byrow = TRUE, override.aes = list(size=2)))
 file = paste0(result_path, "/main_postpi_sim_results_beta1_", beta1, "_coverage_plot.pdf")
-ggsave(file, height = 4.5, width = 9)
+ggsave(file, height = 3, width = 6)
 
