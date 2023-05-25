@@ -1,11 +1,11 @@
 library(ggplot2)
 library(dplyr)
 
-result_path = "results_fixed_train/"
+result_path = "scripts/results_fixed_train2/"
 n_train = 300
 
 methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "predpowinf", "observed") # , "val*")
-methods_new = c("Naive", "postPI, analytical", "postPI, 'parametric bootstrap'", "postPI, 'nonparametric bootstrap'", "Prediction-Powered Inference", "Classical, using labeled data") # , "Oracle, using unlabeled y")
+methods_new = c("Naive", "Wang et al., analytical", "Wang et al., 'parametric bootstrap'", "Wang et al., 'nonparametric bootstrap'", "Angelopoulos et al.", "Classical, using labeled data") # , "Oracle, using unlabeled y")
 names(methods_new) = methods
 
 beta1 = 0
@@ -14,8 +14,8 @@ result = result[result$method %in% methods, ]
 result$method = factor(methods_new[result$method], levels = methods_new)
 result$n_val = factor(result$n_val, levels = sort(unique(result$n_val)))
 result$rep = paste0("hat(f)[", result$rep, "]")
-result$rep[result$rep == "hat(f)[4]"] = "hat(f)(x) == {E(Y*'|'*X==x)}"
-result$rep = factor(result$rep, levels = c(paste0("hat(f)[", 1:3, "]"), "hat(f)(x) == {E(Y*'|'*X==x)}"))
+result$rep[result$rep == "hat(f)[4]"] = "hat(f)(x) == {E(Y*'|'*Z==z)}"
+result$rep = factor(result$rep, levels = c(paste0("hat(f)[", 1:3, "]"), "hat(f)(x) == {E(Y*'|'*Z==z)}"))
 
 result$theoretical = 0
 
@@ -37,7 +37,7 @@ ggplot(result, aes(x = theoretical, y = p_value, color = method)) +
   theme(legend.position = "bottom") +
   ggsci::scale_color_npg() +
   coord_fixed() + xlim(0, 1) + ylim(0, 1) + geom_abline(slope=1, intercept=0, col="black", linetype = "dashed") +
-  guides(color = guide_legend(nrow = 2, byrow = TRUE, override.aes = list(size=2))) +
+  guides(color = guide_legend(nrow = 2, byrow = F, override.aes = list(size=2))) +
   labs(color = "")
 file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_qqplot.pdf")
 ggsave(file, height = 8, width = 9)
@@ -49,8 +49,8 @@ for (beta1 in c(0, 1)) {
   result$method = factor(methods_new[result$method], levels = methods_new)
   result$n_val = factor(result$n_val, levels = sort(unique(result$n_val)))
   result$rep = paste0("hat(f)[", result$rep, "]")
-  result$rep[result$rep == "hat(f)[4]"] = "hat(f)(x) == {E(Y*'|'*X==x)}"
-  result$rep = factor(result$rep, levels = c(paste0("hat(f)[", 1:3, "]"), "hat(f)(x) == {E(Y*'|'*X==x)}"))
+  result$rep[result$rep == "hat(f)[4]"] = "hat(f)(z) == {E(Y*'|'*Z==z)}"
+  result$rep = factor(result$rep, levels = c(paste0("hat(f)[", 1:3, "]"), "hat(f)(z) == {E(Y*'|'*Z==z)}"))
   
   if (beta1 == 1) {
   
@@ -82,7 +82,7 @@ for (beta1 in c(0, 1)) {
       ggsci::scale_color_npg() +
       theme(legend.position = "bottom") +
       ylim(0, 1) +
-      guides(color = guide_legend(nrow = 2, byrow = TRUE, override.aes = list(size=2)))
+      guides(color = guide_legend(nrow = 2, byrow = F, override.aes = list(size=2)))
     file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_coverage_plot.pdf")
     ggsave(file, height = 3.8, width = 9)
   
@@ -124,7 +124,7 @@ for (beta1 in c(0, 1)) {
     geom_hline(yintercept = 1.96, linetype = "dashed") +
     # labs(color = "", y = expression(frac(hat(beta)[1]*' - '*beta[1]^'*', hat('SE')*'('*hat(beta[1])*')')), x = expression(n[unlab])) +
     theme(legend.position = "bottom") + 
-    guides(color = guide_legend(nrow = 2, byrow = TRUE, override.aes = list(size=2)))
+    guides(color = guide_legend(nrow = 2, byrow = F, override.aes = list(size=2)))
   if (beta1 != 0) {
     plot = plot + labs(color = "", y = expression((hat(beta)[1]*' - '*beta[1]^'*')/ hat('SE')*'('*hat(beta[1])*')'), x = expression(n[unlab]))
   } else {

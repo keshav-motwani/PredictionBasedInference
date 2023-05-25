@@ -185,9 +185,9 @@ lm(y_sim ~ x1,data=sim_dat) %>% tidy()
 n_rep = 500
 
 ## Set sample sizes with imbalance
-n_train = 1000
-n_test = 1000
-n_valid = 3000
+n_train = 10000
+n_test = 10000
+n_valid = 10000
 n_tot = n_train + n_test + n_valid
 
 
@@ -345,6 +345,29 @@ results %>%
 
 
 ### There are too many "big" values of the estimate  
+
+```{r}
+
+results %>%
+  select(beta_naive,beta_wang,beta_oracle) %>%
+  ggplot(aes(x=beta_oracle,y=beta_wang)) +
+  geom_point() + 
+  theme_minimal() +
+    geom_abline(slope = 1, intercept = 0)
+
+```
+
+
+```{r}
+
+results %>%
+  select(beta_naive,beta_wang,beta_oracle) %>%
+  ggplot(aes(y=beta_naive,x=beta_oracle)) +
+  geom_point() + 
+  theme_minimal() +
+  geom_abline(slope = 1, intercept = 0)
+
+```
 
 ```{r}
 

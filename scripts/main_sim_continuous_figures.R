@@ -4,7 +4,7 @@ result_path = "results/"
 n_train = 300
 
 methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "predpowinf", "observed") # , "val*")
-methods_new = c("Naive", "postPI, analytical", "postPI, 'parametric bootstrap'", "postPI, 'nonparametric bootstrap'", "Prediction-Powered Inference", "Classical, using labeled data") # , "Oracle, using unlabeled y")
+methods_new = c("Naive", "Wang et al., analytical", "Wang et al., 'parametric bootstrap'", "Wang et al., 'nonparametric bootstrap'", "Angelopoulos et al.", "Classical, using labeled data") # , "Oracle, using unlabeled y")
 names(methods_new) = methods
 
 beta1 = 0
@@ -31,7 +31,7 @@ ggplot(result, aes(x = theoretical, y = p_value, color = method)) +
   theme(legend.position = "bottom") +
   ggsci::scale_color_npg() +
   coord_fixed() + xlim(0, 1) + ylim(0, 1) + geom_abline(slope=1, intercept=0, col="black", linetype = "dashed") +
-  guides(color = guide_legend(nrow = 2, byrow = TRUE, override.aes = list(size=2))) +
+  guides(color = guide_legend(nrow = 2, byrow = F, override.aes = list(size=2))) +
   labs(color = "")
 file = paste0(result_path, "/main_postpi_sim_results_beta1_", beta1, "_qqplot.pdf")
 ggsave(file, height = 3.5, width = 9)
@@ -56,7 +56,7 @@ ggplot(coverage, aes(x = as.numeric(as.character(n_val)), y = coverage, color = 
   ggsci::scale_color_npg() +
   theme(legend.position = "right") +
   ylim(0, 1) +
-  guides(color = guide_legend(ncol = 1, byrow = TRUE, override.aes = list(size=2)))
+  guides(color = guide_legend(ncol = 1, byrow = F, override.aes = list(size=2)))
 file = paste0(result_path, "/main_postpi_sim_results_beta1_", beta1, "_coverage_plot.pdf")
 ggsave(file, height = 3, width = 6)
 
