@@ -438,8 +438,8 @@ for (k in 1:length(n_trains)) {
       
     }
 
-    dir.create("results_fixed_train2")
-    file = paste0("results_fixed_train2/main_postpi_sim_results_beta1_", beta1s[j], "_ntrain_", n_trains[k], ".rds")
+    dir.create("results_fixed_train")
+    file = paste0("results_fixed_train/main_postpi_sim_results_beta1_", beta1s[j], "_ntrain_", n_trains[k], ".rds")
     saveRDS(do.call(rbind, result), file)
     
   }

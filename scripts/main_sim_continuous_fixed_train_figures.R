@@ -1,7 +1,7 @@
 library(ggplot2)
 library(dplyr)
 
-result_path = "scripts/results_fixed_train2/"
+result_path = "results_fixed_train/"
 n_train = 300
 
 methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "predpowinf", "observed") # , "val*")
