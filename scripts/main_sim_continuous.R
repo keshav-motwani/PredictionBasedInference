@@ -307,7 +307,7 @@ postpi_bs = function(sim_dat_tv){
 
 }
 
-# plan(multicore, workers = 32)
+plan(multicore, workers = 32)
 
 n_sim = 1000
 
