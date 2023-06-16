@@ -1,4 +1,4 @@
-# library(furrr)
+library(furrr)
 library(purrr)
 library(dplyr)
 library(tidyr)
@@ -290,7 +290,7 @@ postpi_bs = function(sim_dat_tv){
     data = filter(val_data, sim == i)
     
     
-    bs_step = map(1:bs, .f = function(i){
+    bs_step = future_map(1:bs, .f = function(i){
       
       bs_idx = sample(1:nrow(data),nrow(data),replace = TRUE)
       
