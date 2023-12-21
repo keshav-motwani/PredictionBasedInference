@@ -318,7 +318,7 @@ beta4 = 4
 set.seed(2019)
 
 n_trains = 300 # c(300, 3000, 30000)
-n_vals = c(1000, 2000, 4000, 8000, 16000)
+n_vals = c(1000, 2000, 4000, 8000, 16000, 300)
 beta1s = c(0, 1) # c(0, 1) # , 3, 5)
 
 methods = c("naive", "der-postpi", "bs-postpi-par", "bs-postpi-nonpar", "val*", "observed", "predpowinf")
@@ -341,6 +341,7 @@ for (k in 1:length(n_trains)) {
         
         n_val = n_vals[i]
         n_test = n_val * 0.1
+        if (n_val == 300) n_test = 300
         
         print(beta1)
         
@@ -389,8 +390,8 @@ for (k in 1:length(n_trains)) {
         
       }
       
-    dir.create("results")
-    file = paste0("results/main_postpi_sim_results_beta1_", beta1s[j], "_ntrain_", n_trains[k], ".rds")
+    dir.create("results_R1")
+    file = paste0("results_R1/main_postpi_sim_results_beta1_", beta1s[j], "_ntrain_", n_trains[k], ".rds")
     saveRDS(do.call(rbind, result), file)
     
   }

@@ -39,7 +39,7 @@ ggplot(result, aes(x = theoretical, y = p_value, color = method)) +
   coord_fixed() + xlim(0, 1) + ylim(0, 1) + geom_abline(slope=1, intercept=0, col="black", linetype = "dashed") +
   guides(color = guide_legend(nrow = 2, byrow = F, override.aes = list(size=2))) +
   labs(color = "")
-file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_qqplot.pdf")
+file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_qqplot.png")
 ggsave(file, height = 8, width = 9)
 
 for (beta1 in c(0, 1)) {
@@ -69,7 +69,7 @@ for (beta1 in c(0, 1)) {
     #   theme(legend.position = "bottom") +
     #   ylim(0, 1) +
     #   guides(color = guide_legend(parse = T))
-    # file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_coverage_plot.pdf")
+    # file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_coverage_plot.png")
     # ggsave(file, height = 4.5, width = 9)
     
     ggplot(coverage, aes(x = as.numeric(as.character(n_val)), y = coverage, color = method)) +
@@ -83,7 +83,7 @@ for (beta1 in c(0, 1)) {
       theme(legend.position = "bottom") +
       ylim(0, 1) +
       guides(color = guide_legend(nrow = 2, byrow = F, override.aes = list(size=2)))
-    file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_coverage_plot.pdf")
+    file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_coverage_plot.png")
     ggsave(file, height = 3.8, width = 9)
   
   }
@@ -108,8 +108,8 @@ for (beta1 in c(0, 1)) {
   # test$data[[2]] = left_join(test$data[[2]], test$data[[1]] %>% mutate(scale = round(sinawidth / density, 3)) %>% select(colour, PANEL, group, scale) %>% unique())
   # test$data[[2]]$violinwidth = dnorm(test$data[[2]]$y) * tail(test$data[[2]] %>% filter(PANEL == 6) %>% pull(scale), 1) * 0.9
   # test$data[[2]]$colour = "black"
-  # file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_distribution_plot.pdf")
-  # pdf(file, height = 4.5, width = 9)
+  # file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_distribution_plot.png")
+  # png(file, height = 4.5, width = 9)
   # plot(ggplot_gtable(test))
   # dev.off()
   
@@ -138,8 +138,8 @@ for (beta1 in c(0, 1)) {
     mutate(violinwidth = violinwidth * scale)
   # test$data[[2]]$violinwidth = dnorm(test$data[[2]]$y) * tail(test$data[[2]] %>% filter(group == 30) %>% pull(scale), 1) * 0.9
   test$data[[2]]$colour = "black"
-  file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_distribution_plot.pdf")
-  pdf(file, height = 6, width = 9)
+  file = paste0(result_path, "/main_fixed_train_postpi_sim_results_beta1_", beta1, "_distribution_plot.png")
+  png(file, height = 6, width = 9)
   plot(ggplot_gtable(test))
    dev.off()
 
