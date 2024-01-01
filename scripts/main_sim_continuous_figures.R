@@ -36,20 +36,22 @@ result$expr_n_val = factor(
     levels(result$n_val)
   )
 )
+
 ggplot(result, aes(x = theoretical, y = p_value, color = method)) +
-  geom_point(size = 0.5) +
+  ggrastr::rasterise(geom_point(size = 0.5), dpi = 300) +
   xlab("Uniform(0, 1) Quantiles") +
   ylab("Empirical p-value Quantiles") +
-  facet_grid(~expr_n_val, labeller = labeller(expr_n_val = label_parsed)) +
+  facet_wrap(~expr_n_val, labeller = labeller(expr_n_val = label_parsed), nrow = 2) +
   theme_bw() +
-  theme(legend.position = "bottom") +
+  theme(legend.position = "bottom", legend.text=element_text(size=11.5)) +
   ggsci::scale_color_npg() +
   coord_fixed() + xlim(0, 1) + ylim(0, 1) + geom_abline(slope=1, intercept=0, col="black", linetype = "dashed") +
   guides(color = guide_legend(nrow = 2, byrow = F, override.aes = list(size=2))) +
-  labs(color = "")
-file = paste0(result_path, "/main_postpi_sim_results_beta1_", beta1, "_qqplot.png")
-ggsave(file, height = 4.5, width = 11)
-
+  labs(color = "") +
+  scale_x_continuous(breaks = seq(0, 1, 0.2)) +
+  scale_y_continuous(breaks = seq(0, 1, 0.2))
+file = paste0(result_path, "/main_postpi_sim_results_beta1_", beta1, "_qqplot.pdf")
+ggsave(file, height = 6, width = 8.5)
 
 beta1 = 1
 result = readRDS(paste0(result_path, "/main_postpi_sim_results_beta1_", beta1, "_ntrain_", n_train, ".rds"))
@@ -62,15 +64,16 @@ coverage = result %>%
   summarize(coverage = mean(coverage))
 
 ggplot(coverage, aes(x = as.numeric(as.character(n_val)), y = coverage, color = method)) +
-  geom_point(size = 1) +
+  ggrastr::rasterise(geom_point(size = 1), dpi = 300) +
   geom_line(show.legend = FALSE) +
   geom_hline(aes(yintercept = .95), linetype = "dashed", color = "black") +
   theme_bw() +
   labs(y = "Empirical Coverage", x = expression(n[unlab]), color = "") +
   ggsci::scale_color_npg() +
-  theme(legend.position = "right") +
+  theme(legend.position = "bottom", legend.text=element_text(size=11.5)) +
+  theme(aspect.ratio=0.7) +
   ylim(0, 1) +
-  guides(color = guide_legend(ncol = 1, byrow = F, override.aes = list(size=2)))
-file = paste0(result_path, "/main_postpi_sim_results_beta1_", beta1, "_coverage_plot.png")
-ggsave(file, height = 3, width = 6)
+  guides(color = guide_legend(nrow = 2, byrow = F, override.aes = list(size=2)))
+file = paste0(result_path, "/main_postpi_sim_results_beta1_", beta1, "_coverage_plot.pdf")
+ggsave(file, height = 3.5, width = 8.5)
 
